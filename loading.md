@@ -104,34 +104,36 @@ In contrast, an **inhomogeneous dataset** may contain both categorical and numer
 
 Attention: Data within a column must always be homogeneous. If your rows are homogeneous instead you can swap rows and columns by clicking the "Transpose" button on the top left of the preview table.
 
-You also have to **configure the IDs** of rows and columns. If you are loading a genetic dataset, chances are that everything is already in order, because Caleydo tries to guess the IDs in the file.
+For rows, you have to make sure that you **excluded header lines** in the file by adjusting the "Number of Header Rows" spinner if necessary.
 
-If that is not the case you will have to select or create ID Types and Identifiers by yourself. We will briefly explain the ID mapping concept in Caleydo, so that you will know what to do here.
+For columns, you can **exclude individual columns** by de-selecting the checkbox at their headers.
 
-Attention: For inhomogeneous datasets you can't specify column ID types.
+Attention: Make sure that columns containing neither data nor IDs are deselected. 
 
-### ID Mapping
+You also have to **configure the IDs** of rows and columns. If you are loading a genetic dataset, chances are that everything is already in order, because Caleydo tries to guess the IDs in the file. The rows and columns containing the IDs are highlighted in green. The green rows and columns highlight the rows or columns where Caleydo will read IDs. If this is not correct, you have to specify where the IDs are by adjusting the "Column with Row IDs" or "Row with Column IDs" spinners.
+
+Attention: If you do not want or need to map rows or columns to other datasets, groupings, or databases, you can select "Unmapped" in the drop-down menu for the Row or Column Type.
+
+
+### Advanced ID Mapping
+
+Attention: This section is important if you would like to use multiple datasets in Caleydo and see their relationships.
 
 Caleydo uses a "foreign key" principle for mapping between multiple datasets, between datasets and groupings, as well as between datasets and online databases. The following two tables are an example for the approach:
 
 ![""](i/id_table.png "Sample tables with IDs")
 
-Both tables contain the same Identifiers, "Sample ID" and "Gene ID". By telling Caleydo which identifier the file has in the columns and in the rows of the file, we can later resolve relationships between multiple datasets. In the example above, we can, because of we know that for the left table Sample is the identifier for the columns, while it is the row's identifier for the right table.
+Both tables contain the same Identifiers, "Sample ID" and "Gene ID". By telling Caleydo which identifier the file has in the columns and in the rows of the file, we can later resolve relationships between multiple datasets. In the example above, we know that the IDs of the left table's column are "samples", while the right table uses "samples" in the rows. 
+
+
+Sometimes, however, things are a little more complicated. As we often have more **complex relationships between identifiers** we need to introduce ID Types. ID Types define a family of identifiers which can be mapped among each other. In most cases you won't need to define more complex relationships by yourself, but the predefined "GENE" ID Type is an example: it contains various identifiers such as "Refseq", "Gene Symbol", "David ID", "Ensemble ID", etc., which can all be mapped to each other.
+
+That's why you have to define both, ID Types and identifiers for rows and columns. If you have an ID Type, or and an identifier, which is not yet available in the drop-down menu, you can easily create a new one. If you later load another dataset with the same ID Type or identifier, Caleydo will be able to resolve relationships between them.
+
+Attention: For inhomogeneous datasets you can't specify column ID types.
+
+In some cases you might want to **map identifiers from two datasets, which are stored in a slightly different format**. For example, in one dataset the IDs could look like this: "TCGA_001-03", whereas in another dataset the equivalent IDs use a format like that "tcga.001.03". To make Caleydo match these different IDs, you can define how to parse row or column identifiers by pressing the "Define Parsing" button, showing the dialog on the right. First, you can choose, whether the case of the IDs should be modified, i.e., whether to keep the case unchanged, to make it upper case, or to make it lower case. Second, you can use a regular expression (see [reference](http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)) to replace all occurrences of a certain string with a different string. Third, you can specify a regular expression to split an ID around matches into several substrings and use the first substring as resulting ID. This dialog also shows a preview of all applied changes to an ID taken from the dataset.
 ![""](i/id_parsing.png "Parsing options for IDs")
-
-Sometimes, however, things are a little more complicated. As we often have more complex relationships between identifiers we need to introduce ID Types. ID Types define a family of identifiers which can be mapped among each other. In most cases you won't need to define more complex relationships by yourself, but the predefined "GENE" ID Type is an example: it contains various identifiers such as "Refseq", "Gene Symbol", "David ID", "Ensemble ID", etc., which can all be mapped to each other.
-
-That's why you have to define both, ID Types and identifiers for rows and columns (except the dataset is inhomogeneous, because in this case an ID Type or identifier makes no sense for columns). If you have an ID Type, or and an identifier, which is not yet available in the drop-down menu, you can easily create a new one. If you later load another dataset with the same ID Type or identifier, Caleydo will be able to analyze relationships between them.
-
-If you do not want or need to map rows or columns to other datasets, groupings, or databases, you can select "" in the dropdown menu for the Row or Column Type.
-
-Asides from specifying the type of IDs, you also have to specify where the IDs are by selecting the correct column that contains the row IDs at the "Column with Row IDs" respectively the "Row with Column IDs" fields. The selected column and row are highlighted in green in the preview table.
-
-For rows, you have to make sure that you excluded possible leading lines in the file. In the picture above, the line containing the heading "Signal" in all columns is grayed out, because the fields "Number of Header Rows" was set to 2. The row with the ID types is part of the headers.
-
-For columns, you can exclude individal columns by deselecting the checkbox at their headers.
-
-In some cases you might want to map identifiers from two datasets, which are stored in a slightly different format. For example in dataset A the ID of an entity is "TCGA_001-03" whereas in dataset B the ID of the same entity is "tcga.001.03". In order to make Caleydo match them, you can define how to parse row or column identifiers by pressing the corresponding "Define Parsing" button. Doing so will open up the dialog shown on the right. First, you can choose, whether the case of the IDs should be modified, i.e., whether to keep the case unchaged, to make it upper case, or to make it lower case. Second, you can use a regular expression (see reference) to replace all occurrences of a certain string with a different string. Third, you can specify a regular expression to split an ID around matches into several substrings and use the first substring as resulting ID. This dialog also shows a preview of all applied changes to an ID taken from the dataset.
 
 After you have adjusted all necessary settings, you can now or continue to the next wizard page.
 
