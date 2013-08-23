@@ -86,12 +86,14 @@ This example gives 3 groups for Grouping 1 (in this case: [ColumnID1, ColumnID2,
 Again, this works equally for columns and rows of the dataset file. The only requirement is that the IDs between the files match.
 
 
-
 Loading Data
+------------
+
 Here we discuss how datasets and groupings are loaded from the delimited text file and what options you have to process your data. A wizard guides you through the individual steps of data loading.
 
-The Import Data Dialog
-Loading a Dataset
+
+### Loading a Dataset
+
 The picture on the right shows a correctly configured import dialog. The first step is to press the "Open Data File" button and select a delimited text file from your hard drive. Once you loaded the data file it will appear in the preview table. As "TAB" is selected as the default delimiter, you may have to adjust the delimiter until you see a correct table.
 
 You can enter a custom dataset name or go with the one that was automatically selected.
@@ -104,19 +106,12 @@ You also have to configure the IDs of rows and columns. If you are loading a gen
 
 If that is not the case you will have to select or create ID Types and Identifiers by yourself. We will briefly explain the ID mapping concept in Caleydo, so that you will know what to do here.
 
-ID Mapping
+### ID Mapping
+
 Caleydo uses a "foreign key" principle for mapping between multiple datasets, between datasets and groupings, as well as between datasets and online databases. The following two tables are an example for the approach:
 
-Sample 1	Sample 2	Sample 3
-Gene 1	1	1.1	0.4
-Gene 2	2	0.5	1.2
-Gene 3	1.4	0.2	0.5
-Gene 4	0.3	0.5	0.7
-Gene 3	Gene 87	Gene 2
-Sample 2	1	1.1	0.4
-Sample 1	2	0.5	1.2
-Sample 6	1.4	0.2	0.5
-The Import Data Dialog
+![""](i/id_table.png "Sample tables with IDs")
+
 Both tables contain the same Identifiers, "Sample ID" and "Gene ID". By telling Caleydo which identifier the file has in the columns and in the rows of the file, we can later resolve relationships between multiple datasets. In the example above, we can, because of we know that for the left table Sample is the identifier for the columns, while it is the row's identifier for the right table.
 
 Sometimes, however, things are a little more complicated. As we often have more complex relationships between identifiers we need to introduce ID Types. ID Types define a family of identifiers which can be mapped among each other. In most cases you won't need to define more complex relationships by yourself, but the predefined "GENE" ID Type is an example: it contains various identifiers such as "Refseq", "Gene Symbol", "David ID", "Ensemble ID", etc., which can all be mapped to each other.
