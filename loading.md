@@ -9,6 +9,11 @@ Attention: For example, if you'd like to filter and cluster your genes, this wou
 
 Example: For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To access your data you need both, a stratification of genes and patients. 
 
+__Term__ _Definition is a long sentence._
+
+__Perspective__
+_For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To access your data you need both, a stratification of genes and patients._
+
 A perspectives contains rules on how to access a dataset. Specifically a perspective defines:
 
  * The **order** of the elements (e.g., different perspectives on one dataset can contain different sortings)
