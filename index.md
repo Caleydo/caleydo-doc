@@ -7,7 +7,7 @@ Table of Contents
 
 [Installing Caleydo](install.md)
 
-Loading Data
+[Loading Data](loading.md)
 
 Caleydo Basics
 
