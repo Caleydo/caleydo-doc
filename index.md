@@ -5,7 +5,7 @@ Caleydo is a visualization framework for biomolecular data. The most important f
 Table of Contents
 -----------------
 
-Installing Caleydo
+[Installing Caleydo](install.md)
 
 Loading Data
 

@@ -1,16 +1,20 @@
 Installation
 =============
 
-Caleydo currently does not require you to install anything. Just download it for your platform and unpack the archive. You will now have a caleydo folder. To start Caleydo, run the Caleydo.exe on Windows, the Caleydo executable on Linux which is in this folder. On Mac run caleydo/Caledyo.app/Contents/MacOS/Caleydo. That's it!
+When installing Caleydo on Linux or Windows you can either simply run Caleydo or install it. Installing will associated Caleydo projects files with Caleydo and add Caleydo to your programs, while just running Caleydo is easier if you just want to try it out! 
 
-If you just want to try out caleydo, you can also try the webstart version, which is also available on the download page. Webstart lets you try Caleydo with only one click, independent of you platform. However, the webstart version tends to be a bit problematic sometimes, so if you're having troubles, go with the regular download.
+To *just run* Caleydo without installation download the zip versions for your platform and unpack the archive. You will now have a caleydo folder. To start Caleydo, run the Caleydo.exe on Windows, the Caleydo executable on Linux which is in this folder.  To run Caleydo on Mac OS X, simply double-click the Caleydo app. When running Caleydo for the first time on Mac OS X 10.8 (Mountain Lion), shift + right click the Caleydo app and then select "Open" from the menu and confirm that you want to run the application. That's it!
+
+To *install* Caleydo on Windows choose the installer (exe file) form the download page and run the installer. On Linux we currently provide debian packages. On Mac OS X, simply drag the Caleydo app into your "Applications" folder.
 
 Java
 -----
-Remeber that Caleydo requires you to have Oracle's Java runtime environment (version 6 or more recent) installed. Mac OS comes with Java pre-installed, so you'll be fine if you use Mac. If you're using Windows and don't have Java installed go here .
+Remember that Caleydo requires you to have a Java runtime environment (version 7 or more recent) installed. You can get Java [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).
 
-For Linux users: note that we only support Oracle's reference implementation, NOT OpenJDK. This doesn't mean that OpenJDK won't work. We simply haven't tested it. You can get RPMs and tar.gz files here . For Ubuntu/Debian there is no packaged version of Java 7 currently available. For options go here .
+On Mac OS X you have to manually install Java 7 JDK (NOT the JRE!) from Oracle on Macs to get Caleydo working. Otherwise Mac OS does not recognize the correctly installed Java versions. On Windows you can use either JDK or JRE. 
+
+On Linux Caleydo works fine with the OpenJDK that is part of many distributions. 
 
 Requirements
 -------------
-As Caleydo deals with large amounts of data and uses high-end computer graphics to display content, you will need somewhat recent hardware, operating systems and graphics-card drivers. For details see the System Requiremetns section on the "download"../../download-caleydo page.
+As Caleydo deals with large amounts of data and uses high-end computer graphics to display content, you will need somewhat recent hardware, operating systems and graphics-card drivers. For details see the System Requirements section on the [download](download.md) page.
