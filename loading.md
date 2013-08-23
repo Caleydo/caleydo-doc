@@ -5,7 +5,9 @@ Dataset Principles
 -------------------
 A dataset in Caleydo is (in most cases) based on tabular data in matrix form. However, Caleydo never shows only a dataset, but always shows *perspectives* on a dataset. Perspectives are used for columns and rows of datasets separately. 
 
-> For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To access your data you need both, a stratification of genes and patients. 
+Attention: For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To access your data you need both, a stratification of genes and patients. 
+
+Example: For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To access your data you need both, a stratification of genes and patients. 
 
 A perspectives contains rules on how to access a dataset. Specifically a perspective defines:
 
