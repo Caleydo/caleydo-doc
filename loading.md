@@ -57,35 +57,29 @@ Here you can choose to load a Caleydo project file from your hard drive or conti
 Data Format
 -----------
 
-Here we discuss the format your data has to have if you want to load it into Caleydo.
-
 You can load tabular data from delimited text files (or comma-separated files) into Caleydo. We refer to each of these files as one dataset. These files have to adhere to specific conventions. Asides from text files for datasets, you can also load groupings (e.g., as calculated by a clustering algorithm). Caleydo also loads pathway maps as datasets, but you can't load your own pathways.
 
 ### Dataset Conventions
  * **File Format**: Caleydo supports delimited, or comma-separated files with the file extensions .csv, .txt, and .gct.
- * **Delimiters: Any kind of delimiter is possible. The most common delimiters are TAB and Semicolon.
- * **Identifiers The file must contain identifiers (headings, titles, captions) for both, rows and columns. You can choose which line and which row contains the identifiers.
- * **Columns: The file may contain columns with data that you don't want to load. You can remove them before importing. All columns must be of equal length.
- * **Rows: The file may contain a header, which can be ignored when loading. After the header, every row until the end must contain data.
- * **Values: For categorical data, any value is legal. For numerical data, real values have to be provided, where the decimal symbol is period (.) not comma (,). 0.3445 is a legal value, 0,3445 is not. Empty cells are legal and are treated as NaN (not a number). Also, if you have some other, non-numerical value in a cell of a numerical dataset, it is treated as NaN.
+ * **Delimiters**: Any kind of delimiter is possible. The most common delimiters are TAB and Semicolon.
+ * **Identifiers**: The file must contain identifiers (headings, titles, captions) for both, rows and columns. You can choose which line and which row contains the identifiers.
+ * **Columns**: The file may contain columns with data that you don't want to load. You can remove them before importing. All columns must be of equal length.
+ * **Rows**: The file may contain a header, which can be ignored when loading. After the header, every row until the end must contain data.
+ * **Values**: For categorical data, any value is legal. For numerical data, real values have to be provided, where the decimal symbol is period (.) not comma (,).
+ 0.3445 is a legal value, 0,3445 is not. Empty cells are legal and are treated as NaN (not a number). Also, if you have some other, non-numerical value in a cell of a numerical dataset, it is treated as NaN.
 
-Here is an example of a legal table of numerical data:
 
-![Sample Table](i/input_table.png "Sample Table")
+Here is an example of a legal table of numerical data, the identifiers are highlighted in blue.
+![""](i/input_table.png "Sample input data table")
+
 
 ### Grouping Data Format
 Groupings contain groups of identifiers. Groupings allow you to classify your data values into discrete groups. For example, a grouping into two groups of the columns of the above table would be [ColumnID1, ColumnID3] [ColumnID2, ColumnID6], containing two groups both of size two. Groupings make sense for both, columns as well as rows.
 
 Caleydo lets you calculate groupings on the fly by using clustering algorithms at runtime. You can, however, also load external groupings. The grouping data format is very similar to the dataset format. However, it contains information on groups instead on data. In a grouping file, each grouping (you can have only one, or as many as you like in a single file) is represented in a column. A special column contains the ids of the entries you want to group. A grouping is then defined by identical strings in a column. Here is an example using the IDs of the previous example.
+![""](i/grouping_table.png "Sample grouping table")
 
-Grouping Header Line with some Information not loaded
-Grouping 1	Grouping 2	Grouping 3
-ColumnID1	1	TypeA	1
-ColumnID3	2	TypeB	1
-ColumnID2	1	TypeA	Class 2
-ColumnID7	1	TypeA	1
-ColumnID4	2	TypeA	Class 2
-ColumnID6	3	TypeB	Class 2
+
 This example gives 3 groups for Grouping 1 (in this case: [ColumnID1, ColumnID2, ColumnID7] [ColumnID3, ColumnID4] [ColumnID6]), 2 groups for Grouping 2 and 2 groups for Grouping 3.
 
 Again, this works equally for columns and rows of the dataset file. The only requirement is that the IDs between the files match.
