@@ -70,56 +70,14 @@ Rows: The file may contain a header, which can be ignored when loading. After th
 Values: For categorical data, any value is legal. For numerical data, real values have to be provided, where the decimal symbol is period (.) not comma (,). 0.3445 is a legal value, 0,3445 is not. Empty cells are legal and are treated as NaN (not a number). Also, if you have some other, non-numerical value in a cell of a numerical dataset, it is treated as NaN.
 Here is an example of a legal table of numerical data:
 
-
-<table id="cexample">
-<tr>
-<td colspan="9">Header Line with some Information not loaded</td>
-</tr>
-<td></td>
-<td></td>
-<td class="id">ColumnID1</td>
-<td class="id">ColumnID2</td>
-<td class="id">ColumnID3</td>
-<td class="id">ColumnID4</td>
-<td class="id" width="60px"></td>
-<td class="id">ColumnID6</td>
-<td class="id">ColumnID7</td>
-
-</tr>
-<tr>
-<td>Some Text</td>
-<td class="id">RowID1</td>
-<td>1.3</td>
-<td>null</td>
-<td>1.4</td>
-<td>0.2</td>
-<td>0.5</td>
-<td>0.2</td>
-<td>0.6</td>
-</tr>
-<tr>
-<td>Some Text</td>
-<td class="id">RowID2</td>
-<td>1.3</td>
-<td>1.5</td>
-<td>0</td>
-<td>0.24</td>
-<td>0.5</td>
-<td>&nbsp;</td>
-<td>1.7</td>
-</tr>
-<tr>
-<td>Some Text</td>
-<td class="id">RowID3</td>
-<td>&nbsp;</td>
-<td>0.2</td>
-<td>0.4</td>
-<td>3.2</td>
-<td>1.4</td>
-<td>1.5</td>
-<td>NaN</td>
-</tr>
-</table>
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       |        This |     This     
+| column     |      column |    column    
+| will       |        will |     will     
+| be         |          be |      be      
+| left       |       right |    center    
+| aligned    |     aligned |   aligned
 
 
 |Header Line with some Information not loaded |
