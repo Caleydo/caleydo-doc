@@ -70,22 +70,7 @@ Rows: The file may contain a header, which can be ignored when loading. After th
 Values: For categorical data, any value is legal. For numerical data, real values have to be provided, where the decimal symbol is period (.) not comma (,). 0.3445 is a legal value, 0,3445 is not. Empty cells are legal and are treated as NaN (not a number). Also, if you have some other, non-numerical value in a cell of a numerical dataset, it is treated as NaN.
 Here is an example of a legal table of numerical data:
 
-| Left align | Right align | Center align |
-|:-----------|------------:|:------------:|
-| This       |        This |     This     
-| column     |      column |    column    
-| will       |        will |     will     
-| be         |          be |      be      
-| left       |       right |    center    
-| aligned    |     aligned |   aligned
-
-
-|Header Line with some Information not loaded |
-		|ColumnID1 	|ColumnID2	|ColumnID3	|ColumnID4	|	|ColumnID6	|ColumnID7
-Some Text	|RowID1	1.3	null	1.4	0.2	0.5	0.2	0.6
-Some Text	RowID2	1.3	1.5	0	0.24	0.5	 	1.7
-Some Text	RowID3	 	0.2	0.4	3.2	1.4	1.5	NaN
-
+![Sample Table](i/sample_table.png "Sample Table")
 
 Grouping Data Format
 Groupings contain groups of identifiers. Groupings allow you to classify your data values into discrete groups. For example, a grouping into two groups of the columns of the above table would be [ColumnID1, ColumnID3] [ColumnID2, ColumnID6], containing two groups both of size two. Groupings make sense for both, columns as well as rows.
