@@ -3,41 +3,36 @@ Loading Data
 
 Dataset Principles
 -------------------
-A dataset in Caleydo is (in most cases) based on tabular data in matrix form. However, Caleydo never shows only a dataset, but always shows *perspectives* on a dataset. Perspectives are used for columns and rows of datasets separately. 
-
-Attention: For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To access your data you need both, a stratification of genes and patients. 
-
-Example: For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To access your data you need both, a stratification of genes and patients. 
-
-__Term__ _Definition is a long sentence._
-
-__Perspective__
-_For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To access your data you need both, a stratification of genes and patients._
+A dataset in Caleydo is (in most cases) based on tabular data in matrix form. However, Caleydo never shows only a dataset, but always shows *perspectives* on a dataset. Perspectives are used for columns and rows of datasets separately, but you always need both, a perspective of rows and columns.
 
 A perspectives contains rules on how to access a dataset. Specifically a perspective defines:
 
  * The **order** of the elements (e.g., different perspectives on one dataset can contain different sortings)
  * The **containment** of elements (e.g., a perspective can be filtered to contain only a subset of the data)
  * A **grouping** of elements, i.e., it's *stratification* (e.g., a clustering algorithm assigns elements to a shared group)
- 
- * The data defined by a combination of row and column perspectives is referred to as "dataset perspective".
 
-For virtually all operations in Caleydo you must specify, which dataset you want to use, which perspective you want to use for the rows in the dataset and which perspective you want to use for the columns. In many cases this might be implicit, for example, because there is only one possible combination, but sometimes you will have to specify these things yourself, in a dialog much like the one on the right.
+Attention: For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To show your data in a heat map, you need both, the perspectives of genes and patients.
 
-Notice that by default Caleydo creates a possibly sampled perspective for you. For practical reasons Caleydo will show you a maximum of 1600 randomly sampled rows and/or columns at any given time. Notice that all data is loaded and searchable.
+If you just load a dataset Caleydo automatically creates default perspectives containing all rows or columns for you. 
+
+For virtually all operations in Caleydo you must specify, which dataset you want to use, which perspective you want to use for the rows in the dataset and which perspective you want to use for the columns. In many cases this might be implicit, for example, because there is only one possible combination, but sometimes you will have to specify these things yourself.
 
 Startup
-Upon startup you are presented with choices for different ways to start Caleydo. You can either:
-Load Demo Data - with readily set-up sample projects
-Load Genetic Data - load your own files that have a reference to a common genetic identifier.
-Load Other Data - load files that do not have a genetic identifier.
-Load Project - load a project you previously saved, or continue after a previous session.
-Load Demo Data
+-------
+Upon startup you are presented with choices for different ways to start Caleydo. These are:
+
+ * **Load Demo Data** - with readily set-up sample projects
+ * **TCGA Data** - provides access to pre-packaged TCGA data files. 
+ * **Load Genetic Data** - load your own files that have a reference to a common genetic identifier. You can also access a sample gene expression file.
+ * **Load Other Data** - load files that do not have a genetic identifier.
+ * **Load Project** - load a project you previously saved, or continue after a previous session.
+ 
+### Load Demo Data
 This is the ideal choice if you want to explore the functionality of Caleydo but don't want to bother loading your own data. You can choose from two demo projects: The first project is especially suited to try out StratomeX for multi-dataset analysis, while the second project is recommended for pathway-centric analysis using enRoute.
 
 You don't need to worry about data formats or how to load data, so you can skip to the next section.
 
-Load Genetic Data
+### Load Genetic Data
 Use this option if at least some of your data is from molecular biology.
 
 When you load genetic data you need to specify the organism that the data is taken from. Currently Caleydo supports human and mouse data. You can load data from other organisms through the "Load Other Data" tab, but you won't have quite the same functionality as for these two organisms.
@@ -48,15 +43,17 @@ When you choose to load genetic data, pathway maps are also loaded.
 
 To get an idea of how the import of individual datasets works, you can also choose to load a sample gene expression dataset.
 
-Load Other Data
+### Load Other Data
 Use this option if none of the data you want to analyze is from sources other the molecular biology.
 
-Load Project
+### Load Project
 Here you can choose to load a Caleydo project file from your hard drive or continue where you left of when you last quit Caleydo.
 
 
 
 Data Format
+-----------
+
 Here we discuss the format your data has to have if you want to load it into Caleydo.
 
 You can load tabular data from delimited text files (or comma-separated files) into Caleydo. We refer to each of these files as one dataset. These files have to adhere to specific conventions, which we will explain in the following. Asides from text files for datasets, you can also load groupings (e.g., as calcualted by a clustering algorithm). Caleydo also loads pathway maps as datasets, but you can't load your own pathways.
