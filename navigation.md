@@ -1,2 +1,2 @@
-[Introduction](index.txt)
-[Installation](install.txt)
+[Introduction](index.md)
+[Installation](install.md)
