@@ -112,10 +112,10 @@ Attention: Make sure that columns containing neither data nor IDs are deselected
 
 You also have to **configure the IDs** of rows and columns. If you are loading a genetic dataset, chances are that everything is already in order, because Caleydo tries to guess the IDs in the file. The rows and columns containing the IDs are highlighted in green. The green rows and columns highlight the rows or columns where Caleydo will read IDs. If this is not correct, you have to specify where the IDs are by adjusting the "Column with Row IDs" or "Row with Column IDs" spinners.
 
-Attention: If you do not want or need to map rows or columns to other datasets, groupings, or databases, you can select "Unmapped" in the drop-down menu for the Row or Column Type.
+If you do not want or need to map rows or columns to other datasets, groupings, or databases, you can select "Unmapped" in the drop-down menu for the Row or Column Type.
 
 
-### Advanced ID Mapping
+#### Advanced ID Mapping
 
 Attention: This section is important if you would like to use multiple datasets in Caleydo and see their relationships.
 
@@ -137,35 +137,39 @@ In some cases you might want to **map identifiers from two datasets, which are s
 
 After you have adjusted all necessary settings, you can now or continue to the next wizard page.
 
-### Specifiying the Data Type for Homogeneous Datasets
+### Specifying the Data Type for Homogeneous Datasets
 
-If you have selected your dataset to be homogeneous on the first wizard page, you can set whether the data within this homogeneous dataset is numerical or categorical on the second page. Depending on your choice you can continue to the next page for specifying numerical or categorical properties for the whole dataset.
+If your dataset is homogeneous, you must specify whether the data is numerical or categorical on the second page, which will lead you to different subsequent pages.
 
 ### Specifying Properties for Inhomogeneous Datasets
 
-If you have selected your dataset to be inhomogeneous on the first wizard page, you can set individual data properties for each column on the second page, which is shown to the right. The displayed table contains all columns that were selected on the first page. Caleydo automatically tries to determine the data type (numerical/categorical) and properties for each individual column. The currently set data type of a column is displayed in its header. To check or change the data type and properties of a column you can click on the "Properties" button in its header. This will open up a dialog, where you can choose whether the column contains numerical or categorical data and set numerical and categorical data properties respectively.
+If your dataset is inhomogeneous, you can set data properties for each column on the second page, in the dialog shown to the right. Caleydo automatically tries to determine the data type (numerical/categorical) and properties for each column. The currently set data type of a column is displayed in its header. To check or change the data type and properties of a column you can click on the "Properties" button in its header. This will open up a dialog, where you can choose whether the column contains numerical or categorical data and then set numerical and categorical data properties respectively.
 ![""](i/inhomogenous_dataset_properties.png "Specifying properties of inhomogeneous datasets")
 
-After the properties of all individual columns have been specified, you can either finish dataset loading, or optionally load additional groupings for the dataset on the next page.
+After the properties of all individual columns have been specified, you can either press "Finish" to load the datasets, or optionally load additional groupings for the dataset on the next page.
 
 
 ### Numerical Data Properties
 Depending on whether the dataset is homogeneous or inhomogeneous, numerical data properties are either set for the whole dataset or for individual columns. The figure on the right shows the available options.
 ![""](i/numerical_properties.png "Specifying properties of numerical datasets")
 
- * **Data Type** Choose, whether the numerical values are integers or real numbers.
+**Data Type** Choose, whether the numerical values are integers or real numbers.
 
- * **Data Scale** In some cases, it can be beneficial to use a logarithmic scale instead of a linear scale. You can choose to use a logarithmic scale for the visualizations in Caleydo by specifying one of the provides logarithms, where log2 is the most common choice. Note that Caleydo will not transform the data itself, so you will always see the original values when they are printed, but will scale the visualizations.
+**Data Scale** In some cases, it can be beneficial to use a logarithmic scale instead of a linear scale. You can choose to use a logarithmic scale for the visualizations in Caleydo by specifying one of the provides logarithms (log2 is the most common choice for gene expression data).
 
- * **Data Clipping** You can choose to clip the data at a specified maximum or minimum. This can make sense to handle some outliers, which would otherwise ruin the distribution, but when you don't want to use logarithmic scaling.
+**Data Clipping** You can choose to clip the data at a specified maximum or minimum. This can make sense to counter-balance for outliers, which would otherwise use up much of your scale. Data points greater than the clipped value are shown as being of the clipping threshold.
 
- * **Data Center** A data center can be set to define a neutral center point of the data. If set, the value range of the dataset is assumed to be equal in positive and negative direction from the center point. So, for a dataset whose values range from -0.3 to 0.5 with a data center of 0, the value range will be set to -0.5 to 0.5.
+**Data Center** A data center can be set to define a neutral center point of the data. If set, the value range of the dataset is assumed to be equal in positive and negative direction from the center point. So, for a dataset whose values range from -0.3 to 0.5 with a data center of 0, the value range will be set to -0.5 to 0.5.
 
- * **Data Transposition** By default, Caleydo treats the column in the files as the "columns" in the visualizations. For example, in a paralle coordinates view, each column would correspond to an axis. If you choose to "Swap Rows and Columns" then the columns of the input file would correspond to a polyline in the parallel coordinates view.
+Attention: Note that Caleydo will not transform the data itself. You will always be able to retrieve the original values, but the visualizations will use the scales or transforms.
+ 
+**Data Transposition** By default, Caleydo treats the column in the files as the "columns" in the visualizations. For example, in a parallel coordinates view, each column would correspond to an axis. If you choose to "Swap Rows and Columns" then the columns of the input file would correspond to a polyline in the parallel coordinates view.
 
- This makes a lot of sense when you want to analyze very many columns. Also, it is common that in genetic data files the patients or samples are stored as columns while the genes or other entities are stored in the rows. This would always leave the patients/samples in the table as the columns in the visualizations. Here's a rule of thumb: If you want to focus your analysis on relationships between genes, don't select this. If you want to compare patients or samples, choose this.
+This makes a lot of sense when you want to analyze very many columns. Also, it is common that in genetic data files, the patients or samples are stored as columns while the genes or other entities are stored in the rows. This would always leave the patients/samples in the table as the columns in the visualizations. 
 
+Attention: As a rule of thumb, the rows in the visualizations should contain what you are primarily interested in. If you want to focus your analysis on relationships between genes and your file has the genes in the rows, don't check this. If you want to compare patients or samples across multiple datasets and your file has the samples in the columns, check this.
 
+ 
 ### Categorical Data Properties
 As for numerical properties, depending on whether the dataset is homogeneous or inhomogeneous, categorical data properties are either set for the whole dataset or for individual columns.
 ![""](i/categorical_properties.png "Specifying properties of categorical datasets")
