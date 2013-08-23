@@ -171,20 +171,23 @@ Attention: As a rule of thumb, the rows in the visualizations should contain wha
 
  
 ### Categorical Data Properties
-As for numerical properties, depending on whether the dataset is homogeneous or inhomogeneous, categorical data properties are either set for the whole dataset or for individual columns.
+Categorical data properties are also either set for the whole dataset or for individual columns.
 ![""](i/categorical_properties.png "Specifying properties of categorical datasets")
 
 
-At first you have to define whether the categories are ordinal or nominal. Ordinal categories have an inherent order, whereas nominal categories don't. For example, the categories "child", "adult", and "senior" for population groups would be ordinal, whereas gender with categories "male" and "female" would be nominal.
+At first you have to define whether the categories are **ordinal or nominal**. Ordinal categories have an inherent order, whereas nominal categories don't. For example, the categories "child", "adult", and "senior" for population groups would be ordinal (sorted by their age), whereas gender with categories "male" and "female" would be nominal.
 
-The table in this interface shows all categories as rows that have been automatically detected by Caleydo. For each category it shows the value of that category within the data file, the number of occurrences of that category, the name of the category, and an assigned color. The name of a category can be changed in-place within the table cell. You can also add new categories or remove existing categories using the buttons on the right. If the categories are ordinal, you can change the order of categories by moving individual rows up or down using the buttons in the row header.
+The table in this dialog shows all categories as rows that have been automatically detected by Caleydo. For each category it shows the "value" of that category as specified in the data file, the number of occurrences of that category, the name of the category (initially identical to the value), and an assigned color. The name of a category can be adjusted. You can also add new categories (to account for a category not represented in this dataset) or remove existing categories (ignoring these entries for the analysis, useful if you have empty cells) using the buttons on the right. 
 
-You can also apply color schemes to the categories by clicking "Select Color Scheme". Depending on the category type, you can choose from a range of qualitative color schemes for nominal categories, from sequential color schemes for ordinal categories without neutral category, and from diverging color schemes for ordingal categories with a neutral category. You can define one of the categories to be neutral using the corresponding dropdown box on the right side. Use the "Reverse Color Scheme" button to apply the scheme's colors bottom-up instead of top-down.
+If the categories are ordinal, you can change the order of categories by moving individual rows up or down using the buttons in the row header. You can define one of the categories to be "neutral" using the corresponding drop-down box on the right side. This is useful if you have values that are "higher" or "lower" than a default category. 
+
+You can also edit the default color schemes of the categories by clicking "Select Color Scheme". Depending on the category type, you can choose from a range of qualitative color schemes for nominal categories, sequential color schemes for ordinal categories without a neutral category, and from diverging color schemes for ordinal categories with a neutral category.  Use the "Reverse Color Scheme" button to apply the scheme's colors bottom-up instead of top-down.
 
 If you want to specify your own color for a category, you can do so using a color dialog that appears when double clicking the category's color.
 
 ### Loading Groupings for a Dataset
-As already discussed, you can load groupings independently for columns and for rows. Note that columns and rows here refers to the columns and rows as they are oriented in the original dataset. A possible transformation is ignored.
+
+As previously mentioned, you can load groupings independently for columns and for rows. Note that columns and rows here refers to the columns and rows as they are oriented in the original dataset. A possible transformation is ignored.
 
 First you will see the dialog on the left, where you can add, edit or remove groupings for rows and columns independently.
 
