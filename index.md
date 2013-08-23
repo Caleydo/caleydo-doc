@@ -29,16 +29,15 @@ Here is a list of features of Caleydo. You will find details on each of these fe
 
 Data
 ----
-Caleydo lets you load multiple tabular datasets at the same time. Provided they have some common identifier you can analyze dataset interdependencies.
-Datasets are currently limited to numerical data.
-You can load groupings or clusterings for your datasets, or you can cluster or group your data at runtime
-Caleydo supports a variety of genetic identifiers, including DAVID IDs, gene names, RefSeq IDs, ENSEMBL IDs, ENTREZ IDs or Biocarta IDs
-Caleydo comes with pathways, giving you the opportunity to map your experimental data onto them.
-TCGA data is provided pre-packaged for Caleydo.
+ * Caleydo lets you load multiple tabular datasets at the same time. Provided they have some common identifier you can analyze dataset interdependencies.
+ * Datasets can be numerical or categorical.
+ * You can load groupings or clusterings for your datasets, or you can cluster or group your data at runtime
+ * Caleydo supports a variety of genetic identifiers, including DAVID IDs, gene names, RefSeq IDs, ENSEMBL IDs, ENTREZ IDs or Biocarta IDs
+ * Caleydo can automatically download pathways from KEGG and WikiPathways, giving you the opportunity to map your experimental data onto them.
+ * TCGA data is provided pre-packaged for Caleydo.
 
 Analysis
 ----------
 The most important view in Caleydo is StratomeX, which you can use to analyze your data using heat maps, histograms, parallel coordinates, etc. Most importantly, however, is StartomeX' ability to analyze multi-dataset dependencies and differences between groupings/clusterings.
-Caleydo provides a Parallel Coordinates view for analyzing numerical data.
-Individual pathways can be loaded and overlayed with experimental data.
+Caleydo provides a Parallel Coordinates view for analyzing numerical data. Individual pathways can be loaded and overlayed with experimental data.
  
