@@ -91,20 +91,24 @@ Loading Data
 
 Here we discuss how datasets and groupings are loaded from the delimited text file and what options you have to process your data. A wizard guides you through the individual steps of data loading.
 
-
 ### Loading a Dataset
 
 The picture on the right shows a correctly configured import dialog. The first step is to press the "Open Data File" button and select a delimited text file from your hard drive. Once you loaded the data file it will appear in the preview table. As "TAB" is selected as the default delimiter, you may have to adjust the delimiter until you see a correct table.
+![""](i/load_dataset.png "Data loading dialog")
 
 You can enter a custom dataset name or go with the one that was automatically selected.
 
-Next, you have to choose, whether the dataset is homogeneous or inhomogeneous. A dataset is considered homogeneous, if all of its columns have the same type, meaning, and bounds. An example of a homogenous numerical dataset would be a file that only contains gene expression values with the same bounds for all columns. A file of categorical data is homogeneous, if the same categories are used in all columns. In contrast, an inhomogeneous dataset may contain both categorical and numerical columns with different categories and bounds.
+Next, you have to choose, whether the dataset is homogeneous or inhomogeneous. A dataset is considered **homogeneous**, if all of its columns have the same *type*, *meaning*, and *bounds*. An example of a homogenous numerical dataset would be a file that only contains gene expression values with the same bounds for all columns. A file with categorical data is homogeneous, if the same categories are used in all columns. 
 
-As Caleydo only considers columns for determining the homogeneity of a dataset, you can swap rows and columns by clicking the "Transpose" button on the top left of the preview table if your data file encodes this information in the rows.
+In contrast, an **inhomogeneous dataset** may contain both categorical and numerical columns with different categories and bounds.
 
-You also have to configure the IDs of rows and columns. If you are loading a genetic dataset, chances are that everything is already in order, because Caleydo tries to guess the IDs in the file.
+Attention: Data within a column must always be homogeneous. If your rows are homogeneous instead you can swap rows and columns by clicking the "Transpose" button on the top left of the preview table.
+
+You also have to **configure the IDs** of rows and columns. If you are loading a genetic dataset, chances are that everything is already in order, because Caleydo tries to guess the IDs in the file.
 
 If that is not the case you will have to select or create ID Types and Identifiers by yourself. We will briefly explain the ID mapping concept in Caleydo, so that you will know what to do here.
+
+Attention: For inhomogeneous datasets you can't specify column ID types.
 
 ### ID Mapping
 
