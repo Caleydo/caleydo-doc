@@ -69,7 +69,8 @@ You can load tabular data from delimited text files (or comma-separated files) i
  0.3445 is a legal value, 0,3445 is not. Empty cells are legal and are treated as NaN (not a number). Also, if you have some other, non-numerical value in a cell of a numerical dataset, it is treated as NaN.
 
 
-Here is an example of a legal table of numerical data, the identifiers are highlighted in blue.
+Here is an example of a legal table of numerical data, the identifiers are highlighted in blue:
+
 ![""](i/input_table.png "Sample input data table")
 
 
