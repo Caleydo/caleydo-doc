@@ -28,27 +28,30 @@ Upon startup you are presented with choices for different ways to start Caleydo.
  * **Load Project** - load a project you previously saved, or continue after a previous session.
  
 ### Load Demo Data
-This is the ideal choice if you want to explore the functionality of Caleydo but don't want to bother loading your own data. You can choose from two demo projects: The first project is especially suited to try out StratomeX for multi-dataset analysis, while the second project is recommended for pathway-centric analysis using enRoute.
+This is the ideal choice if you want to explore the functionality of Caleydo but don't want to bother loading your own data. You can choose from two demo projects: The TCGA project is especially suited to try out StratomeX for multi-dataset analysis, while the [CCLE](http://www.broadinstitute.org/ccle/home) project is recommended for pathway-centric analysis using enRoute.
 
 You don't need to worry about data formats or how to load data, so you can skip to the next section.
 
 ### Load Genetic Data
-Use this option if at least some of your data is from molecular biology.
+Use this option if at least some of your data is molecular biology and contains a gene identifier.
 
-When you load genetic data you need to specify the organism that the data is taken from. Currently Caleydo supports human and mouse data. You can load data from other organisms through the "Load Other Data" tab, but you won't have quite the same functionality as for these two organisms.
+When you load genetic data you need to specify the source organism of your data. Currently Caleydo supports human and mouse data. When you choose to load genetic data, pathway maps are also loaded.
 
-Note that you can't change the organism at runtime and that you can't load data from multiple organisms at a time. You can however combine "other data" with data from one organism.
+Attention: You can load data from other organisms through the "Load Other Data" tab, but you won't have quite the same functionality as for these two organisms.
 
-When you choose to load genetic data, pathway maps are also loaded.
+Attention: Note that you can't change the organism at runtime and that you can't load data from multiple organisms at a time. You can however combine "other data" with data from one organism.
 
 To get an idea of how the import of individual datasets works, you can also choose to load a sample gene expression dataset.
+
+### TCGA Dataset
+
+We package data form [The Cancer Genome Atlas (TCGA)](http://cancergenome.nih.gov/) for Caleydo, so that you don't have to load all the TCGA datasets manually. We use the output of the Broad Institute's Firehose pipeline for all available tumor types. Firehose is run roughly every other month and you have access to the various results. 
 
 ### Load Other Data
 Use this option if none of the data you want to analyze is from sources other the molecular biology.
 
 ### Load Project
 Here you can choose to load a Caleydo project file from your hard drive or continue where you left of when you last quit Caleydo.
-
 
 
 Data Format
@@ -67,9 +70,61 @@ Rows: The file may contain a header, which can be ignored when loading. After th
 Values: For categorical data, any value is legal. For numerical data, real values have to be provided, where the decimal symbol is period (.) not comma (,). 0.3445 is a legal value, 0,3445 is not. Empty cells are legal and are treated as NaN (not a number). Also, if you have some other, non-numerical value in a cell of a numerical dataset, it is treated as NaN.
 Here is an example of a legal table of numerical data:
 
-Header Line with some Information not loaded
-ColumnID1	ColumnID2	ColumnID3	ColumnID4		ColumnID6	ColumnID7
-Some Text	RowID1	1.3	null	1.4	0.2	0.5	0.2	0.6
+
+<table id="cexample">
+<tr>
+<td colspan="9">Header Line with some Information not loaded</td>
+</tr>
+<td></td>
+<td></td>
+<td class="id">ColumnID1</td>
+<td class="id">ColumnID2</td>
+<td class="id">ColumnID3</td>
+<td class="id">ColumnID4</td>
+<td class="id" width="60px"></td>
+<td class="id">ColumnID6</td>
+<td class="id">ColumnID7</td>
+
+</tr>
+<tr>
+<td>Some Text</td>
+<td class="id">RowID1</td>
+<td>1.3</td>
+<td>null</td>
+<td>1.4</td>
+<td>0.2</td>
+<td>0.5</td>
+<td>0.2</td>
+<td>0.6</td>
+</tr>
+<tr>
+<td>Some Text</td>
+<td class="id">RowID2</td>
+<td>1.3</td>
+<td>1.5</td>
+<td>0</td>
+<td>0.24</td>
+<td>0.5</td>
+<td>&nbsp;</td>
+<td>1.7</td>
+</tr>
+<tr>
+<td>Some Text</td>
+<td class="id">RowID3</td>
+<td>&nbsp;</td>
+<td>0.2</td>
+<td>0.4</td>
+<td>3.2</td>
+<td>1.4</td>
+<td>1.5</td>
+<td>NaN</td>
+</tr>
+</table>
+
+
+|Header Line with some Information not loaded |
+		|ColumnID1 	|ColumnID2	|ColumnID3	|ColumnID4	|	|ColumnID6	|ColumnID7
+Some Text	|RowID1	1.3	null	1.4	0.2	0.5	0.2	0.6
 Some Text	RowID2	1.3	1.5	0	0.24	0.5	 	1.7
 Some Text	RowID3	 	0.2	0.4	3.2	1.4	1.5	NaN
 
