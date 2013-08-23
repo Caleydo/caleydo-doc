@@ -187,7 +187,7 @@ If you want to specify your own color for a category, you can do so using a colo
 
 ### Loading Groupings for a Dataset
 
-As previously mentioned, you can load groupings independently for columns and for rows. Note that columns and rows here refers to the columns and rows as they are oriented in the original dataset. A possible transformation is ignored.
+As previously mentioned, you can load groupings independently for columns and for rows. For each grouping (stratification, clustering) you load, a perspective is created. Note that columns and rows here refer to the columns and rows as they are found in the preview dialog on the first page, a possible transformation is ignored.
 
 First you will see the dialog on the left, where you can add, edit or remove groupings for rows and columns independently.
 
@@ -200,11 +200,9 @@ Again select the "Number of Header Rows" to be excluded and identify the "Column
 
 In the example here, we have loaded a file that contains two groupings. You can choose which grouping of the file to load by checking or unchecking the columns.
 
-You can specify a "Grouping Name" for each grouping. If you choose "Use Grouping Names from Header Row", yaou can specify a row within the header rows of the file, which contains the grouping names (highlighted in green). Alternatively, you can choose "Use Custom Grouping names" to directly enter the name of individual groupings within a special row of the preview table.
+You can specify a "Grouping Name" for each grouping which will later be used to name the perspective. If you choose "Use Grouping Names from Header Row", you can specify a row within the header rows of the file, which contains the grouping names (highlighted in green). Alternatively, you can choose "Use Custom Grouping names" to directly enter the name of individual groupings within a special row of the preview table. These namese will be the names of the perspectives, which you can also change later. 
 
-You can add an arbitrary number of groupings.
-
-Once you press finish the dataset will be loaded and Caleydo will be started. First you will see a map of the datasets loaded and the open views.
+Once you press finish the dataset will be loaded and Caleydo will be started.
 
 Adding Datasets and Groupings at runtime
 -------------
