@@ -9,7 +9,7 @@ Table of Contents
 
 [Loading Data](loading.md)
 
-Caleydo Basics
+[Caleydo Basics](basics.md)
 
 Data-View Integrator: Setting Up Visualizations
 

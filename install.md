@@ -3,7 +3,7 @@ Installation
 
 Hardware Requirements
 -------------
-As Caleydo deals with large amounts of data and uses high-end computer graphics to display content, you will need somewhat recent hardware, operating systems and graphics-card drivers. For details see the System Requirements section on the [download](download.md) page.
+As Caleydo deals with large amounts of data and uses high-end computer graphics to display content, you will need somewhat recent hardware, operating systems and graphics-card drivers. For details see the System Requirements section on the [download](http://www.icg.tugraz.at/project/caleydo/download-caleydo) page.
 
 Dependency: Java
 -----
@@ -11,8 +11,10 @@ Remember that Caleydo requires you to have a Java runtime environment (version 7
 
 On Mac OS X you have to manually install Java 7 JDK (NOT the JRE!) from Oracle on Macs to get Caleydo working. Otherwise Mac OS does not recognize the correctly installed Java versions. On Windows you can use either JDK or JRE. 
 
-On Linux Caleydo works fine with the OpenJDK that is part of many distributions. 
+On Linux Caleydo works fine with OpenJDK, an open source Java implementation largely identical with the official Oracle JDK that is part of many distributions. 
 
+Installation
+----------
 
 When installing Caleydo on Linux or Windows you can either simply run Caleydo or install it. Installing will associated Caleydo projects files with Caleydo and add Caleydo to your programs, while just running Caleydo is easier if you just want to try it out! 
 
