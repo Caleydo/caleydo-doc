@@ -19,7 +19,7 @@ In the bipartite layout view nodes are located at the top of the view, whereas d
 A **dataset perspective** defines amongst others for the rows and the columns of a dataset how they are grouped. This is done by specifying a row and a column perspective. For more information about perspectives, refer to this page.
 
 In the default representation of a data node none of the row or column perspectives defined for the dataset are shown. By clicking on the arrow button on the bottom right of a data node, it switches to its **matrix representation**, where each row refers to a row perspective and each column to a column perspective. You can create a dataset perspective that uses a specific row/column perspective combination by simply clicking on the corresponding grey cell of the matrix. You are then prompted to enter a name for the dataset perspective. After confirming the name, the newly created dataset perspective is represented by a colored cell in the matrix, or as a bar in the default representation of a data node.
-![""](../i/bipartite_layout.png "Import data dialog")
+![""](../i/datanode_matrix.png "Import data dialog")
 
 In the matrix representation you can reveal the individual groups of a perspective by clicking on the "+" icon next it. Creating a dataset perspective for such an individual group actually refers to grouping a subset of the dataset.
 
@@ -29,5 +29,6 @@ Note, that for categorical data such as mutation status or copy number data from
 
 # Assigning data to views
 Data can be assigned to views in two ways:
+
  * By dragging a dataset perspective of a data node to a view node.
  * By using the context menu of a dataset perspective: Choose "Show in..." and select the desired view, or choose "Add to StratomeX".
