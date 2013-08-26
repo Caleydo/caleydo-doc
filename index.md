@@ -11,7 +11,7 @@ Table of Contents
 
 [Caleydo Basics](basics.md)
 
-Data-View Integrator: Setting Up Visualizations
+[Data-View Integrator: Setting Up Visualizations](views/dvi.md)
 
 StratomeX: Multi-Dataset Analysis
 
