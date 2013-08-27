@@ -13,15 +13,15 @@ Table of Contents
 
 [Data-View Integrator: Setting Up Visualizations](views/dvi.md)
 
-StratomeX: Multi-Dataset Analysis
+[StratomeX: Multi-Dataset Analysis](views/stratomex.md)
 
-Pathway Analysis
+[Pathway Analysis](views/pathway.md)
 
-enRoute
+[enRoute](views/enroute.md)
 
-Parallel Coordinates
+[Parallel Coordinates](views/parcoords.md)
 
-Frequently Asked Questions
+[Frequently Asked Questions](faq.md)
 
 # Overview
 Here is a list of features of Caleydo. You will find details on each of these features in the following help pages:
