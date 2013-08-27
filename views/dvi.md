@@ -17,8 +17,8 @@ The spring-based layout places connected nodes closer together, so that this lay
 
 In the bipartite layout view nodes are located at the top of the view, whereas data nodes are arranged at the bottom. This layout is intended to be used when specifying grouping configurations and assigning data to views.
 
-## Creating dataset perspectives
-A **dataset perspective** defines amongst others for the rows and the columns of a dataset how they are grouped. This is done by specifying a row and a column perspective. For more information about perspectives, refer to this page.
+## Creating Dataset Perspectives
+A **dataset perspective** defines amongst others for the rows and the columns of a dataset how they are grouped. This is done by specifying a row and a column perspective. For more information about perspectives, refer to [this page](loading.md).
 
 In the default representation of a data node none of the row or column perspectives defined for the dataset are shown. By clicking on the arrow button on the bottom right of a data node, it switches to its **matrix representation**, where each row refers to a row perspective and each column to a column perspective. You can create a dataset perspective that uses a specific row/column perspective combination by simply clicking on the corresponding grey cell of the matrix. You are then prompted to enter a name for the dataset perspective. After confirming the name, the newly created dataset perspective is represented by a colored cell in the matrix, or as a bar in the default representation of a data node.
 ![""](../i/datanode_matrix.png "Import data dialog")
@@ -29,7 +29,7 @@ A row perspective that has been loaded for one dataset can also be used in anoth
 
 Note, that for categorical data such as mutation status or copy number data from the sample project, a categorization (which is actually a dataset perspective) can be created for single genes in the search view. Just search for a gene and create a categorization for the desired dataset using the context menu. Once created a categorization will be displayed in the associated data node.
 
-## Assigning data to views
+## Assigning Data to Views
 Data can be assigned to views in two ways:
 
  * By dragging a dataset perspective of a data node to a view node.

@@ -2,8 +2,7 @@ Welcome to the help pages of the Caleydo Visualization Framework!
 
 Caleydo is a visualization framework for biomolecular data. The most important feature of Caleydo is that you can load tabular data (in the form of csv or text files) and analyze it using visualization an algorithms. That said, Caleydo is not strictly limited to biomolecular data, so you may also try other forms of tabular data if you like!
 
-Table of Contents
------------------
+#Table of Contents
 
 [Installing Caleydo](install.md)
 

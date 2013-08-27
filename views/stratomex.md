@@ -1,7 +1,7 @@
 # StratomeX: Multi-Dataset Analysis
 
 ##General
-StratomeX is a visualization technique for the analysis of multiple stratified datasets. For a general introduction please refer to the StratomeX project page . Also, have a look at the YouTube video about StratomeX.
+StratomeX is a visualization technique for the analysis of multiple stratified datasets. For a general introduction please refer to the [StratomeX project page](http://stratomex.calyedo.org/). Also, have a look at the [YouTube video](http://www.youtube.com/watch?v=UcKDbGqHsdE) about StratomeX.
 
 ![""](../i/stratomex.png "StratomeX")
 
@@ -9,7 +9,7 @@ StratomeX is a visualization technique for the analysis of multiple stratified d
 ###Brick columns
 Each column in StratomeX consists of multiple data columns from one of the loaded datasets. The rows inside a brick column are grouped together to form so called bricks.
 
- * **Adding columns** Columns can be added using the Data-View Integrator.
+ * **Adding columns** Columns can be added using the [Data-View Integrator](views/dvi.md).
  * **Removing columns** Columns can be removed by either using the close icon that is appears when hovering over the header brick or by selecting the corresponding option in the right-click context menu of the header brick.
  * **Reordering columns** Columns inside StratomeX can be reordered by using drag-and-drop. Pick the header brick, hold the mouse button, move the column to the new position and release the mouse button.
 
