@@ -1,8 +1,10 @@
 #Data Loading and Processing
 
 [Dataset Principles](#Dataset_Principles)
-
-##Dataset Principles
+[Startup](#Startup)
+[Loading Data](#Loading_Data)
+[File Operations](#File_Operations)
+[Data Processing](#Data_Processing)
 
 A dataset in Caleydo is (in most cases) based on tabular data in matrix form. However, Caleydo never shows only a dataset, but always shows *perspectives* on a dataset. Perspectives are used for columns and rows of datasets separately, but you always need both, a perspective of rows and columns.
 
