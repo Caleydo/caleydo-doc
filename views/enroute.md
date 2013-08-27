@@ -47,12 +47,11 @@ The currently selected path can also be modified by removing the nodes at each e
 In order to display experimental data in the enRoute view, **dataset perspectives** have to be assigned to enRoute using the [Data-View Integrator](dvi.md).
 The experimental data is organized in rows and columns. Each row shows data associated with the node it is connected to. Columns represent groups of experiments, which have been specified by the dataset perspective.
 
-![](../i/enroute_experimental_mrna.png "enRoute experimental data") 
-![](../i/enroute_experimental_mrna_abstract.png "enRoute experimental data abstract")
 Numerical data, such as gene expression data, is represented as simple bar charts, where each bar refers to one experiment. 
 
-![](../i/enroute_experimental_CNV.png "enRoute categorical data") 
-![](../i/enroute_experimental_CNV_abstract.png "enRoute categorical data") 
+![](../i/enroute_experimental_mrna.png "enRoute experimental data") 
+![](../i/enroute_experimental_mrna_abstract.png "enRoute experimental data abstract")
+
 For the categorical copy number data a special encoding is used to represent the 5 categories:
 
  * _Deleted on one allele_: light blue bar pointing downwards
@@ -60,6 +59,9 @@ For the categorical copy number data a special encoding is used to represent the
  * _Normal copy number_: no bar
  * _Low amplification_: light red bar pointing upwards
  * _High amplification_: dark red bar pointing upwards
+
+![](../i/enroute_experimental_CNV.png "enRoute categorical data") 
+![](../i/enroute_experimental_CNV_abstract.png "enRoute categorical data") 
 
 ![](../i/enroute_abstract_mode.png "Abstract mode") 
 By clicking the button below the caption of each column, the representation of the experimental data can be switched to a more abstract form for that column. For numerical values, a single bar showing the average value of a group is used together with an error bar indicating the standard deviation. For copy number data a histogram is shown as abstract representation.
