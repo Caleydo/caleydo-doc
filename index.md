@@ -1,15 +1,15 @@
-Welcome to the help pages of the Caleydo Visualization Framework!
+**Welcome to the help pages of the Caleydo Visualization Framework!**
 
 Caleydo is a visualization framework for biomolecular data. The most important feature of Caleydo is that you can load tabular data (in the form of csv or text files) and analyze it using visualization an algorithms. That said, Caleydo is not strictly limited to biomolecular data, so you may also try other forms of tabular data if you like!
 
 #Table of Contents
 
-[Installing Caleydo](install.md)
-[Data Loading and Processing](data.md)
-[Caleydo Basics](basics.md)
-[StratomeX: Multi-Dataset Analysis](views/stratomex.md)
-[enRoute: Pathway Analysis](views/enroute.md)
-[Frequently Asked Questions](faq.md)
+ * [Installing Caleydo](install.md)
+ * [Data Loading and Processing](data.md)
+ * [Caleydo Basics](basics.md)
+ * [StratomeX: Multi-Dataset Analysis](views/stratomex.md)
+ * [enRoute: Pathway Analysis](views/enroute.md)
+ * [Frequently Asked Questions](faq.md)
 
 # Overview
 Here is a list of features of Caleydo. You will find details on each of these features in the following help pages:
