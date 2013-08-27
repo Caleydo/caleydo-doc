@@ -1,6 +1,5 @@
 # StratomeX: Multi-Dataset Analysis
 
-##General
 StratomeX is a visualization technique for the analysis of multiple stratified datasets. For a general introduction please refer to the [StratomeX project page](http://stratomex.calyedo.org/). 
 
 [](http://www.youtube.com/watch?v=UcKDbGqHsdE)
@@ -30,3 +29,9 @@ Dependent columns are special brick columns that belong to an existing brick col
 
  * **Pathways** When choosing pathways as the type of the dependent column, Caleydo opens a list of pathways with a count how many genes from the brick column are contained in each of the pathways. After a particular pathway has been selected, a new column will be added, where a small pathway is shown for each group of the original brick column. The nodes inside the pathways are color coded according to the average gene expression value of each group.
  * **Clinical data** After choosing clinical data as the type of the dependent column, Caleydo opens a list of clinical parameters that can be added as a new dependent column. Note that clinical data needs to be loaded in order to use this feature. After selecting a particular clinical parameter, a Kaplan-Meier plot will be opened for each group of the original brick column.
+
+##TourGuide Wizard
+Attention: WRITE ME
+
+##LineUp
+Attention: WRITE ME

@@ -5,16 +5,6 @@ Caleydo uses views as interfaces to the user. Nearly everything in Caleydo is a 
 
 ##Support Views
 
-###Search
-The search view is currently limited to searching genes and pathways. This will change in future releases, where arbitrary IDs can be searched for.
-![](i/search.png "Search GUI")
-
-To search for a gene or a pathway map simply type a string into the query box and press search. You can exclude certain ID Types by un-checking them. If your search returned results they are presented to you in a table. The first columns of this table tells you whether this gene is available in the dataset specified in the caption. In the example in the figure on the right, the gene in the first line is available in the mRNA and the copy-number dataset, but not in the mutation status dataset.
-
-If a pathway matches your query, or a pathway contains a selected gene you can directly open it via the context menu.
-
-An important feature of the search dialog is it's ability to **create categorizations based on genes**. This means that a new grouping (and perspective) can be created based on an individual gene. By right-clicking on a row in the search results you get the options to create categorizations for the various datasets. Currently that makes most sense for copy-number and mutation status data. Support for other data types will be added in the future. Clicking, for example, on the "Create categorization of Mutation Status" will result in a perspective being created with two groups: one containing all mutated samples, and another one containing all normal samples.
-
 ###Selection Info
 The Selection Info view shows information about the currently selected elements. Whenever you mouse-over or click an element in any of the Caleydo views it is added to the selection info view. Dark-orange shows clicked and light orange shows mouse-hovered elements. It is possible to select multiple items, also multiple items of different types of data. In the example on the right a couple of sample variables and a clinical variable is selected.
 ![](i/selection_info.png "Selection Info GUI")
@@ -31,5 +21,17 @@ You can **modify the color coding** by dragging the bars at the sides of the his
 
 If you want to use a completely different color-coding you can double-click on the color-legend bar below the histogram, which presents you with the options seen in the lower picture.
 
-###Data-View Integrator
 [](include:views/dvi.md)
+
+###Search
+The search view is currently limited to searching genes and pathways. This will change in future releases, where arbitrary IDs can be searched for.
+![](i/search.png "Search GUI")
+
+To search for a gene or a pathway map simply type a string into the query box and press search. You can exclude certain ID Types by un-checking them. If your search returned results they are presented to you in a table. The first columns of this table tells you whether this gene is available in the dataset specified in the caption. In the example in the figure on the right, the gene in the first line is available in the mRNA and the copy-number dataset, but not in the mutation status dataset.
+
+If a pathway matches your query, or a pathway contains a selected gene you can directly open it via the context menu.
+
+An important feature of the search dialog is it's ability to **create categorizations based on genes**. This means that a new grouping (and perspective) can be created based on an individual gene. By right-clicking on a row in the search results you get the options to create categorizations for the various datasets. Currently that makes most sense for copy-number and mutation status data. Support for other data types will be added in the future. Clicking, for example, on the "Create categorization of Mutation Status" will result in a perspective being created with two groups: one containing all mutated samples, and another one containing all normal samples.
+
+### Table
+Attention: WRITE ME

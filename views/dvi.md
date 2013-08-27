@@ -1,3 +1,4 @@
+###Data-View Integrator
 The Data-View Integrator is a graph visualization that represents every loaded dataset as a **data node** and every view that is currently opened in Caleydo as a **view node**. Links are drawn between data nodes, if the IDs of their data can be mapped. Data nodes are connected to view nodes, if their data shown in the views. Using the Data-View Integrator you can
 
  * **Gain an overview** of all loaded datasets and their relationships.
