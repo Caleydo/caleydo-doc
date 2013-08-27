@@ -1,8 +1,7 @@
-Loading Data
-============
+#Data Loading and Processing
 
-Dataset Principles
--------------------
+##Dataset Principles
+
 A dataset in Caleydo is (in most cases) based on tabular data in matrix form. However, Caleydo never shows only a dataset, but always shows *perspectives* on a dataset. Perspectives are used for columns and rows of datasets separately, but you always need both, a perspective of rows and columns.
 
 A perspectives contains rules on how to access a dataset. Specifically a perspective defines:
@@ -17,8 +16,7 @@ If you just load a dataset Caleydo automatically creates default perspectives co
 
 For virtually all operations in Caleydo you must specify, which dataset you want to use, which perspective you want to use for the rows in the dataset and which perspective you want to use for the columns. In many cases this might be implicit, for example, because there is only one possible combination, but sometimes you will have to specify these things yourself.
 
-Startup
--------
+##Startup
 Upon startup you are presented with choices for different ways to start Caleydo. These are:
 
  * **Load Demo Data** - with readily set-up sample projects
@@ -53,10 +51,7 @@ Use this option if none of the data you want to analyze is from sources other th
 ### Load Project
 Here you can choose to load a Caleydo project file from your hard drive or continue where you left of when you last quit Caleydo.
 
-
-Data Format
------------
-
+##Data Format
 You can load tabular data from delimited text files (or comma-separated files) into Caleydo. We refer to each of these files as one dataset. These files have to adhere to specific conventions. Asides from text files for datasets, you can also load groupings (e.g., as calculated by a clustering algorithm). Caleydo also loads pathway maps as datasets, but you can't load your own pathways.
 
 ### Dataset Conventions
@@ -68,33 +63,26 @@ You can load tabular data from delimited text files (or comma-separated files) i
  * **Values**: For categorical data, any value is legal. For numerical data, real values have to be provided, where the decimal symbol is period (.) not comma (,).
  0.3445 is a legal value, 0,3445 is not. Empty cells are legal and are treated as NaN (not a number). Also, if you have some other, non-numerical value in a cell of a numerical dataset, it is treated as NaN.
 
-
 Here is an example of a legal table of numerical data, the identifiers are highlighted in blue:
 
-![""](i/input_table.png "Sample input data table")
-
+![](i/input_table.png "Sample input data table")
 
 ### Grouping Data Format
 Groupings contain groups of identifiers. Groupings allow you to classify your data values into discrete groups. For example, a grouping into two groups of the columns of the above table would be [ColumnID1, ColumnID3] [ColumnID2, ColumnID6], containing two groups both of size two. Groupings make sense for both, columns as well as rows.
 
 Caleydo lets you calculate groupings on the fly by using clustering algorithms at runtime. You can, however, also load external groupings. The grouping data format is very similar to the dataset format. However, it contains information on groups instead on data. In a grouping file, each grouping (you can have only one, or as many as you like in a single file) is represented in a column. A special column contains the ids of the entries you want to group. A grouping is then defined by identical strings in a column. Here is an example using the IDs of the previous example.
-![""](i/grouping_table.png "Sample grouping table")
-
+![](i/grouping_table.png "Sample grouping table")
 
 This example gives 3 groups for Grouping 1 (in this case: [ColumnID1, ColumnID2, ColumnID7] [ColumnID3, ColumnID4] [ColumnID6]), 2 groups for Grouping 2 and 2 groups for Grouping 3.
 
 Again, this works equally for columns and rows of the dataset file. The only requirement is that the IDs between the files match.
 
-
-Loading Data
-------------
-
+##Loading Data
 Here we discuss how datasets and groupings are loaded from the delimited text file and what options you have to process your data. A wizard guides you through the individual steps of data loading.
 
 ### Loading a Dataset
-
 The picture on the right shows a correctly configured import dialog. The first step is to press the "Open Data File" button and select a delimited text file from your hard drive. Once you loaded the data file it will appear in the preview table. As "TAB" is selected as the default delimiter, you may have to adjust the delimiter until you see a correct table.
-![""](i/load_dataset.png "Data loading dialog")
+![](i/load_dataset.png "Data loading dialog")
 
 You can enter a custom dataset name or go with the one that was automatically selected.
 
@@ -114,14 +102,12 @@ You also have to **configure the IDs** of rows and columns. If you are loading a
 
 If you do not want or need to map rows or columns to other datasets, groupings, or databases, you can select "Unmapped" in the drop-down menu for the Row or Column Type.
 
-
 #### Advanced ID Mapping
-
 Attention: This section is important if you would like to use multiple datasets in Caleydo and see their relationships.
 
 Caleydo uses a "foreign key" principle for mapping between multiple datasets, between datasets and groupings, as well as between datasets and online databases. The following two tables are an example for the approach:
 
-![""](i/id_table.png "Sample tables with IDs")
+![](i/id_table.png "Sample tables with IDs")
 
 Both tables contain the same Identifiers, "Sample ID" and "Gene ID". By telling Caleydo which identifier the file has in the columns and in the rows of the file, we can later resolve relationships between multiple datasets. In the example above, we know that the IDs of the left table's column are "samples", while the right table uses "samples" in the rows. 
 
@@ -133,7 +119,7 @@ That's why you have to define both, ID Types and identifiers for rows and column
 Attention: For inhomogeneous datasets you can't specify column ID types.
 
 In some cases you might want to **map identifiers from two datasets, which are stored in a slightly different format**. For example, in one dataset the IDs could look like this: "TCGA_001-03", whereas in another dataset the equivalent IDs use a format like that "tcga.001.03". To make Caleydo match these different IDs, you can define how to parse row or column identifiers by pressing the "Define Parsing" button, showing the dialog on the right. First, you can choose, whether the case of the IDs should be modified, i.e., whether to keep the case unchanged, to make it upper case, or to make it lower case. Second, you can use a regular expression (see [reference](http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)) to replace all occurrences of a certain string with a different string. Third, you can specify a regular expression to split an ID around matches into several substrings and use the first substring as resulting ID. This dialog also shows a preview of all applied changes to an ID taken from the dataset.
-![""](i/id_parsing.png "Parsing options for IDs")
+![](i/id_parsing.png "Parsing options for IDs")
 
 After you have adjusted all necessary settings, you can now or continue to the next wizard page.
 
@@ -144,14 +130,13 @@ If your dataset is homogeneous, you must specify whether the data is numerical o
 ### Specifying Properties for Inhomogeneous Datasets
 
 If your dataset is inhomogeneous, you can set data properties for each column on the second page, in the dialog shown to the right. Caleydo automatically tries to determine the data type (numerical/categorical) and properties for each column. The currently set data type of a column is displayed in its header. To check or change the data type and properties of a column you can click on the "Properties" button in its header. This will open up a dialog, where you can choose whether the column contains numerical or categorical data and then set numerical and categorical data properties respectively.
-![""](i/inhomogenous_dataset_properties.png "Specifying properties of inhomogeneous datasets")
+![](i/inhomogenous_dataset_properties.png "Specifying properties of inhomogeneous datasets")
 
 After the properties of all individual columns have been specified, you can either press "Finish" to load the datasets, or optionally load additional groupings for the dataset on the next page.
 
-
 ### Numerical Data Properties
 Depending on whether the dataset is homogeneous or inhomogeneous, numerical data properties are either set for the whole dataset or for individual columns. The figure on the right shows the available options.
-![""](i/numerical_properties.png "Specifying properties of numerical datasets")
+![](i/numerical_properties.png "Specifying properties of numerical datasets")
 
 **Data Type** Choose, whether the numerical values are integers or real numbers.
 
@@ -168,12 +153,10 @@ Attention: Note that Caleydo will not transform the data itself. You will always
 This makes a lot of sense when you want to analyze very many columns. Also, it is common that in genetic data files, the patients or samples are stored as columns while the genes or other entities are stored in the rows. This would always leave the patients/samples in the table as the columns in the visualizations. 
 
 Attention: As a rule of thumb, the rows in the visualizations should contain what you are primarily interested in. If you want to focus your analysis on relationships between genes and your file has the genes in the rows, don't check this. If you want to compare patients or samples across multiple datasets and your file has the samples in the columns, check this.
-
  
 ### Categorical Data Properties
 Categorical data properties are also either set for the whole dataset or for individual columns.
-![""](i/categorical_properties.png "Specifying properties of categorical datasets")
-
+![](i/categorical_properties.png "Specifying properties of categorical datasets")
 
 At first you have to define whether the categories are **ordinal or nominal**. Ordinal categories have an inherent order, whereas nominal categories don't. For example, the categories "child", "adult", and "senior" for population groups would be ordinal (sorted by their age), whereas gender with categories "male" and "female" would be nominal.
 
@@ -191,8 +174,8 @@ As previously mentioned, you can load groupings independently for columns and fo
 
 First you will see the dialog on the left, where you can add, edit or remove groupings for rows and columns independently.
 
-![""](i/add_groupings.png "Add groupings dialog")
-![""](i/import_grouping.png "Import groupings dialog")
+![](i/add_groupings.png "Add groupings dialog")
+![](i/import_grouping.png "Import groupings dialog")
 
 Once you click one of the "Add" buttons, you will see the dialog on the right. The dialog on the right resembles the data import dialog you have seen before. As groupings also use identifiers for their rows, you have to choose an identifier. You can't choose an ID Type, since that is already determined by your choice of columns or rows for the dataset.
 
@@ -204,9 +187,38 @@ You can specify a "Grouping Name" for each grouping which will later be used to 
 
 Once you press finish the dataset will be loaded and Caleydo will be started.
 
-Adding Datasets and Groupings at runtime
--------------
+###Adding Datasets and Groupings at runtime
 
 You can add more datasets once Caleydo is running. To do so, go to "File > Import Data" which brings you right back to the import wizards. Alternatively, click the "Import Data Icon" in the toolbar.
 
 To add more groupings to an existing dataset, right-click on the dataset in the Data-View Integrator and select the appropriate choice.
+
+##File Operations
+Using the "File" dialog or the equivalent buttons in the tool bar you can save Caleydo projects, import, and export data.
+
+A **Caleydo Project** is a .cal file that contains all information about a session, including the loaded datasets, created or loaded groupings as well as which views are open and what data they show. Project files are a convenient way to store an analysis session and restore it later.
+
+Pressing **Import Data** will bring you to the data import process you might have encountered upon startup (see [Loading Data](loading.md)). This allows you to add multiple datasets at the same time to Caleydo.
+
+The **Export Data** button opens a dialog that allows you to save a perspective of a dataset (see dataset principles) to a file. This can be useful if you filtered or clustered your data in a particular way and want to process it further using other tools.
+
+##Data Processing
+
+###Clustering
+Clustering creates a grouping of a perspective. To run a clustering algorithm you have to specify an input dataset, a perspective for the row and a perspective for the columns (see dataset principles). If those are specified you will be presented with a dialog similar to the one on the right.
+![](i/clustering.png "Clustering GUI")
+
+Caleydo can cluster either the columns or the rows of a perspective.
+
+Two different distance measures are available:
+
+ * the Euclidean distance and
+ * the Pearson correlation
+ 
+You also have to choose whether you want to replace the grouping in the input perspective, or whether you want to create a new perspective with a new grouping. The latter adds an additional perspective to the dataset.
+
+Caleydo currently supports three clustering algorithms, two of them are partitional algorithms (where no relation between the separate cluster is known) and one is a hierarchical algorithm (which builds a complete tree of relations). These algorithms are:
+
+The clustering algorithm by Eisen et al (hierarchical). Here you can choose between several linkage options.
+Affinity propagation (partitional). This algorithm generally delivers the best results, but can be slow. Affinity propagation lets you choose a factor which influences the number of clusters returned, which may be between 1 and 10, where 1 produces fewer clusters and 10 produces more clusters.
+k-means clustering, as implemented by WEKA (partitional). k-means is generally the fastest clustering algorithm, however you must specify the number of clusters yourself.
