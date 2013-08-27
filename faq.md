@@ -2,13 +2,13 @@
 
 ##Problems Running Caleydo
 
-**Q:** Caleydo doesn't start, doesn't load my data, or fails somehow else. What can I do?
+**Q:** _Caleydo doesn't start, doesn't load my data, or fails somehow else. What can I do?_
 **A:** Send us an e-mail with the latest log file to caleydo at icg.tugraz.at and, if possible, your dataset you tried to use. You can find your log file in the .caleydo_2.0/logs folder which is stored in your home directory (e.g. C:\users\USERNAME\.caleydo_2.0 on Windows).
 
-**Q:** Caleydo fails to start after updating to a new version
+**Q:** _Caleydo fails to start after updating to a new version._
 **A:** Try deleting the caches of the old version by removing .eclipse and .caleydo_2.0 folders from your home directory (e.g. C:\users\USERNAME\.eclipse and C:\users\USERNAME\.caleydo_2.0)
 
-**Q:** Caleydo dose not start with the error message on the console:
+**Q:** _Caleydo dose not start with the error message on the console:_
 
     !SESSION 2013-05-06 17:22:06.045 -----------------------------------------------
     eclipse.buildId=unknown
