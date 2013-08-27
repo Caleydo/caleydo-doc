@@ -6,11 +6,11 @@ Caleydo uses views as interfaces to the user. Nearly everything in Caleydo is a 
 ##File Operations
 Using the "File" dialog or the equivalent buttons in the tool bar you can save Caleydo projects, import, and export data.
 
-A Caleydo project is a .cal file that contains all information about a session, including the loaded datasets, created or loaded groupings as well as which views are open and what data they show. Project files are a convenient way to store an analysis session and restore it later.
+A **Caleydo Project** is a .cal file that contains all information about a session, including the loaded datasets, created or loaded groupings as well as which views are open and what data they show. Project files are a convenient way to store an analysis session and restore it later.
 
-Pressing Import Data will bring you to the data import process you might have encountered upon startup (see [Data Loading](loading.md)). This allows you to add multiple datasets at the same time to Caleydo.
+Pressing **Import Data** will bring you to the data import process you might have encountered upon startup (see [Loading Data](loading.md)). This allows you to add multiple datasets at the same time to Caleydo.
 
-The Export Data button opens a dialog that allows you to save a perspective of a dataset (see dataset principles) to a file. This can be useful if you filtered or clustered your data in a particular way and want to process it further using other tools.
+The **Export Data** button opens a dialog that allows you to save a perspective of a dataset (see dataset principles) to a file. This can be useful if you filtered or clustered your data in a particular way and want to process it further using other tools.
 
 ##Clustering
 Clustering creates a grouping of a perspective. To run a clustering algorithm you have to specify an input dataset, a perspective for the row and a perspective for the columns (see dataset principles). If those are specified you will be presented with a dialog similar to the one on the right.
