@@ -10,8 +10,6 @@ The enRoute view can be used for the exploration of large amounts of experimenta
 ![](../i/enroute_fit_to_width.png "Fit to width") 
 In the enRoute view, every displayed element is granted enough space to be perceived well. If lots of data needs to be displayed, it can happen that horizontal scrolling is required. By selecting the corresponding button in the toolbar, the displayed content is resized to fit the width of the view.
 
-##Pathway View
-
 [](include:views/pathway.md)
 
 ##Path Visualization
