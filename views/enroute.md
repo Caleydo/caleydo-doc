@@ -3,15 +3,6 @@ enRoute is a visualization technique for the analysis of multi-dimensional data 
 
 [](http://www.youtube.com/watch?v=lOX1XFKNqo0)
 
-The enRoute view can be used for the exploration of large amounts of experimental data that is associated with a path of pathway nodes. enRoute is essentially divided into 2 parts: the path visualization and the experimental data visualization.
-
-![](../i/enroute.png "enRoute")
-
-![](../i/enroute_fit_to_width.png "Fit to width") 
-In the enRoute view, every displayed element is granted enough space to be perceived well. If lots of data needs to be displayed, it can happen that horizontal scrolling is required. By selecting the corresponding button in the toolbar, the displayed content is resized to fit the width of the view.
-
-[](include:views/pathway.md)
-
 ##Pathway View
 The pathway view allows to explore different KEGG pathway maps. A pathway map can be chosen using the drop-down box of the tool bar.
 ![](../i/pathway_mapping.png "Pathway with on-node mapping")
@@ -36,6 +27,12 @@ A selected path can be extended by holding the Shift key and clicking on the nod
 ![](../i/pathway_clear_path.png "Clear path") 
 Paths can be cleared using the corresponding button in the tool bar.
 
+##enRoute View
+The enRoute view can be used for the exploration of large amounts of experimental data that is associated with a path of pathway nodes. enRoute is essentially divided into two parts: the path visualization and the experimental data visualization.
+
+![](../i/enroute_fit_to_width.png "Fit to width") 
+In the enRoute view, every displayed element is granted enough space to be perceived well. If lots of data needs to be displayed, it can happen that horizontal scrolling is required. By selecting the corresponding button in the toolbar, the displayed content is resized to fit the width of the view.
+
 ###Path Visualization
 ![](../i/enroute_branch_switching.png "Branch switching") 
 On the left side of the enRoute view, the path of nodes that has been selected in the Pathway view is displayed in a top-down layout. Branches are indicated as abstract nodes that connect to the path nodes on the left side. They either summarize incoming or outgoing branches.
@@ -47,6 +44,7 @@ The currently selected path can also be modified by removing the nodes at each e
 ##Experimental Data Visualization
 In order to display experimental data in the enRoute view, **dataset perspectives** have to be assigned to enRoute using the [Data-View Integrator](dvi.md).
 The experimental data is organized in rows and columns. Each row shows data associated with the node it is connected to. Columns represent groups of experiments, which have been specified by the dataset perspective.
+![](../i/enroute.png "enRoute")
 
 ![](../i/enroute_experimental_mrna.png "enRoute experimental data") 
 ![](../i/enroute_experimental_mrna_abstract.png "enRoute experimental data abstract") 
