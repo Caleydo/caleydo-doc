@@ -1,4 +1,4 @@
-#enRoute
+#enRoute: Pathway Analysis
 enRoute is a visualization technique for the analysis of multi-dimensional data in the context of pathways. For a general introduction please refer to the [enRoute project page](http://enroute.calyedo.org/). 
 
 [](http://www.youtube.com/watch?v=lOX1XFKNqo0)
