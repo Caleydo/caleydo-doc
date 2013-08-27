@@ -10,12 +10,6 @@
 ##Managing Views
 Caleydo uses views as interfaces to the user. Nearly everything in Caleydo is a view. You can drag and drop views and place them wherever you like. To open a view use the "View" menu. We distinguish between "Tools", which are basic support views such as the tool-bar, the integrated histogram/color legend and some other informative views and more complex "Visualizations". We discuss the tools in the following, while the visualizations have their own dedicated help page.
 
-##Selection Info
-The Selection Info view shows information about the currently selected elements. Whenever you mouse-over or click an element in any of the Caleydo views it is added to the selection info view. Dark-orange shows clicked and light orange shows mouse-hovered elements. It is possible to select multiple items, also multiple items of different types of data. In the example on the right a couple of sample variables and a clinical variable is selected.
-![](i/selection_info.png "Selection Info GUI")
-
-You can **clear all selections** by clicking on the "Clear All Selections" button in the toolbar.
-
 ##Dataset Info
 
 The DataSet Info view shows you meta-data about the selected dataset. The content of this view is exchanged whenever you click on data from different datasets. The dialog shows you some information on the dataset plus the distribution in a histogram, which also is a legend of the color-coding of the dataset at the same time.
@@ -73,3 +67,9 @@ An important feature of the search dialog is it's ability to **create categoriza
 
 ## Table
 Attention: WRITE ME
+
+##Selection Info
+The Selection Info view shows information about the currently selected elements. Whenever you mouse-over or click an element in any of the Caleydo views it is added to the selection info view. Dark-orange shows clicked and light orange shows mouse-hovered elements. It is possible to select multiple items, also multiple items of different types of data. In the example on the right a couple of sample variables and a clinical variable is selected.
+![](i/selection_info.png "Selection Info GUI")
+
+You can **clear all selections** by clicking on the "Clear All Selections" button in the toolbar.
