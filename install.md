@@ -1,5 +1,9 @@
 #Installation
 
+[Hardware Requirements](#Hardware_Requirements)
+[Dependency: Java](#Dependency:_Java)
+[Required_Steps](#Required_Steps)
+
 ##Hardware Requirements
 As Caleydo deals with large amounts of data and uses high-end computer graphics to display content, you will need somewhat recent hardware, operating systems and graphics-card drivers. For details see the System Requirements section on the [download](http://www.icg.tugraz.at/project/caleydo/download-caleydo) page.
 
