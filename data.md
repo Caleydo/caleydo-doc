@@ -2,10 +2,12 @@
 
 [Dataset Principles](#Dataset_Principles)
 [Startup](#Startup)
+[Data Format](#Data_Format)
 [Loading Data](#Loading_Data)
 [File Operations](#File_Operations)
 [Data Processing](#Data_Processing)
 
+##Dataset Principles
 A dataset in Caleydo is (in most cases) based on tabular data in matrix form. However, Caleydo never shows only a dataset, but always shows *perspectives* on a dataset. Perspectives are used for columns and rows of datasets separately, but you always need both, a perspective of rows and columns.
 
 A perspectives contains rules on how to access a dataset. Specifically a perspective defines:
@@ -46,7 +48,6 @@ Attention: Note that you can't change the organism at runtime and that you can't
 To get an idea of how the import of individual datasets works, you can also choose to load a sample gene expression dataset.
 
 ### TCGA Dataset
-
 We package data form [The Cancer Genome Atlas (TCGA)](http://cancergenome.nih.gov/) for Caleydo, so that you don't have to load all the TCGA datasets manually. We use the output of the Broad Institute's Firehose pipeline for all available tumor types. Firehose is run roughly every other month and you have access to the various results. 
 
 ### Load Other Data
@@ -128,11 +129,9 @@ In some cases you might want to **map identifiers from two datasets, which are s
 After you have adjusted all necessary settings, you can now or continue to the next wizard page.
 
 ### Specifying the Data Type for Homogeneous Datasets
-
 If your dataset is homogeneous, you must specify whether the data is numerical or categorical on the second page, which will lead you to different subsequent pages.
 
 ### Specifying Properties for Inhomogeneous Datasets
-
 If your dataset is inhomogeneous, you can set data properties for each column on the second page, in the dialog shown to the right. Caleydo automatically tries to determine the data type (numerical/categorical) and properties for each column. The currently set data type of a column is displayed in its header. To check or change the data type and properties of a column you can click on the "Properties" button in its header. This will open up a dialog, where you can choose whether the column contains numerical or categorical data and then set numerical and categorical data properties respectively.
 ![](i/inhomogenous_dataset_properties.png "Specifying properties of inhomogeneous datasets")
 
@@ -173,7 +172,6 @@ You can also edit the default color schemes of the categories by clicking "Selec
 If you want to specify your own color for a category, you can do so using a color dialog that appears when double clicking the category's color.
 
 ### Loading Groupings for a Dataset
-
 As previously mentioned, you can load groupings independently for columns and for rows. For each grouping (stratification, clustering) you load, a perspective is created. Note that columns and rows here refer to the columns and rows as they are found in the preview dialog on the first page, a possible transformation is ignored.
 
 First you will see the dialog on the left, where you can add, edit or remove groupings for rows and columns independently.
@@ -192,7 +190,6 @@ You can specify a "Grouping Name" for each grouping which will later be used to 
 Once you press finish the dataset will be loaded and Caleydo will be started.
 
 ###Adding Datasets and Groupings at runtime
-
 You can add more datasets once Caleydo is running. To do so, go to "File > Import Data" which brings you right back to the import wizards. Alternatively, click the "Import Data Icon" in the toolbar.
 
 To add more groupings to an existing dataset, right-click on the dataset in the Data-View Integrator and select the appropriate choice.
