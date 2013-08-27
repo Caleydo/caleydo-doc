@@ -48,11 +48,12 @@ In order to display experimental data in the enRoute view, **dataset perspective
 The experimental data is organized in rows and columns. Each row shows data associated with the node it is connected to. Columns represent groups of experiments, which have been specified by the dataset perspective.
 
 ![](../i/enroute_experimental_mrna.png "enRoute experimental data") 
-![](../i/enroute_experimental_mrna_abstract.png "enRoute experimental data abstract") 
+![](../i/enroute_experimental_mrna_abstract.png "enRoute experimental data abstract")
+Numerical data, such as gene expression data, is represented as simple bar charts, where each bar refers to one experiment. 
+
 ![](../i/enroute_experimental_CNV.png "enRoute categorical data") 
 ![](../i/enroute_experimental_CNV_abstract.png "enRoute categorical data") 
-
-Numerical data, such as gene expression data, is represented as simple bar charts, where each bar refers to one experiment. For the categorical copy number data a special encoding is used to represent the 5 categories:
+For the categorical copy number data a special encoding is used to represent the 5 categories:
 
  * _Deleted on one allele_: light blue bar pointing downwards
  * _Deleted on both alleles_: dark blue bar pointing downwards
