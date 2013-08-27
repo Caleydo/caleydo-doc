@@ -29,6 +29,7 @@ Paths can be cleared using the corresponding button in the tool bar.
 
 ##enRoute View
 The enRoute view can be used for the exploration of large amounts of experimental data that is associated with a path of pathway nodes. enRoute is essentially divided into two parts: the path visualization and the experimental data visualization.
+![](../i/enroute.png "enRoute")
 
 ![](../i/enroute_fit_to_width.png "Fit to width") 
 In the enRoute view, every displayed element is granted enough space to be perceived well. If lots of data needs to be displayed, it can happen that horizontal scrolling is required. By selecting the corresponding button in the toolbar, the displayed content is resized to fit the width of the view.
@@ -44,7 +45,6 @@ The currently selected path can also be modified by removing the nodes at each e
 ##Experimental Data Visualization
 In order to display experimental data in the enRoute view, **dataset perspectives** have to be assigned to enRoute using the [Data-View Integrator](dvi.md).
 The experimental data is organized in rows and columns. Each row shows data associated with the node it is connected to. Columns represent groups of experiments, which have been specified by the dataset perspective.
-![](../i/enroute.png "enRoute")
 
 ![](../i/enroute_experimental_mrna.png "enRoute experimental data") 
 ![](../i/enroute_experimental_mrna_abstract.png "enRoute experimental data abstract") 
