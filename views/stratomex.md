@@ -3,7 +3,7 @@
 ##General
 StratomeX is a visualization technique for the analysis of multiple stratified datasets. For a general introduction please refer to the [StratomeX project page](http://stratomex.calyedo.org/). Also, have a look at the [YouTube video](http://www.youtube.com/watch?v=UcKDbGqHsdE) about StratomeX.
 
-![""](../i/stratomex.png "StratomeX")
+![](http://www.youtube.com/watch?v=UcKDbGqHsdE)
 
 ##StratomeX Elements
 ###Brick Columns
