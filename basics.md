@@ -14,7 +14,7 @@ The Export Data button opens a dialog that allows you to save a perspective of a
 
 ##Clustering
 Clustering creates a grouping of a perspective. To run a clustering algorithm you have to specify an input dataset, a perspective for the row and a perspective for the columns (see dataset principles). If those are specified you will be presented with a dialog similar to the one on the right.
-![""](../i/clustering.png "Clustering GUI")
+![""](i/clustering.png "Clustering GUI")
 
 Caleydo can cluster either the columns or the rows of a perspective.
 
@@ -33,7 +33,7 @@ k-means clustering, as implemented by WEKA (partitional). k-means is generally t
 
 ##Search
 The search view is currently limited to searching genes and pathways. This will change in future releases, where arbitrary IDs can be searched for.
-![""](../i/search.png "Search GUI")
+![""](i/search.png "Search GUI")
 
 To search for a gene or a pathway map simply type a string into the query box and press search. You can exclude certain ID Types by un-checking them. If your search returned results they are presented to you in a table. The first columns of this table tells you whether this gene is available in the dataset specified in the caption. In the example in the figure on the right, the gene in the first line is available in the mRNA and the copy-number dataset, but not in the mutation status dataset.
 
@@ -43,15 +43,15 @@ An important feature of the search dialog is it's ability to **create categoriza
 
 ##Selection Info
 The Selection Info view shows information about the currently selected elements. Whenever you mouse-over or click an element in any of the Caleydo views it is added to the selection info view. Dark-orange shows clicked and light orange shows mouse-hovered elements. It is possible to select multiple items, also multiple items of different types of data. In the example on the right a couple of sample variables and a clinical variable is selected.
-![""](../i/selection_info.png "Selection Info GUI")
+![""](i/selection_info.png "Selection Info GUI")
 
 You can **clear all selections** by clicking on the "Clear All Selections" button in the toolbar.
 
 ##Dataset Info
 
 The DataSet Info view shows you meta-data about the selected dataset. The content of this view is exchanged whenever you click on data from different datasets. The dialog shows you some information on the dataset plus the distribution in a histogram, which also is a legend of the color-coding of the dataset at the same time.
-![""](../i/color_chooser.png "Color Chooser GUI")
-![""](../i/dataset_info.png "Dataset Info GUI")
+![""](i/color_chooser.png "Color Chooser GUI")
+![""](i/dataset_info.png "Dataset Info GUI")
 
 You can **modify the color coding** by dragging the bars at the sides of the histogram.
 
