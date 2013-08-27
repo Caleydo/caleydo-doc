@@ -2,4 +2,10 @@
 [Installation](install.md)
 [Loading Data](loading.md)
 [Caleydo Basics](basics.md)
+[Data-View Integrator](views/dvi.md)
+[StratomeX](views/stratomex.md)
+[Pathway Analysis](views/pathway.md)
+[enRoute](views/enroute.md)
+[Parallel Coordinates](views/parcoords.md)
+[FAQ](faq.md)
 
