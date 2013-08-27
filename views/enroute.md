@@ -29,7 +29,8 @@ Paths can be cleared using the corresponding button in the tool bar.
 
 ##enRoute View
 The enRoute view can be used for the exploration of large amounts of experimental data that is associated with a path of pathway nodes. enRoute is essentially divided into two parts: the path visualization and the experimental data visualization.
-![](../i/enroute.png "enRoute")
+
+![](../i/enroute.png "enRoute view")
 
 ![](../i/enroute_fit_to_width.png "Fit to width") 
 In the enRoute view, every displayed element is granted enough space to be perceived well. If lots of data needs to be displayed, it can happen that horizontal scrolling is required. By selecting the corresponding button in the toolbar, the displayed content is resized to fit the width of the view.
