@@ -3,6 +3,9 @@ enRoute is a visualization technique for the analysis of multi-dimensional data 
 
 [](http://www.youtube.com/watch?v=lOX1XFKNqo0)
 
+[Pathway View](#Pathway_View)
+[enRoute View](#enRoute_View)
+
 ##Pathway View
 The pathway view allows to explore different KEGG pathway maps. A pathway map can be chosen using the drop-down box of the tool bar.
 ![](../i/pathway_mapping.png "Pathway with on-node mapping")

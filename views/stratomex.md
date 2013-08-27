@@ -4,6 +4,10 @@ StratomeX is a visualization technique for the analysis of multiple stratified d
 
 [](http://www.youtube.com/watch?v=UcKDbGqHsdE)
 
+[StratomeX Elements](#StratomeX_Elements)
+[TourGuide Wizard](#TourGuide Wizard)
+[LineUp](#LineUp)
+
 ##StratomeX Elements
 ###Brick Columns
 Each column in StratomeX consists of multiple data columns from one of the loaded datasets. The rows inside a brick column are grouped together to form so called bricks.
