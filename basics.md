@@ -2,10 +2,12 @@
 
 [Managing Views](#Managing_Views)
 [Dataset Info](#Dataset_Info)
-[Data-View Integrator](#Data-View_Integrator)
-[Table](#Table)
-[Search](#Search)
 [Selection Info](#Selection_Info)
+[Data-View Integrator](#Data-View_Integrator)
+[Search](#Search)
+[Table](#Table)
+[Parallel Coordinates](#Parallel_Coordinates)
+
 
 ##Managing Views
 Caleydo uses views as interfaces to the user. Nearly everything in Caleydo is a view. You can drag and drop views and place them wherever you like. To open a view use the "View" menu. We distinguish between "Tools", which are basic support views such as the tool-bar, the integrated histogram/color legend and some other informative views and more complex "Visualizations". We discuss the tools in the following, while the visualizations have their own dedicated help page.
@@ -19,6 +21,12 @@ The DataSet Info view shows you meta-data about the selected dataset. The conten
 You can **modify the color coding** by dragging the bars at the sides of the histogram.
 
 If you want to use a completely different color-coding you can double-click on the color-legend bar below the histogram, which presents you with the options seen in the lower picture.
+
+##Selection Info
+The Selection Info view shows information about the currently selected elements. Whenever you mouse-over or click an element in any of the Caleydo views it is added to the selection info view. Dark-orange shows clicked and light orange shows mouse-hovered elements. It is possible to select multiple items, also multiple items of different types of data. In the example on the right a couple of sample variables and a clinical variable is selected.
+![](i/selection_info.png "Selection Info GUI")
+
+You can **clear all selections** by clicking on the "Clear All Selections" button in the toolbar.
 
 ##Data-View Integrator
 The Data-View Integrator is a graph visualization that represents every loaded dataset as a **data node** and every view that is currently opened in Caleydo as a **view node**. Links are drawn between data nodes, if the IDs of their data can be mapped. Data nodes are connected to view nodes, if their data shown in the views. Using the Data-View Integrator you can
@@ -68,8 +76,6 @@ An important feature of the search dialog is it's ability to **create categoriza
 ## Table
 Attention: WRITE ME
 
-##Selection Info
-The Selection Info view shows information about the currently selected elements. Whenever you mouse-over or click an element in any of the Caleydo views it is added to the selection info view. Dark-orange shows clicked and light orange shows mouse-hovered elements. It is possible to select multiple items, also multiple items of different types of data. In the example on the right a couple of sample variables and a clinical variable is selected.
-![](i/selection_info.png "Selection Info GUI")
+## Parallel Coordinates
+Attention: IMPORT ME FROM OLD WEBSITE
 
-You can **clear all selections** by clicking on the "Clear All Selections" button in the toolbar.
