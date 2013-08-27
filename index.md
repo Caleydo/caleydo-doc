@@ -23,7 +23,7 @@ Here is a list of features of Caleydo. You will find details on each of these fe
  * TCGA data is provided pre-packaged for Caleydo.
 
 ##Analysis
-The most important view in Caleydo is StratomeX, which you can use to analyze your data using heat maps, histograms, parallel coordinates, etc. Most importantly, however, is StartomeX' ability to analyze multi-dataset dependencies and differences between groupings/clusterings.
+The most important view in Caleydo is [StratomeX](views/stratomex.md), which you can use to analyze your data using heat maps, histograms, parallel coordinates, etc. Most importantly, however, is StartomeX' ability to analyze multi-dataset dependencies and differences between groupings/clusterings.
 
-For pathway analysis Caleydo includes a pathway view and enRoute, which in combination enable you to explore pathways from KEGG and WikiPathways in the context of your own experimental data. 
+For pathway analysis Caleydo includes a pathway view and [enRoute](views/enroute.md), which in combination enable you to explore pathways from KEGG and WikiPathways in the context of your own experimental data. 
  
