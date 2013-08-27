@@ -5,21 +5,10 @@ Caleydo is a visualization framework for biomolecular data. The most important f
 #Table of Contents
 
 [Installing Caleydo](install.md)
-
-[Loading Data](loading.md)
-
+[Data Loading and Processing](data.md)
 [Caleydo Basics](basics.md)
-
-[Data-View Integrator: Setting Up Visualizations](views/dvi.md)
-
 [StratomeX: Multi-Dataset Analysis](views/stratomex.md)
-
-[Pathway Analysis](views/pathway.md)
-
-[enRoute](views/enroute.md)
-
-[Parallel Coordinates](views/parcoords.md)
-
+[enRoute: Pathway Analysis](views/enroute.md)
 [Frequently Asked Questions](faq.md)
 
 # Overview
