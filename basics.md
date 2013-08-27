@@ -31,7 +31,9 @@ The clustering algorithm by Eisen et al (hierarchical). Here you can choose betw
 Affinity propagation (partitional). This algorithm generally delivers the best results, but can be slow. Affinity propagation lets you choose a factor which influences the number of clusters returned, which may be between 1 and 10, where 1 produces fewer clusters and 10 produces more clusters.
 k-means clustering, as implemented by WEKA (partitional). k-means is generally the fastest clustering algorithm, however you must specify the number of clusters yourself.
 
-##Search
+##Support Views
+
+###Search
 The search view is currently limited to searching genes and pathways. This will change in future releases, where arbitrary IDs can be searched for.
 ![""](i/search.png "Search GUI")
 
@@ -41,13 +43,13 @@ If a pathway matches your query, or a pathway contains a selected gene you can d
 
 An important feature of the search dialog is it's ability to **create categorizations based on genes**. This means that a new grouping (and perspective) can be created based on an individual gene. By right-clicking on a row in the search results you get the options to create categorizations for the various datasets. Currently that makes most sense for copy-number and mutation status data. Support for other data types will be added in the future. Clicking, for example, on the "Create categorization of Mutation Status" will result in a perspective being created with two groups: one containing all mutated samples, and another one containing all normal samples.
 
-##Selection Info
+###Selection Info
 The Selection Info view shows information about the currently selected elements. Whenever you mouse-over or click an element in any of the Caleydo views it is added to the selection info view. Dark-orange shows clicked and light orange shows mouse-hovered elements. It is possible to select multiple items, also multiple items of different types of data. In the example on the right a couple of sample variables and a clinical variable is selected.
 ![""](i/selection_info.png "Selection Info GUI")
 
 You can **clear all selections** by clicking on the "Clear All Selections" button in the toolbar.
 
-##Dataset Info
+###Dataset Info
 
 The DataSet Info view shows you meta-data about the selected dataset. The content of this view is exchanged whenever you click on data from different datasets. The dialog shows you some information on the dataset plus the distribution in a histogram, which also is a legend of the color-coding of the dataset at the same time.
 ![""](i/color_chooser.png "Color Chooser GUI")
@@ -56,3 +58,6 @@ The DataSet Info view shows you meta-data about the selected dataset. The conten
 You can **modify the color coding** by dragging the bars at the sides of the histogram.
 
 If you want to use a completely different color-coding you can double-click on the color-legend bar below the histogram, which presents you with the options seen in the lower picture.
+
+###Data-View Integrator
+[](include:views/dvi.md)
