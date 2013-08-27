@@ -3,7 +3,7 @@
 [Dataset Principles](#Dataset_Principles)
 [Startup](#Startup)
 [Data Format](#Data_Format)
-[Loading Data](#Loading_Data)
+[Data Loading](#Loading_Data)
 [File Operations](#File_Operations)
 [Data Processing](#Data_Processing)
 
@@ -82,7 +82,7 @@ This example gives 3 groups for Grouping 1 (in this case: [ColumnID1, ColumnID2,
 
 Again, this works equally for columns and rows of the dataset file. The only requirement is that the IDs between the files match.
 
-##Loading Data
+##Data Loading
 Here we discuss how datasets and groupings are loaded from the delimited text file and what options you have to process your data. A wizard guides you through the individual steps of data loading.
 
 ### Loading a Dataset
