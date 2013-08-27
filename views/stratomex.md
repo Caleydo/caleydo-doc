@@ -9,7 +9,7 @@ StratomeX is a visualization technique for the analysis of multiple stratified d
 ###Brick Columns
 Each column in StratomeX consists of multiple data columns from one of the loaded datasets. The rows inside a brick column are grouped together to form so called bricks.
 
- * **Adding columns** Columns can be added using the [Data-View Integrator](views/dvi.md).
+ * **Adding columns** Columns can be added using the [Data-View Integrator](dvi.md).
  * **Removing columns** Columns can be removed by either using the close icon that is appears when hovering over the header brick or by selecting the corresponding option in the right-click context menu of the header brick.
  * **Reordering columns** Columns inside StratomeX can be reordered by using drag-and-drop. Pick the header brick, hold the mouse button, move the column to the new position and release the mouse button.
 
