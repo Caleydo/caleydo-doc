@@ -1,12 +1,11 @@
 # StratomeX: Multi-Dataset Analysis
-
 StratomeX is a visualization technique for the analysis of multiple stratified datasets. For a general introduction please refer to the [StratomeX project page](http://stratomex.calyedo.org/). 
-
-[](http://www.youtube.com/watch?v=UcKDbGqHsdE)
 
 [StratomeX Elements](#StratomeX_Elements)
 [TourGuide Wizard](#TourGuide Wizard)
 [LineUp](#LineUp)
+
+[](http://www.youtube.com/watch?v=UcKDbGqHsdE)
 
 ##StratomeX Elements
 ###Brick Columns

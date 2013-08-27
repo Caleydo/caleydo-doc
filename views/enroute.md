@@ -1,10 +1,10 @@
 #enRoute: Pathway Analysis
 enRoute is a visualization technique for the analysis of multi-dimensional data in the context of pathways. For a general introduction please refer to the [enRoute project page](http://enroute.calyedo.org/). 
 
-[](http://www.youtube.com/watch?v=lOX1XFKNqo0)
-
 [Pathway View](#Pathway_View)
 [enRoute View](#enRoute_View)
+
+[](http://www.youtube.com/watch?v=lOX1XFKNqo0)
 
 ##Pathway View
 The pathway view allows to explore different KEGG pathway maps. A pathway map can be chosen using the drop-down box of the tool bar.
