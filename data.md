@@ -10,10 +10,10 @@
 ##Dataset Principles
 A dataset in Caleydo is (in most cases) based on tabular data in matrix form. However, Caleydo never shows only a dataset, but always shows *perspectives* on a dataset. Perspectives are used for columns and rows of datasets separately, but you always need both, a perspective of rows and columns.
 
-A perspectives contains rules on how to access a dataset. Specifically a perspective defines:
+A perspective contains rules on how to access a dataset. Specifically a perspective defines:
 
  * The **order** of the elements (e.g., different perspectives on one dataset can contain different sortings)
- * The **containment** of elements (e.g., a perspective can be filtered to contain only a subset of the data)
+ * The **containment** of elements (e.g., a perspective can represent a filter and thus only contain a subset of the data)
  * A **grouping** of elements, i.e., it's *stratification* (e.g., a clustering algorithm assigns elements to a shared group)
 
 Attention: For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To show your data in a heat map, you need both, the perspectives of genes and patients.
@@ -23,7 +23,7 @@ If you just load a dataset Caleydo automatically creates default perspectives co
 For virtually all operations in Caleydo you must specify, which dataset you want to use, which perspective you want to use for the rows in the dataset and which perspective you want to use for the columns. In many cases this might be implicit, for example, because there is only one possible combination, but sometimes you will have to specify these things yourself.
 
 ##Startup
-Upon startup you are presented with choices for different ways to start Caleydo. These are:
+Upon startup you can choose from different ways to start Caleydo. These are:
 
  * **Load Demo Data** - with readily set-up sample projects
  * **TCGA Data** - provides access to pre-packaged TCGA data files. 
@@ -47,11 +47,11 @@ Attention: Note that you can't change the organism at runtime and that you can't
 
 To get an idea of how the import of individual datasets works, you can also choose to load a sample gene expression dataset.
 
-### TCGA Dataset
+### TCGA Data
 We package data form [The Cancer Genome Atlas (TCGA)](http://cancergenome.nih.gov/) for Caleydo, so that you don't have to load all the TCGA datasets manually. We use the output of the Broad Institute's Firehose pipeline for all available tumor types. Firehose is run roughly every other month and you have access to the various results. 
 
 ### Load Other Data
-Use this option if none of the data you want to analyze is from sources other the molecular biology.
+Use this option if none of the data you want to analyze is genetic domain.
 
 ### Load Project
 Here you can choose to load a Caleydo project file from your hard drive or continue where you left of when you last quit Caleydo.
@@ -117,7 +117,7 @@ Caleydo uses a "foreign key" principle for mapping between multiple datasets, be
 Both tables contain the same Identifiers, "Sample ID" and "Gene ID". By telling Caleydo which identifier the file has in the columns and in the rows of the file, we can later resolve relationships between multiple datasets. In the example above, we know that the IDs of the left table's column are "samples", while the right table uses "samples" in the rows. 
 
 
-Sometimes, however, things are a little more complicated. As we often have more **complex relationships between identifiers** we need to introduce ID Types. ID Types define a family of identifiers which can be mapped among each other. In most cases you won't need to define more complex relationships by yourself, but the predefined "GENE" ID Type is an example: it contains various identifiers such as "Refseq", "Gene Symbol", "David ID", "Ensemble ID", etc., which can all be mapped to each other.
+Sometimes, however, things are a little more complicated. As we often have more **complex relationships between identifiers** we need to introduce ID Types. ID Types define a family of identifiers which can be mapped among each other. In most cases you won't need to define more complex relationships by yourself, but the predefined "GENE" ID Type is an example: it contains various identifiers such as "Refseq", "Gene Symbol", "David ID", "Ensembl Gene ID", etc., which can all be mapped to each other.
 
 That's why you have to define both, ID Types and identifiers for rows and columns. If you have an ID Type, or and an identifier, which is not yet available in the drop-down menu, you can easily create a new one. If you later load another dataset with the same ID Type or identifier, Caleydo will be able to resolve relationships between them.
 
@@ -145,7 +145,7 @@ Depending on whether the dataset is homogeneous or inhomogeneous, numerical data
 
 **Data Scale** In some cases, it can be beneficial to use a logarithmic scale instead of a linear scale. You can choose to use a logarithmic scale for the visualizations in Caleydo by specifying one of the provides logarithms (log2 is the most common choice for gene expression data).
 
-**Data Clipping** You can choose to clip the data at a specified maximum or minimum. This can make sense to counter-balance for outliers, which would otherwise use up much of your scale. Data points greater than the clipped value are shown as being of the clipping threshold.
+**Data Clipping** You can choose to clip the data at a specified maximum or minimum. This can make sense to counter-balance for outliers, which would otherwise use up much of your scale.
 
 **Data Center** A data center can be set to define a neutral center point of the data. If set, the value range of the dataset is assumed to be equal in positive and negative direction from the center point. So, for a dataset whose values range from -0.3 to 0.5 with a data center of 0, the value range will be set to -0.5 to 0.5.
 
@@ -185,7 +185,7 @@ Again select the "Number of Header Rows" to be excluded and identify the "Column
 
 In the example here, we have loaded a file that contains two groupings. You can choose which grouping of the file to load by checking or unchecking the columns.
 
-You can specify a "Grouping Name" for each grouping which will later be used to name the perspective. If you choose "Use Grouping Names from Header Row", you can specify a row within the header rows of the file, which contains the grouping names (highlighted in green). Alternatively, you can choose "Use Custom Grouping names" to directly enter the name of individual groupings within a special row of the preview table. These namese will be the names of the perspectives, which you can also change later. 
+You can specify a "Grouping Name" for each grouping which will later be used to name the perspective. If you choose "Use Grouping Names from Header Row", you can specify a row within the header rows of the file, which contains the grouping names (highlighted in green). Alternatively, you can choose "Use Custom Grouping names" to directly enter the name of individual groupings within a special row of the preview table. These names will be the names of the perspectives, which you can also change later. 
 
 Once you press finish the dataset will be loaded and Caleydo will be started.
 
@@ -201,12 +201,12 @@ A **Caleydo Project** is a .cal file that contains all information about a sessi
 
 Pressing **Import Data** will bring you to the data import process you might have encountered upon startup (see [Loading Data](loading.md)). This allows you to add multiple datasets at the same time to Caleydo.
 
-The **Export Data** button opens a dialog that allows you to save a perspective of a dataset (see dataset principles) to a file. This can be useful if you filtered or clustered your data in a particular way and want to process it further using other tools.
+The **Export Data** button opens a dialog that allows you to save a perspective of a dataset (see [Dataset Principles](#Dataset_Principles)) to a file. This can be useful if you filtered or clustered your data in a particular way and want to process it further using other tools.
 
 ##Data Processing
 
 ###Clustering
-Clustering creates a grouping of a perspective. To run a clustering algorithm you have to specify an input dataset, a perspective for the row and a perspective for the columns (see dataset principles). If those are specified you will be presented with a dialog similar to the one on the right.
+Clustering creates a grouping of a perspective. To run a clustering algorithm you have to specify an input dataset, a perspective for the row and a perspective for the columns (see [Dataset Principles](#Dataset_Principles)). If those are specified you a dialog similar to the one on the right will be shown.
 ![](i/clustering.png "Clustering GUI")
 
 Caleydo can cluster either the columns or the rows of a perspective.
@@ -220,6 +220,6 @@ You also have to choose whether you want to replace the grouping in the input pe
 
 Caleydo currently supports three clustering algorithms, two of them are partitional algorithms (where no relation between the separate cluster is known) and one is a hierarchical algorithm (which builds a complete tree of relations). These algorithms are:
 
-The clustering algorithm by Eisen et al (hierarchical). Here you can choose between several linkage options.
-Affinity propagation (partitional). This algorithm generally delivers the best results, but can be slow. Affinity propagation lets you choose a factor which influences the number of clusters returned, which may be between 1 and 10, where 1 produces fewer clusters and 10 produces more clusters.
-k-means clustering, as implemented by WEKA (partitional). k-means is generally the fastest clustering algorithm, however you must specify the number of clusters yourself.
+ * The clustering algorithm by [Eisen et al](http://dx.doi.org/10.1073/pnas.95.25.14863) (hierarchical). Here you can choose between several linkage options.
+ * [Affinity propagation](http://dx.doi.org/10.1126/science.1136800) (partitional). This algorithm generally delivers the best results, but can be slow. Affinity propagation lets you choose a factor which influences the number of clusters returned, which may be between 1 and 10, where 1 produces fewer clusters and 10 produces more clusters.
+ * [K-means](http://en.wikipedia.org/wiki/K-means) clustering, as implemented by WEKA (partitional). K-means is generally the fastest clustering algorithm, however you must specify the number of clusters yourself.
