@@ -3,7 +3,7 @@ caleydo-doc
 
 User documentation for Caleydo
 
-Currently accessible via: http://markdown.io/_theme=spacelab/_title=Caleydo_Help/https://raw.github.com/Caleydo/caleydo-doc/master/index.md
+Currently accessible via: http://markdown.io/https://raw.github.com/Caleydo/caleydo-doc/master/index.md
 
 Syntax: http://wiki.markdown.io/syntax.txt
 
