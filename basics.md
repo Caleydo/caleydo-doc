@@ -69,9 +69,6 @@ If a pathway matches your query, or a pathway contains a selected gene you can d
 
 An important feature of the search dialog is it's ability to **create categorizations based on genes**. This means that a new grouping (and perspective) can be created based on an individual gene. By right-clicking on a row in the search results you get the options to create categorizations for the various datasets. Currently that makes most sense for copy-number and mutation status data. Support for other data types will be added in the future. Clicking, for example, on the "Create categorization of Mutation Status" will result in a perspective being created with two groups: one containing all mutated samples, and another one containing all normal samples.
 
-## Table
-Attention: WRITE ME
-
-## Parallel Coordinates
-Attention: IMPORT ME FROM OLD WEBSITE
+[](include:views/table.md)
+[](include:views/parcoords.md)
 
