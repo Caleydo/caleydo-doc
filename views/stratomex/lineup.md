@@ -1,7 +1,7 @@
 ##LineUp
 LineUp is visualization technique for analysing multi-attribute rankings. If you want to find out more about this general visualization technique, take a look at the [LineUp project page](http://lineup.caledydo.org). 
 
-![](i/lineup_explained.svg "explaination of the the LineUp interface used in Caleydo")
+![](i/lineup_explained.png "explaination of the the LineUp interface used in Caleydo")
 
 In StratomeX LineUp is used as a selection interface for Brick Columns. 
 

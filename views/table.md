@@ -1,14 +1,14 @@
 ## Table
 The table view is a scalable raw data viewer. It can be used to display arbitrary table perspectives.
 
-![](i/table.svg "Screenshot of the table viewer")
+![](i/table.png "Screenshot of the table viewer")
 
 It supports:
 
 * **record / dimension groupings**
   if the selected table perspectives contains record or dimension stratifications the table viewer groups the corresponding rows / columns together, similar MS Excel grouping feature.
 
-* **scalable data mode**
+* **scalability**
   The viewer internally uses [Nattable](http://www.eclipse.org/nattable/) for rendering. 
 
 * **different data representations**  
