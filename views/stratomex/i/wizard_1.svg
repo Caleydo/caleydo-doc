@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="988.32684"
+   height="710"
+   sodipodi:docname="wizard_1.svg"
+   inkscape:export-filename="D:\Documents\workspaces\caleydo_workspace\caleydo-doc\views\stratomex\i\wizard_1.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata2991">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2989">
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible">
+      <path
+         id="path3794"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="654"
+     id="namedview2987"
+     showgrid="false"
+     fit-margin-right="10"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.60704225"
+     inkscape:cx="492.17191"
+     inkscape:cy="355"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2985" />
+  <image
+     sodipodi:absref="D:\Documents\workspaces\caleydo_workspace\caleydo-doc\views\stratomex\i\wizard_1_raw.png"
+     xlink:href="wizard_1_raw.png"
+     y="0"
+     x="0"
+     id="image2993"
+     height="710"
+     width="893" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     d="m 593.52026,445.14956 49.99186,90.4108"
+     id="path2995"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="376.53436"
+     y="407.9216"
+     id="text2997"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="376.53436"
+       y="407.9216"
+       id="tspan3001"
+       style="font-size:20px">Not applicable, as the </tspan><tspan
+       sodipodi:role="line"
+       x="376.53436"
+       y="432.9216"
+       style="font-size:20px"
+       id="tspan4407">displayed dataset doesn't </tspan><tspan
+       sodipodi:role="line"
+       x="376.53436"
+       y="457.9216"
+       style="font-size:20px"
+       id="tspan4415">represent genes</tspan></text>
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path3005"
+     d="m 591.39295,411.11256 54.24648,-11.70022"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="818.96198"
+     y="56.839386"
+     id="text4417"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4419"
+       x="818.96198"
+       y="56.839386">Abort</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="817.46881"
+     y="107.37872"
+     id="text4421"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4423"
+       x="817.46881"
+       y="107.37872">Accept</tspan><tspan
+       sodipodi:role="line"
+       x="817.46881"
+       y="132.37872"
+       id="tspan4431">will become green, </tspan><tspan
+       sodipodi:role="line"
+       x="817.46881"
+       y="157.37872"
+       id="tspan4435">when the workflow </tspan><tspan
+       sodipodi:role="line"
+       x="817.46881"
+       y="182.37872"
+       id="tspan4447">can be completed</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="769.97845"
+     y="228.52866"
+     id="text4427"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4429"
+       x="769.97845"
+       y="228.52866">return to the </tspan><tspan
+       sodipodi:role="line"
+       x="769.97845"
+       y="253.52866"
+       id="tspan4437">previous selection</tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     d="m 816.83465,53.724017 -20.5966,14.579652"
+     id="path4439"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path4441"
+     d="m 814.57829,101.48355 -16.08388,11.57118"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Send)"
+     d="m 785.24567,211.29287 -2.54575,-41.82924"
+     id="path4449"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+</svg>
