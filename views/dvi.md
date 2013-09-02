@@ -7,8 +7,8 @@ The Data-View Integrator is a graph representation that displays every loaded da
 ### Layout
 The Data-View Integrator supports two different node layouts: A **spring-based** and a **bipartite** layout. You can switch between these two layouts by using the tool bar on the top right side of the view.
 
-![](views/i/dvi_spring-based_layout.png "Spring-based layout")
-![](views/i/dvi_bipartite_layout.png "Bipartite layout")
+![](i/dvi_spring-based_layout.png "Spring-based layout")
+![](i/dvi_bipartite_layout.png "Bipartite layout")
 
 The spring-based layout places connected nodes closer together, so that this layout is especially suitable for gaining an overview of the datasets and their relationships. When hovering the mouse over a data node the ID types that are shared with other datasets are displayed on the links. Links between data nodes can be hidden by default using the tool bar. You can also position every node individually using drag and drop.
 
@@ -19,7 +19,7 @@ We use **dataset perspectives** to define sets of rows and columns and their gro
 
 In the default representation of a data node none of the row or column perspectives defined for the dataset are shown. By clicking on the arrow button on the bottom right of a data node, it switches to its **matrix representation**, where each row refers to a row perspective and each column to a column perspective. A dataset perspective corresponds to a specific row/column perspective combination and is represented by a cell of the matrix. You can reveal the individual groups of a row- or column perspective by clicking on the "+" icon next it. 
 
-![](views/i/dvi_datanode_matrix.png "Import data dialog")
+![](i/dvi_datanode_matrix.png "Import data dialog")
 
 A row- or column perspective that has been loaded for one dataset can also be used in another one, if the ID types of their rows can be mapped. In order to do this, drag the row perspective from one data node to another one.
 
