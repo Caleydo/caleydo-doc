@@ -1,7 +1,7 @@
 ##LineUp
 LineUp is visualization technique for analysing multi-attribute rankings. If you want to find out more about this general visualization technique, take a look at the [LineUp project page](http://lineup.caledydo.org). 
 
-![](i/lineup_explained.svg "explaination of the the LineUp interface used in Caleydo")
+![](i/lineup_explained.png "explaination of the the LineUp interface used in Caleydo")
 
 In StratomeX LineUp is used as a selection interface for Block Columns. 
 
@@ -9,9 +9,9 @@ The LineUp layout consists of three columns:
 
 1. **dataset selection** 
    The first column is used to include and exclude datasets from the ranking query used to select data. In addition, clinical and categorical datasets supports simple filtering operations that can be used to filter specific categories and/or specific clinical variable data types.
-2. **ranking table**
+2. **ranking table** 
    The central columns is the original LineUp visualization technique that can be used to rank, filter, browse and select the contained dataset items. 
-3. **Memo Pad**
+3. **Memo Pad** 
    The last column of the LineUp interface can be used to persist scores over multiple wizards. Please take a look at the [LineUp project page](http://lineup.caledydo.org) for details about the Memo Pad.
    
 ###Ranking table
