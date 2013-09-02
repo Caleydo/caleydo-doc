@@ -20,7 +20,7 @@ We use **dataset perspectives** to define sets of rows and columns and their gro
 
 In the default representation of a data node none of the row or column perspectives defined for the dataset are shown. By clicking on the arrow button on the bottom right of a data node, it switches to its **matrix representation**, where each row refers to a row perspective and each column to a column perspective. A dataset perspective corresponds to a specific row/column perspective combination and is represented by a cell of the matrix. You can reveal the individual groups of a row- or column perspective by clicking on the "+" icon next it. 
 
-![](i/dvi_datanode_matrix.png "Import data dialog")
+![](i/dvi_datanode_matrix.png "Data node matrix")
 
 A row- or column perspective that has been loaded for one dataset can also be used in another one, if the ID types of their rows can be mapped. In order to do this, drag the row perspective from one data node to another one.
 
