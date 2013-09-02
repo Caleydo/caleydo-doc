@@ -19,7 +19,6 @@ In the **bipartite layout** view nodes are located at the top of the view, where
 We use **dataset perspectives** to define sets of rows and columns and their groupings of a tabular dataset. This is done by specifying a row and a column perspective. For more information about perspectives, refer to [this page](loading.md).
 
 In the default representation of a data node none of the row or column perspectives defined for the dataset are shown. By clicking on the arrow button on the bottom right of a data node, it switches to its **matrix representation**, where each row refers to a row perspective and each column to a column perspective. A dataset perspective corresponds to a specific row/column perspective combination and is represented by a cell of the matrix. You can reveal the individual groups of a row- or column perspective by clicking on the "+" icon next it. 
-
 ![](i/dvi_datanode_matrix.png "Data node matrix")
 
 A row- or column perspective that has been loaded for one dataset can also be used in another one, if the ID types of their rows can be mapped. In order to do this, drag the row perspective from one data node to another one.
