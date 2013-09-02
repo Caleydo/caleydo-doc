@@ -1,7 +1,7 @@
 ## Table
 The table view is a scalable raw data viewer. It can be used to display arbitrary table perspectives.
 
-![](i/table.svg "Screenshot of the table viewer")
+![](i/table.png "Screenshot of the table viewer")
 
 It supports:
 
