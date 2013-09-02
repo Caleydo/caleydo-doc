@@ -1,4 +1,4 @@
-#enRoute: Pathway Analysis
+# enRoute: Pathway Analysis
 enRoute is a visualization technique for the analysis of multi-dimensional data in the context of pathways. For a general introduction please refer to the [enRoute project page](http://enroute.calyedo.org/). 
 
 [Pathway View](#Pathway_View)
@@ -6,17 +6,17 @@ enRoute is a visualization technique for the analysis of multi-dimensional data 
 
 [](http://www.youtube.com/watch?v=lOX1XFKNqo0)
 
-##Pathway View
+## Pathway View
 The pathway view allows to explore different KEGG pathway maps. A pathway map can be chosen using the drop-down box of the tool bar.
 ![](../i/pathway_mapping.png "Pathway with on-node mapping")
 
-###On-Node Data Mapping
+### On-Node Data Mapping
 The nodes of pathway maps can be overlayed with a color code showing the values of related experimental data. By default no overlay is shown, but you can choose to show an overlay for compatible datasets from the dataset drop-down box. Alternatively, you can also assign subsets of these datasets using the [Data-View Integrator](dvi.md). You can either map all samples from the chosen source by clicking the "Map all Samples" radio button, or only samples that are currently selected (shown in the "Selection Info View") by choosing "Map selected Samples".
 If more than one sample is mapped at the same time the average value is calculated and a little green bar chart next to the node shows how variable the values for this node are - if the bar is long this indicates high variance, if it's short or absent this indicates low or no variance.
 
 In some cases your dataset might not have a mapping for a gene in the pathway. We indicate the abscence of a mapping by drawing a small rectangle in the upper left corner of the pathway node.
 
-###Path Selection
+### Path Selection
 In order to explore experimental data mapped to pathway nodes in more detail, a path of nodes can be extracted from the pathway view and then be shown side-by side with experimental data in the [enRoute view](enroute.md) discussed in the next chapter.
 
 ![](../i/path_selection.png "Select path") 
@@ -30,7 +30,7 @@ A selected path can be extended by holding the Shift key and clicking on the nod
 ![](../i/pathway_clear_path.png "Clear path") 
 Paths can be cleared using the corresponding button in the tool bar.
 
-##enRoute View
+## enRoute View
 The enRoute view can be used for the exploration of large amounts of experimental data that is associated with a path of pathway nodes. enRoute is essentially divided into two parts: the path visualization and the experimental data visualization.
 
 ![](../i/enroute.png "enRoute view")
@@ -38,7 +38,7 @@ The enRoute view can be used for the exploration of large amounts of experimenta
 ![](../i/enroute_fit_to_width.png "Fit to width") 
 In the enRoute view, every displayed element is granted enough space to be perceived well. If lots of data needs to be displayed, it can happen that horizontal scrolling is required. By selecting the corresponding button in the toolbar, the displayed content is resized to fit the width of the view.
 
-###Path Visualization
+### Path Visualization
 ![](../i/enroute_branch_switching.png "Branch switching") 
 On the left side of the enRoute view, the path of nodes that has been selected in the Pathway view is displayed in a top-down layout. Branches are indicated as abstract nodes that connect to the path nodes on the left side. They either summarize incoming or outgoing branches.
 
@@ -46,7 +46,7 @@ By clicking on the "+" icon of such a node, the individual branches are revealed
 
 The currently selected path can also be modified by removing the nodes at each end. This can be achieved by hovering the mouse over the node and clicking the "x" icon that shows up.
 
-##Experimental Data Visualization
+## Experimental Data Visualization
 In order to display experimental data in the enRoute view, **dataset perspectives** have to be assigned to enRoute using the [Data-View Integrator](dvi.md).
 The experimental data is organized in rows and columns. Each row shows data associated with the node it is connected to. Columns represent groups of experiments, which have been specified by the dataset perspective.
 

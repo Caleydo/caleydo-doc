@@ -1,4 +1,4 @@
-#Data Loading and Processing
+# Data Loading and Processing
 
 [Dataset Principles](#Dataset_Principles)
 [Startup](#Startup)
@@ -7,7 +7,7 @@
 [File Operations](#File_Operations)
 [Data Processing](#Data_Processing)
 
-##Dataset Principles
+## Dataset Principles
 A dataset in Caleydo is (in most cases) based on tabular data in matrix form. However, Caleydo never shows only a dataset, but always shows *perspectives* on a dataset. Perspectives are used for columns and rows of datasets separately, but you always need both, a perspective of rows and columns.
 
 A perspective contains rules on how to access a dataset. Specifically a perspective defines:
@@ -22,7 +22,7 @@ If you just load a dataset Caleydo automatically creates default perspectives co
 
 For virtually all operations in Caleydo you must specify, which dataset you want to use, which perspective you want to use for the rows in the dataset and which perspective you want to use for the columns. In many cases this might be implicit, for example, because there is only one possible combination, but sometimes you will have to specify these things yourself.
 
-##Startup
+## Startup
 Upon startup you can choose from different ways to start Caleydo. These are:
 
  * **Load Demo Data** - with readily set-up sample projects
@@ -189,12 +189,12 @@ You can specify a "Grouping Name" for each grouping which will later be used to 
 
 Once you press finish the dataset will be loaded and Caleydo will be started.
 
-###Adding Datasets and Groupings at runtime
+### Adding Datasets and Groupings at runtime
 You can add more datasets once Caleydo is running. To do so, go to "File > Import Data" which brings you right back to the import wizards. Alternatively, click the "Import Data Icon" in the toolbar.
 
 To add more groupings to an existing dataset, right-click on the dataset in the Data-View Integrator and select the appropriate choice.
 
-##File Operations
+## File Operations
 Using the "File" dialog or the equivalent buttons in the tool bar you can save Caleydo projects, import, and export data.
 
 A **Caleydo Project** is a .cal file that contains all information about a session, including the loaded datasets, created or loaded groupings as well as which views are open and what data they show. Project files are a convenient way to store an analysis session and restore it later.
@@ -203,9 +203,9 @@ Pressing **Import Data** will bring you to the data import process you might hav
 
 The **Export Data** button opens a dialog that allows you to save a perspective of a dataset (see [Dataset Principles](#Dataset_Principles)) to a file. This can be useful if you filtered or clustered your data in a particular way and want to process it further using other tools.
 
-##Data Processing
+## Data Processing
 
-###Clustering
+### Clustering
 Clustering creates a grouping of a perspective. To run a clustering algorithm you have to specify an input dataset, a perspective for the row and a perspective for the columns (see [Dataset Principles](#Dataset_Principles)). If those are specified you a dialog similar to the one on the right will be shown.
 ![](i/clustering.png "Clustering GUI")
 
