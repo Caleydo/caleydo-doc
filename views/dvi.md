@@ -7,10 +7,10 @@ The Data-View Integrator is a graph representation that displays every loaded da
 ### Layout
 The Data-View Integrator supports two different node layouts: A **spring-based** and a **bipartite** layout. You can switch between these two layouts by using the tool bar on the top right side of the view.
 
-The spring-based layout places connected nodes closer together, so that this layout is especially suitable for gaining an overview of the datasets and their relationships. When hovering the mouse over a data node the ID types that are shared with other datasets are displayed on the links. Links between data nodes can be hidden by default using the tool bar. You can also position every node individually using drag and drop.
+The **spring-based layout** places connected nodes closer together, so that this layout is especially suitable for gaining an overview of the datasets and their relationships. When hovering the mouse over a data node the ID types that are shared with other datasets are displayed on the links. Links between data nodes can be hidden by default using the tool bar. You can also position every node individually using drag and drop.
 ![](i/dvi_spring-based_layout.png "Spring-based layout")
 
-In the bipartite layout view nodes are located at the top of the view, whereas data nodes are arranged at the bottom. This layout is intended to be used when assigning data to views.
+In the **bipartite layout** view nodes are located at the top of the view, whereas data nodes are arranged at the bottom. This layout is intended to be used when assigning data to views.
 ![](i/dvi_bipartite_layout.png "Bipartite layout")
 
 ### Data Organization
