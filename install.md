@@ -20,6 +20,6 @@ You can choose to simply run Caleydo or to install it. Installing will associate
 To **just run** Caleydo without installation download the zip versions for your platform and unpack the archive. You will now have a caleydo folder. To start Caleydo, run the Caleydo.exe on **Windows**, or the Caleydo executable on **Linux** within in this folder. To run Caleydo on **Mac OS X**, simply double-click the Caleydo app. When running Caleydo for the first time on Mac OS X 10.8 (Mountain Lion), shift + right click the Caleydo app and then select "Open" from the menu and confirm that you want to run the application.
 
 To **install** Caleydo on:
- * **Windows** choose the installer (.exe file) form the download page and run the installer. 
- * **Linux** we currently provide debian packages. 
+ * **Windows**, choose the installer (.exe file) form the download page and run the installer. 
+ * **Linux**, we currently provide debian packages. 
  * **Mac OS X**, simply drag the Caleydo app into your "Applications" folder.
