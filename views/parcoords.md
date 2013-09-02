@@ -14,10 +14,12 @@ To make an accurate comparison between two different experiments it is often nec
 The parallel coordinates use a drop below the axis, shown in the picture on the right to achieve this task. By default the drop is shown in a small, simplified version. Once the mouse is placed over it, it changes to the version containing three buttons. By clicking the left button, the associated axis is **duplicated**. By clicking the right button, the axis is **removed**. By dragging the central button to the sides, the axis is dragged along and consequently **rearranged**. When dragging around axes, the spacing between the axes can become uneven. To balance the spacing between the axes again, click the icon shown on the left in the tool bar.
 
 ### Filtering
-The parallel coordinates view supports three types of filters, a one-dimensional filter, a global filter and an angular filter. ![](i/parcoords_drop_gate.png "") 
 
 ![](i/parcoords_gate.png "") 
+The parallel coordinates view supports three types of filters, a one-dimensional filter, a global filter and an angular filter. 
+
 The **one-dimensional filter** allows you to remove all genes that are smaller and/or larger then a specified value. To activate the brush for a particular axis click the small drop on top of the axis (shown on the right). This makes the filter, as shown on the left appear.
+![](i/parcoords_drop_gate.png "") 
 
 To change the height of the filter, click the black labels with the caption and drag them up or down. This adjusts the size of the filter an thereby adds or removes polylines. By dragging the body of the filter the top and the bottom are moved simultaneously.
 
