@@ -2,7 +2,7 @@
  
 Attention: The information on this help page is outdated. Use with care.
 
-Parallel coordinates visualize multidimensional data by drawing lines between a set of axis. Each line represents one entity, typically a gene. Each axis a dimension, typically an experiment. When one gene is viewed in the parallel coordinates, all it's expression values for the experiments are visible simultaneously. By drawing multiple lines at the same time, trends in a dataset can be identified. In the screen-shot a dense (dark) area around the bottom shows that many genes have expression values in this area. In parallel coordinates you can select the polylines as well as the axis. The current selection will be shown in the [Selection Info](basics.md#Selection_Info).
+Parallel coordinates visualize multidimensional data by drawing lines between a set of axis. Each line represents one entity, typically a gene. Each axis a dimension, typically an experiment. When one gene is viewed in the parallel coordinates, all it's expression values for the experiments are visible simultaneously. By drawing multiple lines at the same time, trends in a dataset can be identified. In the screen-shot a dense (dark) area around the bottom shows that many genes have expression values in this area. In parallel coordinates you can select the polylines as well as the axis. The current selection will be shown in the [Selection Info](../basics.md#Selection_Info).
 ![](i/parcoords_example.png "Screenshot of the parallel coordinates view") 
 
 ### Rearranging axis
