@@ -206,7 +206,7 @@ The **Export Data** button opens a dialog that allows you to save a perspective 
 ## Data Processing
 
 ### Clustering
-Clustering creates a grouping of a perspective. You can trigger a clustering dialog either using "Data" - "Cluster Data" in the main or using the context menu of a data node in the [Data-View Integrator](basics.md). To run a clustering algorithm you first have to specify an input dataset, a perspective for the row and a perspective for the columns (see [Dataset Principles](#Dataset_Principles)).
+Clustering creates a grouping of a perspective. You can trigger a clustering dialog either using "Data" - "Cluster Data" in the main or using the context menu of a data node in the [Data-View Integrator](basics.md). To run a clustering algorithm you first have to specify an input dataset, a perspective for the rows and a perspective for the columns (see [Dataset Principles](#Dataset_Principles)).
 ![](i/clustering.png "Clustering GUI")
 
 Next, you have to specify whether you want to cluster rows or columns, which are denominated by their ID type. In the shown example, "Gene" is selected.
