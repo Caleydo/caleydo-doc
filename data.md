@@ -41,9 +41,9 @@ Use this option if at least some of your data is molecular biology and contains 
 
 When you load genetic data you need to specify the source organism of your data. Currently Caleydo supports human and mouse data. When you choose to load genetic data, pathway maps are also loaded.
 
-Attention: You can load data from other organisms through the "Load Other Data" tab, but you won't have quite the same functionality as for these two organisms.
+Attention: You can load data from other organisms through the *Load Other Data* tab, but you won't have quite the same functionality as for these two organisms.
 
-Attention: Note that you can't change the organism at runtime and that you can't load data from multiple organisms at a time. You can however combine "other data" with data from one organism.
+Attention: Note that you can't change the organism at runtime and that you can't load data from multiple organisms at a time. You can however combine *other data* with data from one organism.
 
 To get an idea of how the import of individual datasets works, you can also choose to load a sample gene expression dataset.
 
@@ -86,7 +86,7 @@ Again, this works equally for columns and rows of the dataset file. The only req
 Here we discuss how datasets and groupings are loaded from the delimited text file and what options you have to process your data. A wizard guides you through the individual steps of data loading.
 
 ### Loading a Dataset
-The picture on the right shows a correctly configured import dialog. The first step is to press the "Open Data File" button and select a delimited text file from your hard drive. Once you loaded the data file it will appear in the preview table. As "TAB" is selected as the default delimiter, you may have to adjust the delimiter until you see a correct table.
+The picture on the right shows a correctly configured import dialog. The first step is to press the *Open Data File* button and select a delimited text file from your hard drive. Once you loaded the data file it will appear in the preview table. As *TAB* is selected as the default delimiter, you may have to adjust the delimiter until you see a correct table.
 ![](i/load_dataset.png "Data loading dialog")
 
 You can enter a custom dataset name or go with the one that was automatically selected.
@@ -95,36 +95,35 @@ Next, you have to choose, whether the dataset is homogeneous or inhomogeneous. A
 
 In contrast, an **inhomogeneous dataset** may contain both categorical and numerical columns with different categories and bounds.
 
-Attention: Data within a column must always be homogeneous. If your rows are homogeneous instead you can swap rows and columns by clicking the "Transpose" button on the top left of the preview table.
+Attention: Data within a column must always be homogeneous. If your rows are homogeneous instead you can swap rows and columns by clicking the *Transpose* button on the top left of the preview table.
 
-For rows, you have to make sure that you **excluded header lines** in the file by adjusting the "Number of Header Rows" spinner if necessary.
+For rows, you have to make sure that you **excluded header lines** in the file by adjusting the *Number of Header Rows* spinner if necessary.
 
 For columns, you can **exclude individual columns** by de-selecting the checkbox at their headers.
 
 Attention: Make sure that columns containing neither data nor IDs are deselected. 
 
-You also have to **configure the IDs** of rows and columns. If you are loading a genetic dataset, chances are that everything is already in order, because Caleydo tries to guess the IDs in the file. The rows and columns containing the IDs are highlighted in green. The green rows and columns highlight the rows or columns where Caleydo will read IDs. If this is not correct, you have to specify where the IDs are by adjusting the "Column with Row IDs" or "Row with Column IDs" spinners.
+You also have to **configure the IDs** of rows and columns. If you are loading a genetic dataset, chances are that everything is already in order, because Caleydo tries to guess the IDs in the file. The rows and columns containing the IDs are highlighted in green. The green rows and columns highlight the rows or columns where Caleydo will read IDs. If this is not correct, you have to specify where the IDs are by adjusting the *Column with Row IDs* or *Row with Column IDs* spinners.
 
-If you do not want or need to map rows or columns to other datasets, groupings, or databases, you can select "Unmapped" in the drop-down menu for the Row or Column Type.
+If you do not want or need to map rows or columns to other datasets, groupings, or databases, you can select *Unmapped* in the drop-down menu for the Row or Column Type.
 
 #### Advanced ID Mapping
 Attention: This section is important if you would like to use multiple datasets in Caleydo and see their relationships.
 
-Caleydo uses a "foreign key" principle for mapping between multiple datasets, between datasets and groupings, as well as between datasets and online databases. The following two tables are an example for the approach:
+Caleydo uses a *foreign key* principle for mapping between multiple datasets, between datasets and groupings, as well as between datasets and online databases. The following two tables are an example for the approach:
 
 ![](i/id_table.png "Sample tables with IDs")
 
-Both tables contain the same Identifiers, "Sample ID" and "Gene ID". By telling Caleydo which identifier the file has in the columns and in the rows of the file, we can later resolve relationships between multiple datasets. In the example above, we know that the IDs of the left table's column are "samples", while the right table uses "samples" in the rows. 
+Both tables contain the same Identifiers, *Sample ID* and *Gene ID*. By telling Caleydo which identifier the file has in the columns and in the rows of the file, we can later resolve relationships between multiple datasets. In the example above, we know that the IDs of the left table's column are *samples*, while the right table uses *samples* in the rows. 
 
-
-Sometimes, however, things are a little more complicated. As we often have more **complex relationships between identifiers** we need to introduce ID Types. ID Types define a family of identifiers which can be mapped among each other. In most cases you won't need to define more complex relationships by yourself, but the predefined "GENE" ID Type is an example: it contains various identifiers such as "Refseq", "Gene Symbol", "David ID", "Ensembl Gene ID", etc., which can all be mapped to each other. Note, that in some cases there is no 1:1 relationship between different identifiers, which can cause one id of dataset A to refer to multiple ids in dataset B. In the shown diagram you can see the types of relationship among the gene identifiers loaded in Caleydo.
+Sometimes, however, things are a little more complicated. As we often have more **complex relationships between identifiers** we need to introduce ID Types. ID Types define a family of identifiers which can be mapped among each other. In most cases you won't need to define more complex relationships by yourself, but the predefined *GENE* ID Type is an example: it contains various identifiers such as *Refseq*, *Gene Symbol*, *DAVID ID*, *Ensembl Gene ID*, etc., which can all be mapped to each other. Note, that in some cases there is no 1:1 relationship between different identifiers, which can cause one ID of dataset A to refer to multiple IDs in dataset B. In the shown diagram you can see the relationship types among the gene identifiers loaded in Caleydo.
 ![](i/id_mapping.png "Caleydo ID Mapping Graph ")
 
 That's why you have to define both, ID Types and identifiers for rows and columns. If you have an ID Type, or and an identifier, which is not yet available in the drop-down menu, you can easily create a new one. If you later load another dataset with the same ID Type or identifier, Caleydo will be able to resolve relationships between them.
 
 Attention: For inhomogeneous datasets you can't specify column ID types.
 
-In some cases you might want to **map identifiers from two datasets, which are stored in a slightly different format**. For example, in one dataset the IDs could look like this: "TCGA_001-03", whereas in another dataset the equivalent IDs use a format like that "tcga.001.03". To make Caleydo match these different IDs, you can define how to parse row or column identifiers by pressing the "Define Parsing" button, showing the dialog on the right. First, you can choose, whether the case of the IDs should be modified, i.e., whether to keep the case unchanged, to make it upper case, or to make it lower case. Second, you can use a regular expression (see [reference](http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)) to replace all occurrences of a certain string with a different string. Third, you can specify a regular expression to split an ID around matches into several substrings and use the first substring as resulting ID. This dialog also shows a preview of all applied changes to an ID taken from the dataset.
+In some cases you might want to **map identifiers from two datasets, which are stored in a slightly different format**. For example, in one dataset the IDs could look like this: *TCGA_001-03*, whereas in another dataset the equivalent IDs use a format like that *tcga.001.03*. To make Caleydo match these different IDs, you can define how to parse row or column identifiers by pressing the *Define Parsing* button, showing the dialog on the right. First, you can choose, whether the case of the IDs should be modified, i.e., whether to keep the case unchanged, to make it upper case, or to make it lower case. Second, you can use a regular expression (see [reference](http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)) to replace all occurrences of a certain string with a different string. Third, you can specify a regular expression to split an ID around matches into several substrings and use the first substring as resulting ID. This dialog also shows a preview of all applied changes to an ID taken from the dataset.
 ![](i/id_parsing.png "Parsing options for IDs")
 
 After you have adjusted all necessary settings, you can now or continue to the next wizard page.
@@ -133,10 +132,10 @@ After you have adjusted all necessary settings, you can now or continue to the n
 If your dataset is homogeneous, you must specify whether the data is numerical or categorical on the second page, which will lead you to different subsequent pages.
 
 ### Specifying Properties for Inhomogeneous Datasets
-If your dataset is inhomogeneous, you can set data properties for each column on the second page, in the dialog shown to the right. Caleydo automatically tries to determine the data type (numerical/categorical) and properties for each column. The currently set data type of a column is displayed in its header. To check or change the data type and properties of a column you can click on the "Properties" button in its header. This will open up a dialog, where you can choose whether the column contains numerical or categorical data and then set numerical and categorical data properties respectively.
+If your dataset is inhomogeneous, you can set data properties for each column on the second page, in the dialog shown to the right. Caleydo automatically tries to determine the data type (numerical/categorical) and properties for each column. The currently set data type of a column is displayed in its header. To check or change the data type and properties of a column you can click on the *Properties* button in its header. This will open up a dialog, where you can choose whether the column contains numerical or categorical data and then set numerical and categorical data properties respectively.
 ![](i/inhomogenous_dataset_properties.png "Specifying properties of inhomogeneous datasets")
 
-After the properties of all individual columns have been specified, you can either press "Finish" to load the datasets, or optionally load additional groupings for the dataset on the next page.
+After the properties of all individual columns have been specified, you can either press *Finish* to load the datasets, or optionally load additional groupings for the dataset on the next page.
 
 ### Numerical Data Properties
 Depending on whether the dataset is homogeneous or inhomogeneous, numerical data properties are either set for the whole dataset or for individual columns. The figure on the right shows the available options.
@@ -152,7 +151,7 @@ Depending on whether the dataset is homogeneous or inhomogeneous, numerical data
 
 Attention: Note that Caleydo will not transform the data itself. You will always be able to retrieve the original values, but the visualizations will use the scales or transforms.
  
-**Data Transposition** By default, Caleydo treats the column in the files as the "columns" in the visualizations. For example, in a parallel coordinates view, each column would correspond to an axis. If you choose to "Swap Rows and Columns" then the columns of the input file would correspond to a polyline in the parallel coordinates view.
+**Data Transposition** By default, Caleydo treats the column in the files as the *columns* in the visualizations. For example, in a parallel coordinates view, each column would correspond to an axis. If you choose to *Swap Rows and Columns* then the columns of the input file would correspond to a polyline in the parallel coordinates view.
 
 This makes a lot of sense when you want to analyze very many columns. Also, it is common that in genetic data files, the patients or samples are stored as columns while the genes or other entities are stored in the rows. This would always leave the patients/samples in the table as the columns in the visualizations. 
 
@@ -162,13 +161,13 @@ Attention: As a rule of thumb, the rows in the visualizations should contain wha
 Categorical data properties are also either set for the whole dataset or for individual columns.
 ![](i/categorical_properties.png "Specifying properties of categorical datasets")
 
-At first you have to define whether the categories are **ordinal or nominal**. Ordinal categories have an inherent order, whereas nominal categories don't. For example, the categories "child", "adult", and "senior" for population groups would be ordinal (sorted by their age), whereas gender with categories "male" and "female" would be nominal.
+At first you have to define whether the categories are **ordinal or nominal**. Ordinal categories have an inherent order, whereas nominal categories don't. For example, the categories *child*, *adult*, and *senior* for population groups would be ordinal (sorted by their age), whereas gender with categories *male* and *female* would be nominal.
 
-The table in this dialog shows all categories as rows that have been automatically detected by Caleydo. For each category it shows the "value" of that category as specified in the data file, the number of occurrences of that category, the name of the category (initially identical to the value), and an assigned color. The name of a category can be adjusted. You can also add new categories (to account for a category not represented in this dataset) or remove existing categories (ignoring these entries for the analysis, useful if you have empty cells) using the buttons on the right. 
+The table in this dialog shows all categories as rows that have been automatically detected by Caleydo. For each category it shows the *value* of that category as specified in the data file, the number of occurrences of that category, the name of the category (initially identical to the value), and an assigned color. The name of a category can be adjusted. You can also add new categories (to account for a category not represented in this dataset) or remove existing categories (ignoring these entries for the analysis, useful if you have empty cells) using the buttons on the right. 
 
-If the categories are ordinal, you can change the order of categories by moving individual rows up or down using the buttons in the row header. You can define one of the categories to be "neutral" using the corresponding drop-down box on the right side. This is useful if you have values that are "higher" or "lower" than a default category. 
+If the categories are ordinal, you can change the order of categories by moving individual rows up or down using the buttons in the row header. You can define one of the categories to be *neutral* using the corresponding drop-down box on the right side. This is useful if you have values that are *higher* or *lower* than a default category. 
 
-You can also edit the default color schemes of the categories by clicking "Select Color Scheme". Depending on the category type, you can choose from a range of qualitative color schemes for nominal categories, sequential color schemes for ordinal categories without a neutral category, and from diverging color schemes for ordinal categories with a neutral category.  Use the "Reverse Color Scheme" button to apply the scheme's colors bottom-up instead of top-down.
+You can also edit the default color schemes of the categories by clicking *Select Color Scheme*. Depending on the category type, you can choose from a range of qualitative color schemes for nominal categories, sequential color schemes for ordinal categories without a neutral category, and from diverging color schemes for ordinal categories with a neutral category.  Use the *Reverse Color Scheme* button to apply the scheme's colors bottom-up instead of top-down.
 
 If you want to specify your own color for a category, you can do so using a color dialog that appears when double clicking the category's color.
 
@@ -180,23 +179,23 @@ First you will see the dialog on the left, where you can add, edit or remove gro
 ![](i/add_groupings.png "Add groupings dialog")
 ![](i/import_grouping.png "Import groupings dialog")
 
-Once you click one of the "Add" buttons, you will see the dialog on the right. The dialog on the right resembles the data import dialog you have seen before. As groupings also use identifiers for their rows, you have to choose an identifier. You can't choose an ID Type, since that is already determined by your choice of columns or rows for the dataset.
+Once you click one of the *Add* buttons, you will see the dialog on the right. The dialog on the right resembles the data import dialog you have seen before. As groupings also use identifiers for their rows, you have to choose an identifier. You can't choose an ID Type, since that is already determined by your choice of columns or rows for the dataset.
 
-Again select the "Number of Header Rows" to be excluded and identify the "Column with Row IDs", the column that contains the IDs for the rows, which is highlighted in green.
+Again select the *Number of Header Rows* to be excluded and identify the *Column with Row IDs*, the column that contains the IDs for the rows, which is highlighted in green.
 
 In the example here, we have loaded a file that contains two groupings. You can choose which grouping of the file to load by checking or unchecking the columns.
 
-You can specify a "Grouping Name" for each grouping which will later be used to name the perspective. If you choose "Use Grouping Names from Header Row", you can specify a row within the header rows of the file, which contains the grouping names (highlighted in green). Alternatively, you can choose "Use Custom Grouping names" to directly enter the name of individual groupings within a special row of the preview table. These names will be the names of the perspectives, which you can also change later. 
+You can specify a *Grouping Name* for each grouping which will later be used to name the perspective. If you choose *Use Grouping Names from Header Row*, you can specify a row within the header rows of the file, which contains the grouping names (highlighted in green). Alternatively, you can choose *Use Custom Grouping names* to directly enter the name of individual groupings within a special row of the preview table. These names will be the names of the perspectives, which you can also change later. 
 
 Once you press finish the dataset will be loaded and Caleydo will be started.
 
 ### Adding Datasets and Groupings at runtime
-You can add more datasets once Caleydo is running. To do so, go to "File > Import Data" which brings you right back to the import wizards. Alternatively, click the "Import Data Icon" in the toolbar.
+You can add more datasets once Caleydo is running. To do so, go to *File > Import Data* which brings you right back to the import wizards. Alternatively, click the *Import Data Icon* in the toolbar.
 
 To add more groupings to an existing dataset, right-click on the dataset in the Data-View Integrator and select the appropriate choice.
 
 ## File Operations
-Using the "File" dialog or the equivalent buttons in the tool bar you can save Caleydo projects, import, and export data.
+Using the *File* dialog or the equivalent buttons in the tool bar you can save Caleydo projects, import, and export data.
 
 A **Caleydo Project** is a .cal file that contains all information about a session, including the loaded datasets, created or loaded groupings as well as which views are open and what data they show. Project files are a convenient way to store an analysis session and restore it later.
 
@@ -207,10 +206,10 @@ The **Export Data** button opens a dialog that allows you to save a perspective 
 ## Data Processing
 
 ### Clustering
-Clustering creates a grouping of a perspective. You can trigger a clustering dialog either using "Data" - "Cluster Data" in the main or using the context menu of a data node in the [Data-View Integrator](basics.md). To run a clustering algorithm you first have to specify an input dataset, a perspective for the rows and a perspective for the columns (see [Dataset Principles](#Dataset_Principles)).
+Clustering creates a grouping of a perspective. You can trigger a clustering dialog either using *Data* - *Cluster Data* in the main or using the context menu of a data node in the [Data-View Integrator](basics.md). To run a clustering algorithm you first have to specify an input dataset, a perspective for the rows and a perspective for the columns (see [Dataset Principles](#Dataset_Principles)).
 ![](i/clustering.png "Clustering GUI")
 
-Next, you have to specify whether you want to cluster rows or columns, which are denominated by their ID type. In the shown example, "Gene" is selected.
+Next, you have to specify whether you want to cluster rows or columns, which are denominated by their ID type. In the shown example, *Gene* is selected.
 
 Caleydo provides the following distance measures:
 

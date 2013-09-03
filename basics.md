@@ -10,7 +10,7 @@
 
 
 ## Managing Views
-Caleydo uses views as interfaces to the user. Almost everything in Caleydo is a view. You can drag and drop views and place them wherever you like. To open a view use the "View" menu. We distinguish between "Tools", which are basic support views such as the tool-bar, the integrated histogram/color legend and some other informative views and more complex "Visualizations". We discuss the tools in the following, while the visualizations have their own dedicated help page.
+Caleydo uses views as interfaces to the user. Almost everything in Caleydo is a view. You can drag and drop views and place them wherever you like. To open a view use the *View* menu. We distinguish between *Tools*, which are basic support views such as the tool-bar, the integrated histogram/color legend and some other informative views and more complex *Visualizations*. We discuss the tools in the following, while the visualizations have their own dedicated help page.
 
 [](include:views/dvi.md)
 
@@ -27,7 +27,7 @@ If you want to use a completely different color-coding, you can click on the Col
 The Selection Info view shows information about the currently selected elements. Whenever you mouse-over or click an element in any of the Caleydo views, it is added to the selection info view. Dark-orange shows clicked and light orange shows mouse-hovered elements. It is possible to select multiple items, also multiple items of different types of data. In the shown example, one gene and one sample has been clicked, and also one additional sample has been hovered. You can also copy the identifiers of selections to the clipboard using the button in the view's toolbar. If a gene has been selected, you can search for this gene in [GeneCards](http://www.genecards.org/) by clicking on the corresponding button in the toolbar.
 ![](i/selection_info.png "Selection Info GUI")
 
-You can **clear all selections** by clicking on the "Clear All Selections" button in the general toolbar.
+You can **clear all selections** by clicking on the *Clear All Selections* button in the general toolbar.
 
 ## Search
 In the search view you can search for any IDs in all loaded datasets.
@@ -35,7 +35,7 @@ In the search view you can search for any IDs in all loaded datasets.
 
 To search for an ID, simply type a string into the query box and press search. You can exclude certain identifiers by un-checking them. If your search returned results they are presented in a table. The first columns of this table tell you whether the ID was found in the dataset specified in the caption. In shown figure the gene of the first row is available in all datasets except *RPPA*.
 
-An important feature of the search view is its ability to **create categorizations based on genes**. This means that a new grouping (and perspective) can be created based on an individual gene. By right-clicking on a row in the search results that corresponds to a gene, you get the options to create categorizations for the various datasets. Currently, that makes most sense for copy-number and mutation status data. Clicking, for example, on the "Create categorization within Mutations" will result in a perspective being created with two groups: one containing all mutated samples, and another one containing all normal samples.
+An important feature of the search view is its ability to **create categorizations based on genes**. This means that a new grouping (and perspective) can be created based on an individual gene. By right-clicking on a row in the search results that corresponds to a gene, you get the options to create categorizations for the various datasets. Currently, that makes most sense for copy-number and mutation status data. Clicking, for example, on the *Create categorization within Mutations* will result in a perspective being created with two groups: one containing all mutated samples, and another one containing all normal samples.
 
 [](include:views/table.md)
 [](include:views/parcoords.md)
