@@ -23,3 +23,5 @@ To **install** Caleydo on:
  * **Windows**, choose the installer (.exe file) form the download page and run the installer. 
  * **Linux**, we currently provide debian packages. 
  * **Mac OS X**, simply drag the Caleydo app into your "Applications" folder.
+ 
+Attention: Ensuring that the Caleydo packages are small only the relevant binary files are included in the packages. Therefore, when Caleydo is started the first time, it will automatically connects to our server and downloads data packages containing pathways and mapping information.
