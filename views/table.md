@@ -1,24 +1,24 @@
 ## Table
-The table view is a scalable raw data viewer. It can be used to display arbitrary table perspectives.
+The table view is a scalable raw data viewer that can be used to display arbitrary table perspectives.
 
 ![](i/table.png "Screenshot of the table viewer")
 
-It supports:
+The table view supports:
 
-* **record / dimension groupings**
-  if the selected table perspectives contains record or dimension stratifications the table viewer groups the corresponding rows / columns together, similar MS Excel grouping feature.
+* **Record / dimension groupings**
+  If the selected table perspective contains record or dimension stratifications, the table view groups the corresponding rows / columns together, similar to the MS Excel grouping feature.
 
-* **scalability**
-  The viewer internally uses [Nattable](http://www.eclipse.org/nattable/) for rendering. 
+* **Scalability**
+  The viewer internally uses [Nattable](http://www.eclipse.org/nattable/) for rendering and therefore scales to very large tables. 
 
-* **different data representations**  
-  besides the raw data the normalized data can be shown with the viewer
+* **Different data representations**  
+  In addition to the raw data, the normalized data can be shown.
 
-* **selection** 
-  the viewer cell selection is synchronized with the global selection mechanism, such that selections from other views are highlighted in the viewer and vice versa.
+* **Selection** 
+  The selection of table cells is synchronized with the global selection mechanism, such that selections from other views are highlighted in the table and vice versa.
 
-* **selection only** 
-  in this mode only the currently selected rows and columns are shown in the data viewer.
+* **Selection only** 
+  In this mode, only the currently selected rows and columns are shown in the table.
 
-* **variable formatter** 
-  you can change the number of decimal places via the view menu.
+* **Variable formatter** 
+  The number of decimal places can be changed via the view menu.
