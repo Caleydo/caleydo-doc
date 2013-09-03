@@ -27,3 +27,6 @@ The most important view in Caleydo is [StratomeX](views/stratomex.md), which you
 
 For pathway analysis Caleydo includes a pathway view and [enRoute](views/enroute.md), which in combination enable you to explore pathways from KEGG and WikiPathways in the context of your own experimental data. 
  
+
+Attention: Help us improve this documentation
+The sources are hosted at our GitHub [caleydo-doc](https://github.com/Caleydo/caleydo-doc) repository and we are using [Markdown.io](http://markdown.io) for rendering. If you want to extend the help content or find some typos, you are welcome to contribute.

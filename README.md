@@ -3,7 +3,7 @@ caleydo-doc
 
 User documentation for Caleydo
 
-Currently accessible via: http://markdown.io/https://raw.github.com/Caleydo/caleydo-doc/master/index.md
+Currently accessible via: http://help.caleydo.org
 
 Syntax: http://wiki.markdown.io/syntax.txt
 
