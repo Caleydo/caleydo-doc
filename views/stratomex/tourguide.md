@@ -23,11 +23,11 @@ The implemented query methods can be used to find related data set items to the 
   This query type allows identifying relevant pathways for a given set of patients. It takes a group of patients as input and computes the signal to noise ratio (SNR) between the gene expressions of the samples in that group to the rest of the same stratification. The SNR is finally used to score pathways based on their contained gene sets using [Gene Set Enrichment Analysis (GSEA)](https://www.broadinstitute.org/gsea/index.jsp). Additional meta information like the number of mapped genes are shown to allow further filtering operations like excluding too large pathways or pathways where only a few genes can be mapped to the data.
   
 ###User Interface
-The TourGuide wizard user interface 
+The TourGuide wizard can started at different positions within StratomeX to either add a new column at a specific position, for finding a dependent column like pathways to a column, for finding an independent column on which an unstratisfied clinical variable should depend on. The following figures show on the left side the various different TourGuide wizard trigger places and on the right side an intermediate step of the wizard including explanations is shown. 
 
 ![](i/wizard_2.png "three different triggering options to start the TourGuide wizard")
 ![](i/wizard_1.png "explanation of the TourGuide wizard interface")
+ 
+Some workflow paths require that the user selects a cluster or a whole stratification. All valid choices will be highlighted using a light grey border and one can be selected by clicking on the corresponding block header. The current selected block will be highlighted with an orange border.
 
-
-Attention: WRITE ME
 
