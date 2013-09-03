@@ -22,7 +22,7 @@ In order to explore experimental data mapped to pathway nodes in more detail, a 
 ![](../i/path_selection.png "Select path") 
 Before a path can be selected, the path selection mode must be enabled by clicking the corresponding button in the toolbar. This mode can be disabled any time by clicking on the button again.
 
-To start a path click the "Toggle Path Selection" button (shown on the left) or press "Ctrl+O". Then selecting a start node and an end node, which selects the shortest path between these nodes. This paths is highlighted with an orange bubble. If alternative paths between the specified nodes exist, they are also indicated by highlighting. Clicking on one of these highlights causes the alternative path to be selected. Note that only those paths of nodes can be selected, which are also present in the pathway.
+To start a path click the "Toggle Path Selection" button (shown on the left) or press *Ctrl+O*. Then selecting a start node and an end node, which selects the shortest path between these nodes. This paths is highlighted with an orange bubble. If alternative paths between the specified nodes exist, they are also indicated by highlighting. Clicking on one of these highlights causes the alternative path to be selected. Note that only those paths of nodes can be selected, which are also present in the pathway.
 ![](../i/pathway_bubbleset.png "Selected path highlighted in pathway")
 
 A selected path can be extended by holding the Shift key and clicking on the node the path should be extended to. Similarly a path can be shortened by holding the Ctrl key and clicking on a node of the selected path.
