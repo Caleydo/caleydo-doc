@@ -1,11 +1,5 @@
 ## Tour Guide Wizard
-The Tour Guide Wizard is a simple to use way for finding and adding new blocks to StratomeX. It is an assistive user interface integrated in StratomeX that allows users to choose from various possibilities. The following figure illustrates the Tour Guide Wizard workflow including all currently implemented options. 
-
-![](i/workflow.png "Possible choices in Tour Guide wizard")
-
-Diamond nodes denote decision points within the wizard that require user input and edges describe the options the user can choose from. While yellow boxes represent actions taken by the user, blue boxes mark actions triggered by the system. Depending of the various steps in the wizard, the user either needs to select an option from a list of possible ones, or is instructed to take various actions in the user interface, for instance, to select a stratification or a group of patients in StratomeX or to perform actions in the ranking interface. The final outcome of the wizard is a newly added StratomeX column.
-
-In addition to simple browsing, filtering and ranking of possible StratomeX columns (stratifications, pathways, numerical clinical variables) a series of advanced query methods are implemented.
+The Tour Guide Wizard is a simple to use way for finding and adding new blocks to StratomeX. It is an assistive user interface integrated in StratomeX that allows users to choose from various possibilities. In addition to simple browsing, filtering and ranking of possible StratomeX columns (stratifications, pathways, numerical clinical variables) a series of advanced query methods are implemented.
 
 ## Query methods
 The implemented query methods can be used to find related data set items to the current visible block columns. For this, several basic statistical methods are used to rank a set of dataset items. 
