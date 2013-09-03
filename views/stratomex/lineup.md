@@ -38,7 +38,7 @@ The ranking table is the central part of LineUp. It consists of multiple columns
 ### Interaction
 Rows can be selected by clicking on them. LineUp also supports navigation via keyboard using up/down keys and page up/down keys and scrolling by mouse wheel. Sorting by a column can be done by double-clicking its header. The current sort criterion is indicated by a small triangle glyph above the column header. 
 
-*Expert Note*: Adding an item to StratomeX without having an open Tour Guide wizard can be done by double-clicking the item.
+*Power feature*: Adding an item to StratomeX without having an open Tour Guide wizard can be done by double-clicking the item.
 
 Attention: If a Tour Guide wizard instance is open, previews will only be shown when the wizard is in the correct state, otherwise the selection will be ignored. 
 
