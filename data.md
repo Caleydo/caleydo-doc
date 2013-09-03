@@ -206,15 +206,17 @@ The **Export Data** button opens a dialog that allows you to save a perspective 
 ## Data Processing
 
 ### Clustering
-Clustering creates a grouping of a perspective. To run a clustering algorithm you have to specify an input dataset, a perspective for the row and a perspective for the columns (see [Dataset Principles](#Dataset_Principles)). If those are specified you a dialog similar to the one on the right will be shown.
+Clustering creates a grouping of a perspective. You can trigger a clustering dialog either using "Data" - "Cluster Data" in the main or using the context menu of a data node in the [Data-View Integrator](basics.md). To run a clustering algorithm you first have to specify an input dataset, a perspective for the row and a perspective for the columns (see [Dataset Principles](#Dataset_Principles)).
 ![](i/clustering.png "Clustering GUI")
 
-Caleydo can cluster either the columns or the rows of a perspective.
+Next, you have to specify whether you want to cluster rows or columns, which are denominated by their ID type. In the shown example, "Gene" is selected.
 
-Two different distance measures are available:
+Caleydo provides the following distance measures:
 
- * the Euclidean distance and
- * the Pearson correlation
+ * Euclidean distance
+ * Pearson correlation
+ * Manhattan distance
+ * Chebyshev distance
  
 You also have to choose whether you want to replace the grouping in the input perspective, or whether you want to create a new perspective with a new grouping. The latter adds an additional perspective to the dataset.
 
