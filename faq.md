@@ -1,9 +1,12 @@
 #FAQ - Frequently Asked Questions
 
-##Problems Running Caleydo
+**Q:** *I found a bug! What should I do?*
+**A:** Please file a bug at [github](https://github.com/Caleydo/caleydo/issues), be as clear as you can about your situation and include a the log.
 
-**Q:** *Caleydo doesn't start, doesn't load my data, or fails somehow else. What can I do?*
-**A:** Send us an e-mail with the latest log file to contact at caleydo.org and, if possible, your dataset you tried to use. You can find your log file in the *.caleydo_3.0/logs* folder which is stored in your home directory (e.g. *C:\Users\USERNAME\.caleydo\_3.0* on Windows).
+**Q:** *Where do I find the logs?*
+**A:** You can find your log file in the *.caleydo_3.0/logs* folder which is stored in your home directory (e.g. *C:\Users\USERNAME\.caleydo_3.0* on Windows).
+
+##Problems Running Caleydo
 
 **Q:** *Caleydo fails to start after updating to a new version.*
 **A:** Try deleting the caches of the old version by removing *.eclipse* and *.caleydo\_3.0* folders from your home directory (e.g. *C:\users\USERNAME\.eclipse* and *C:\users\USERNAME\.caleydo\_3.0*)
@@ -28,3 +31,6 @@
            at java.lang.Class.privateGetDeclaredMethods(Class.java:2451)
 
 **A:** This error occurs when running Caleydo with the wrong system architecture, meaning that you are, for example, trying to run a 32 bit version on a 64 bit computer.
+
+**Q:** *Caleydo still doesn't start, doesn't load my data, or fails somehow else. What can I do?*
+**A:** Please [file a bug](https://github.com/Caleydo/caleydo/issues) or send us an e-mail (caleydo at icg dot tugraz dot at) with the latest log file and, if possible, the dataset you tried to use. 
