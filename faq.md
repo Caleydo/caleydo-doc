@@ -12,7 +12,7 @@
 **A:** Try deleting the caches of the old version by removing *.eclipse* and *.caleydo\_3.0* folders from your home directory (e.g. *C:\users\USERNAME\.eclipse* and *C:\users\USERNAME\.caleydo\_3.0*)
 
 **Q:** *Caleydo fails to start with the message: Failed to create Java Virtual Machine.*
-**A:** It seems that your machine has to less memory. However, you can try to reduce the initial Java Virtual Machine memory impact by manipulating the *Caleydo.ini* file. Reduce the two entries: *-Xms512m* and *-Xmx2048m* by a factor of two and try it again.
+**A:** It seems that your machine has not enough main memory. However, you can try to reduce the initial Java Virtual Machine memory impact by manipulating the *Caleydo.ini* file. Reduce the two entries: *-Xms512m* and *-Xmx2048m* by a factor of two and try it again.
 
 **Q:** *Caleydo dose not start with the error message on the console:*
 
