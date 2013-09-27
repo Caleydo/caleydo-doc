@@ -16,7 +16,7 @@
    width="984"
    height="710"
    sodipodi:docname="wizard_2.svg"
-   inkscape:export-filename="D:\Documents\workspaces\caleydo_workspace\caleydo-doc\views\stratomex\i\wizard_2.png"
+   inkscape:export-filename="wizard_2.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -102,9 +102,9 @@
      inkscape:window-height="1138"
      id="namedview3081"
      showgrid="false"
-     inkscape:zoom="0.96268495"
-     inkscape:cx="550.86588"
-     inkscape:cy="387.16275"
+     inkscape:zoom="1.2510908"
+     inkscape:cx="794.4331"
+     inkscape:cy="492.16989"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -114,12 +114,20 @@
      fit-margin-left="0"
      fit-margin-bottom="0" />
   <image
-     width="893"
-     height="710"
-     xlink:href="file:///D:/Documents/workspaces/caleydo_workspace/caleydo-doc/views/stratomex/i/wizard_2_raw.png"
-     id="image3087"
+     sodipodi:absref="D:\Dropbox\Public\views\stratomex\i\wizard_2_raw.png"
+     xlink:href="wizard_2_raw.png"
+     y="0"
      x="0"
-     y="0" />
+     id="image3087"
+     height="710"
+     width="893" />
+  <rect
+     y="186.14787"
+     x="262.84555"
+     height="85.800072"
+     width="245.56023"
+     id="rect3877"
+     style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.73283267;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
   <text
      xml:space="preserve"
      style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -142,6 +150,13 @@
        y="258.69324"
        id="tspan3003"
        style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">to this stratification</tspan></text>
+  <rect
+     y="121.87186"
+     x="365.48987"
+     height="53.236328"
+     width="157.8446"
+     id="rect3877-8"
+     style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.72587419;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
   <text
      xml:space="preserve"
      style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -159,6 +174,13 @@
        y="166.52055"
        id="tspan4233"
        style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">column here</tspan></text>
+  <rect
+     style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.36240077;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+     id="rect5755"
+     width="196.3739"
+     height="80.175735"
+     x="596.40692"
+     y="182.9371" />
   <text
      xml:space="preserve"
      style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -184,21 +206,28 @@
        y="255.05266"
        id="tspan3013"
        style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">should depend on</tspan></text>
+  <rect
+     y="105.15345"
+     x="816.76306"
+     height="61.095455"
+     width="159.70897"
+     id="rect5757"
+     style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.8597703;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
   <path
      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
-     d="M 628.2994,176.25602 640.50407,83.181464"
+     d="M 645.90667,181.85114 645.69081,83.181464"
      id="path3019"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
-     d="m 475.00615,122.3575 -6.94151,-13.74123"
+     d="m 456.35481,121.05049 -0.0179,-10.7357"
      id="path3017"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
-     d="M 291.72645,181.94065 270.81564,82.045896"
+     d="m 266.81434,184.76661 10e-4,-102.720714"
      id="path3015"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
@@ -220,9 +249,9 @@
        sodipodi:role="line"
        style="-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">column here</tspan></text>
   <path
-     sodipodi:nodetypes="cc"
+     sodipodi:nodetypes="ccc"
      inkscape:connector-curvature="0"
      id="path3041"
-     d="M 820.87034,112.90779 800.42925,100.51652"
+     d="m 815.8747,114.85609 -30.13697,-0.16305 -0.009,-9.14036"
      style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
 </svg>
