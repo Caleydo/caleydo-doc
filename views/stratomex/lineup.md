@@ -181,14 +181,18 @@ Either by using the context menu or by *double clicking the weights* an editor i
 ### Mapping Editor
 The mapping editor is a complex tool to manipulate the way how raw values are interpreted as attribute scores used for ranking. 
 
+![](i/mapping.png "mapping editor explained")
+
+The raw values are shown at the bottom and the normalized mapping result at the top. The mapping lines in between can be moved via drag-and-drop to manipulate the ranking. 
+
+Usage Examples: 
+
 ![](i/mapping/linear.png "linear mapping")
 ![](i/mapping/filter.png "filter out small raw values")
 ![](i/mapping/complex.png "complex linear mapping with 3 mapping points")
 ![](i/mapping/invert.png "inverted mapping, the less the better")
 ![](i/mapping/pqvalue.png "standard -log p-q-value mapping")
 ![](i/mapping/abs2.png "standard abs mapping - Orthongoal Editor")
-
-The raw values are shown at the bottom and the normalized mapping result at the top. The mapping lines in between can be moved via drag-and-drop to manipulate the ranking. 
 
 The simplest form is the linear mapping (1), in which the minimal raw value is mapped to 0 and the maximal value is mapped to 1. In the same way the mapping can be used to filter raw or normalized values, since everything outside of the mapped range, will be removed from the ranking (2). In addition, by clicking in the mapping canvas, additional mapping lines can be created (3), which can be used to create a piecewise linear mapping function. Last but not least, multiple standard mappings are available including invert (4) (the less the better), a standard p-value/q-value mapping (<code>-log(value)</code>) (5) as well as an absolute mapping (<code>abs(value)</code>) (6). The last figure shows the alternative orthogonal mapping editor, which has the normalized values orthogonal to the raw ones. 
 
