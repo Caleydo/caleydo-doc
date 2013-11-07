@@ -1,4 +1,4 @@
-#FAQ - Frequently Asked Questions
+#Caleydo Help FAQ - Frequently Asked Questions
 
 **Q: I found a bug! What should I do?**
 

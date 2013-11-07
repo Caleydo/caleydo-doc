@@ -1,18 +1,9 @@
-# Caleydo Basics
-
-[Managing Views](#Managing_Views)
-[Data-View Integrator](#Data-View_Integrator)
-[Dataset Info](#Dataset_Info)
-[Selection Info](#Selection_Info)
-[Search](#Search)
-[Table](#Table)
-[Parallel Coordinates](#Parallel_Coordinates)
-
+# Caleydo Help - Basics
 
 ## Managing Views
 Caleydo uses views as interfaces to the user. Almost everything in Caleydo is a view. You can drag and drop views and place them wherever you like. To open a view use the *View* menu. We distinguish between *Tools*, which are basic support views such as the tool-bar, the integrated histogram/color legend and some other informative views and more complex *Visualizations*. We discuss the tools in the following, while the visualizations have their own dedicated help page.
 
-[](include:views/dvi.md)
+[include](views/dvi.md)
 
 ## Dataset Info
 The DataSet Info view shows meta-data about the selected dataset. The content of this view is exchanged whenever you click on data from different datasets. The view consists of several parts, showing general information about the dataset, such as the number of rows and columns, information about processing applied to data like scaling, dataset stats including mean value and standard deviation, and, if you have selected a perspective of the dataset, information about this perspective. This view also shows the data distribution in a histogram, which also is a legend of the color-coding of the dataset at the same time.
@@ -37,6 +28,6 @@ To search for an ID, simply type a string into the query box and press search. Y
 
 An important feature of the search view is its ability to **create categorizations based on genes**. This means that a new grouping (and perspective) can be created based on an individual gene. By right-clicking on a row in the search results that corresponds to a gene, you get the options to create categorizations for the various datasets. Currently, that makes most sense for copy-number and mutation status data. Clicking, for example, on the *Create categorization within Mutations* will result in a perspective being created with two groups: one containing all mutated samples, and another one containing all normal samples.
 
-[](include:views/table.md)
-[](include:views/parcoords.md)
+[include](views/table.md)
+[include](views/parcoords.md)
 

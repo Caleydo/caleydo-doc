@@ -1,8 +1,4 @@
-# Installation
-
-[Hardware Requirements](#Hardware_Requirements)
-[Dependency: Java](#Dependency:_Java)
-[Required Steps](#Required_Steps)
+# Caleydo Help - Installation
 
 ## Hardware Requirements
 As Caleydo deals with large amounts of data and uses high-end computer graphics to display content, you will need somewhat recent hardware, operating systems and graphics-card drivers. For details see the System Requirements section on the [download](http://www.icg.tugraz.at/project/caleydo/download-caleydo) page.
@@ -24,4 +20,4 @@ To **install** Caleydo on:
  * **Linux**, we currently provide debian packages. 
  * **Mac OS X**, simply drag the Caleydo app into your "Applications" folder.
  
-Attention: Ensuring that the Caleydo packages are small only the relevant binary files are included in the packages. Therefore, when Caleydo is started the first time, it will automatically connects to our server and downloads data packages containing pathways and mapping information.
+Note: To ensuring that the Caleydo packages are small only the relevant binary files are included in the download. Therefore, when Caleydo is started the first time, it will automatically connect to our server and download data packages and to the pathway provider's servers for pathways.
