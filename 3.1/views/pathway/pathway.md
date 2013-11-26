@@ -60,8 +60,6 @@ Note: You can also use the [Data-View Integrator (DVI)](../../basics.md#Data-Vie
 
 ![](i/data_assignment.png "Data Assignment")
 
-Alert: Labels for the figures
-
 The Stratifications LineUp has three components, Mapping Datasets, Stratifications and Groups. 
 
 **Mapping Datasets** determined which datasets are actually mapped onto the pathway or in enRoute. You can only map one dataset at a time directly onto the pathway, Copy-Number in the example shown, but you can analyze multiple datasets at the same time in enRoute, here Copy-Number and mRNA. The datasets are identified by size. 
@@ -92,61 +90,63 @@ In some cases your dataset might not have a mapping for a gene in the pathway. W
 
 ## enRoute - Experimental Data Analysis
 
+enRoute is a visualization technique that enables you to analyze large and heterogeneous experimental datasets in the context of pathways. 
 
-
-
-
+On-node mapping of experimental data, as discussed above, is inherently limited: you can only show one or two values for each node. To address this problem, we developed the enRoute technique, illustrated on the right. Pathway maps present the topology, i.e., the structure of the network very well, but it is impossible to map many node attributes (experimental data) to it. To address this, we let users select a path in the pathway, highlighted in orange, from A to D to E on the right. This path is then extracted and shown in a linear form in the enRoute view. To the right of the extracted path we can now put experimental data from multiple groups (two groups of Dataset 1 are shown in the Figure) and multiple genetic datasets (blue and orange in the Figure). This arrangement also lends itself to integrating non-genetic data as shown in green, on top of the genetic data.
+![](i/enroute_concept.png "enRoute Concept")
 
 
 ### Path Selection
 In order to explore experimental data mapped to pathway nodes in more detail, a path of nodes can be extracted from the pathway view and then be shown side-by side with experimental data in the [enRoute view](enroute.md) discussed in the next chapter.
 
-![](i/path_selection.png "Select path") 
-Before a path can be selected, the path selection mode must be enabled by clicking the corresponding button in the toolbar. This mode can be disabled any time by clicking on the button again.
+![](i/icon/path_selection.png "Path Selection Icon")
+To start a path selection, click the path selection button shown on the left. Entourage stays in path-selection mode until you disable the mode by clicking the button again. 
 
-To start a path click the "Toggle Path Selection" button (shown on the left) or press *Ctrl+O*. Then selecting a start node and an end node, which selects the shortest path between these nodes. This paths is highlighted with an orange bubble. If alternative paths between the specified nodes exist, they are also indicated by highlighting. Clicking on one of these highlights causes the alternative path to be selected. Note that only those paths of nodes can be selected, which are also present in the pathway.
-![](i/pathway_bubbleset.png "Selected path highlighted in pathway")
+When in path selection mode simply click a start node and hover over connected nodes to extend the selected path. You will see an orange bubble around your path, as shown on the right, and the extracted path appears on the right in the enRoute view. If alternative paths between the specified nodes exist, they are also shown in a different color, blue and red in the example on the right. You can choose an alternative path by clicking on the alternative  by highlighting. Clicking on one of these highlights causes the alternative path to be selected. You can complete a path by clicking a terminal node. 
+![](i/path_selection.png "Selected path and alternatives") 
 
-A selected path can be extended by holding the Shift key and clicking on the node the path should be extended to. Similarly a path can be shortened by holding the Ctrl key and clicking on a node of the selected path.
+You can **extend a path** after it was completed, or **force a node to be included** in the path by pressing **Shift while Clicking**. The figure on the right shows an example of a "path" made up of individual nodes and it's corresponding extracted path. Forcing nodes to be included can help you address problems of the underlying pathway representation or can simply let you put genes of other paths or pathways in context for an analysis. 
+![](i/forced_path_selection.png "Forced Path") 
 
-![](i/pathway_clear_path.png "Clear path") 
-Paths can be cleared using the corresponding button in the tool bar.
+You can also **extend paths across pathway boundaries** using either regular path selection or forced paths.
 
-## enRoute View
-The enRoute view can be used for the exploration of large amounts of experimental data that is associated with a path of pathway nodes. enRoute is essentially divided into two parts: the path visualization and the experimental data visualization.
+![](i/icon/clear_path.png "Clear path") Paths can be cleared using the corresponding button in the tool bar or are replaced when a new path is selected.
+
+### enRoute View
+Once a path is selected it appears in the enRoute view on the right. To see the experimental data mapped to enRoute click either the expand button at the top right of the enRoute view, or the arrows at the left edge of the view. The arrows enable you to extend enRoute to various widths, thus adjusting the size of enRoute to the analysis requirements. 
+![](i/expand_enroute.png "Expand and collapse enRoute view")
+
+The following figure introduces all major components of enRoute. It shows an example where a copy number (brown) and a mRNA expression (green) datasets are the genetic datasets used, the grouping is derived from the mutation status of a gene.  Additionally, three non-genetic, contextual datasets are shown: Race (categorical), Days to Death (numerical) and Gender (categorical). 
+
+Note: To learn how to assign these datasets refer to the [Data Assignment section](pathway.md#Data_Assignment).
 
 ![](i/enroute.png "enRoute view")
 
-![](i/enroute_fit_to_width.png "Fit to width") 
-In the enRoute view, every displayed element is granted enough space to be perceived well. If lots of data needs to be displayed, it can happen that horizontal scrolling is required. By selecting the corresponding button in the toolbar, the displayed content is resized to fit the width of the view.
 
-### Path Visualization
-![](i/enroute_branch_switching.png "Branch switching") 
-On the left side of the enRoute view, the path of nodes that has been selected in the Pathway view is displayed in a top-down layout. Branches are indicated as abstract nodes that connect to the path nodes on the left side. They either summarize incoming or outgoing branches.
+**Path.** On the left side of the enRoute view, the path that has been selected is displayed. Incoming and outgoing branches are indicated as collapsed nodes that connect to the path nodes on the left side. The number in these collapsed nodes encodes how many nodes are contained within. Clicking on the "+" icon of such a node reveals  the concrete branches. Selecting such a node **replaces the following or preceding nodes** of the branch points with the alternative branch, adding the path as long as it is not ambiguous. Nodes can also be **removed** by clicking the "x" icon that appears when hovering over a node.
 
-By clicking on the "+" icon of such a node, the individual branches are revealed by showing the first node of each branch together with an abstract preview of its mapped experimental data. When such a node is selected, all nodes of the corresponding branch up to the next branch or a dead end become part of the selected path. They either replace the existing nodes below or above the node where the branching occurs, depending on whether the selected branch is incoming or outgoing.
 
-The currently selected path can also be modified by removing the nodes at each end. This can be achieved by hovering the mouse over the node and clicking the "x" icon that shows up.
 
-## Experimental Data Visualization
-In order to display experimental data in the enRoute view, **dataset perspectives** have to be assigned to enRoute using the [Data-View Integrator](dvi.md).
+
+
 The experimental data is organized in rows and columns. Each row shows data associated with the node it is connected to. Columns represent groups of experiments, which have been specified by the dataset perspective.
 
 Numerical data, such as gene expression data, is represented as simple bar charts, where each bar refers to one experiment. 
 
-![](i/enroute_experimental_mrna.png "enRoute experimental data") 
-![](i/enroute_experimental_mrna_abstract.png "enRoute experimental data abstract")
+![](i/ex_bar.png "Bar Chart") Zero-based bar chart represent numerical data that is not "centered".
 
-For the categorical copy number data a special encoding is used to represent the 5 categories:
+![](i/ex_center-bar.png "Centered Bar Chart") Bar charts with a center line for numerical data that is centered.
 
- * _Deleted on one allele_: light blue bar pointing downwards
- * _Deleted on both alleles_: dark blue bar pointing downwards
- * _Normal copy number_: no bar
- * _Low amplification_: light red bar pointing upwards
- * _High amplification_: dark red bar pointing upwards
+![](i/ex_color.png "Heat Map") Categorical data
 
-![](i/enroute_experimental_CNV.png "enRoute categorical data") 
-![](i/enroute_experimental_CNV_abstract.png "enRoute categorical data") 
+![](i/icon/enroute_fit_to_width.png "Fit to width") 
+In the enRoute view, every displayed element is granted enough space to be perceived well. If lots of data needs to be displayed, it can happen that horizontal scrolling is required. By selecting the corresponding button in the toolbar, the displayed content is resized to fit the width of the view.
 
-![](i/enroute_abstract_mode.png "Abstract mode") 
+
+![](i/ex_box.png "Box Plot") Aggregation for numerical data. 
+
+![](i/ex_histo.png "Histogram") Aggregation for other data types
+
+
 By clicking the button below the caption of each column, the representation of the experimental data can be switched to a more abstract form for that column. For numerical values, a single bar showing the average value of a group is used together with an error bar indicating the standard deviation. For copy number data a histogram is shown as abstract representation.
+
