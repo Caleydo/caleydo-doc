@@ -2,7 +2,7 @@
 
 Caleydo's pathway analysis capabilities enable you to analyze relationships between multiple pathways and to view experimental data in the context of the a pathway. The main pathway exploration view in Caleydo is **Entourage**, which you can open through the view menu. For a general introduction to Entourage (including a video) please refer to the [Entourage project page](http://entourage.caleydo.org).
 
-Embedded within Entourage is **enRoute**, our visualization technique for experimental data. The [enRoute project page](http://enroute.calyedo.org/), again gives you a good introduction into the view. 
+Embedded within Entourage is **enRoute**, our visualization technique for experimental data. The [enRoute project page](http://enroute.caleydo.org/), again gives you a good introduction into the view. 
 
 Here is an example of Entourage and enRoute in a typical analysis session:
 
