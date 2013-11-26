@@ -19,7 +19,7 @@ The implemented query methods can be used to find related data set items to the 
 ### User Interface
 The Tour Guide wizard can be triggered at different positions within StratomeX to either add a new column at a specific position, for finding a dependent column like pathways to a column, or for finding an independent column on which an unstratified clinical variable should depend on. The following figures show various different Tour Guide wizard trigger places on the left and an intermediate step of the wizard including explanations on the right. 
 
-![](views/stratomex/i/wizard_2.png "three different triggering options to start the Tour Guide wizard")
-![](views/stratomex/i/wizard_1.png "explanation of the Tour Guide wizard interface")
+![](i/wizard_2.png "three different triggering options to start the Tour Guide wizard")
+![](stratomex/i/wizard_1.png "explanation of the Tour Guide wizard interface")
  
 Some workflow paths require that the user selects a cluster or a whole stratification. Valid choices will be highlighted using a light grey border and can be selected by clicking on the corresponding block header. The current selected block will be highlighted with an orange border.

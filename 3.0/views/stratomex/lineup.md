@@ -1,7 +1,7 @@
 ## LineUp
 LineUp is visualization technique for analyzing multi-attribute rankings. If you want to find out more about this general visualization technique, take a look at the [LineUp project page](http://lineup.caledydo.org). 
 
-![](views/stratomex/i/lineup_explained.png "explanation of the LineUp interface used in Caleydo")
+![](i/lineup_explained.png "explanation of the LineUp interface used in Caleydo")
 
 In StratomeX, LineUp is used as a selection interface for block columns. LineUp can be categorized in three parts: 
 
@@ -49,7 +49,7 @@ Score queries based on a parameter (e.g. find similar to a displayed stratificat
 
 Hint: double-clicking a dataset will activate it and deactivate all the others.
 
-![](views/stratomex/i/icons/filter.png)
+![](i/icons/filter.png)
 *Edit Filter*	
 
 datasets can be filtered depending on the type. For every dataset you can specify a *Minimum set size*, which defines the minimum size as set of this dataset must have to be considered during querying. In addition, for categorical datasets you can filter the included categories used during querying. 
@@ -69,27 +69,27 @@ Items can selected by clicking the item row. The current selected item will be h
 *Item Navigation*
 Items can be navigated by using the **Cursor-Up** and **Cursor-Down** keys. Morever, Mouse-Wheel, Page-Up, Page-Down, Home, and End keys are supported to scroll within the table. 
 
-![](views/stratomex/i/icons/row_align.png)
+![](i/icons/row_align.png)
 *Change Item Layout*
 
 Switches between a uniform layout (left) and a fish-eye layout (right).
 
-![](views/stratomex/i/icons/table_sum_add.png)
+![](i/icons/table_sum_add.png)
 *Add Serial Combiner Column*
 
 creates a new empty serial combined column container. A serial combiner implements a weighted sum combiner. 
 
-![](views/stratomex/i/icons/table_nested_add.png)
+![](i/icons/table_nested_add.png)
 *Add Nested Combined Column*
 
 creates a new empty nested combined column container. A nested combiner sorts by the first attribute and uses the remaining ones in cases, where the items are equal.  
 
-![](views/stratomex/i/icons/table_scripted_add.png)
+![](i/icons/table_scripted_add.png)
 *Add Generic JavaScript Combined Column*
 
 creates a new empty JavaScript combined column container. A JavaScript combiner evaluates a javascript function that implements a comparator function to sort the items. 
 
-![](views/stratomex/i/icons/table_relationship.png)
+![](i/icons/table_relationship.png)
 *Add a Rank Separator*
 
 add a rank separator at the rightmost position. A rank separator acts as a barrier between two rankings, such that the left and right side can be ranked by its own sorting criteria. Slopegraphs are used to link the items between the two rankings. 
@@ -97,80 +97,80 @@ add a rank separator at the rightmost position. A rank separator acts as a barri
 ### Column Actions
 Every column provides a set of actions that can be accessed via the **hover menu** of a column header. 
 
-![](views/stratomex/i/hoverMenu.png "artifically show all hover menus of current visible columns")
+![](i/hoverMenu.png "artifically show all hover menus of current visible columns")
  
-![](views/stratomex/i/icons/delete.png)
+![](i/icons/delete.png)
 *Hide*
 
 hides the column and put it into the memo-pad area at the right side.
 
-![](views/stratomex/i/icons/search.png)
+![](i/icons/search.png)
 *Search*
 
 Opens an editor to search for a specific item.
 
-![](views/stratomex/i/icons/filter.png)
+![](i/icons/filter.png)
 *Edit Filter*	
 
 opens the filter/mapping editor of this column. The icon will be blue, if a filter is currently active.
 
-![](views/stratomex/i/icons/drag.png)
+![](i/icons/drag.png)
 *Change Width*
 
 Drag indicator for changing the width of a column. In the case of a column within a stuck column, this will also change the weight of the attribute
 
-![](views/stratomex/i/icons/collapse.png)
+![](i/icons/collapse.png)
 *(Un)Collapse*
 
 collapse columns, such that they uses only a limited amount of space.
 
-![](views/stratomex/i/icons/compress.png)
+![](i/icons/compress.png)
 *(Un)Compress*
 
 compress a serial combiner column, by hiding the contained colums.
 
 
-![](views/stratomex/i/icons/snapshot.png)
+![](i/icons/snapshot.png)
 *Take a snapshot*
 
 creates a new separator and rank with a clone of the column.
 
-![](views/stratomex/i/icons/edit_js.png)
+![](i/icons/edit_js.png)
 *Edit Java Script Code*
 
 opens a JavaScript editor to edit the generic combiner function.
 
-![](views/stratomex/i/icons/explode.png)
+![](i/icons/explode.png)
 *Explode*
 
 Removes a combined columns and splits it into its components.
 
-![](views/stratomex/i/icons/histogram_show_hide.png)
+![](i/icons/histogram_show_hide.png)
 *Show/Hide Histograms*
 
 toggles the visibility of the distribution of columns.
 
-![](views/stratomex/i/icons/note_edit.png)
+![](i/icons/note_edit.png)
 *Edit Notes*
 
 opens a text editor to edit the title as well as the tooltip description of the column.
 
-![](views/stratomex/i/icons/rank_delta.png)
+![](i/icons/rank_delta.png)
 *Show/Hide Rank Deltas*
 
 shows/hides the rank delta between the current rank column and its nearest left neighbor.
 
-![](views/stratomex/i/icons/rank_delta_column.png)
+![](i/icons/rank_delta_column.png)
 *Add a Rank Delta Column*
 
 Add a special combiner colums, which represents the rank delta of the rankings created by the two contained columns.
 
-![](views/stratomex/i/icons/stack_align.png)
+![](i/icons/stack_align.png)
 *Change Serial Column Layout*
 
 Switches between different serial column layouts, including: stacked (first - default), tabke (second), and ordered (last). The ordered layout is a special one, in which per item the attributes are sorted decreasingly by their contribution to the item's score.
 
-![](views/stratomex/i/icons/sortByWeight.png)
+![](i/icons/sortByWeight.png)
 *Sort By Weights*
 
 resorts the members of a serial column decreasingly by their weight.
@@ -181,18 +181,18 @@ Either by using the context menu or by *double clicking the weights* an editor i
 ### Mapping Editor
 The mapping editor is a complex tool to manipulate the way how raw values are interpreted as attribute scores used for ranking. 
 
-![](views/stratomex/i/mapping.png "mapping editor explained")
+![](i/mapping.png "mapping editor explained")
 
 The raw values are shown at the bottom and the normalized mapping result at the top. The mapping lines in between can be moved via drag-and-drop to manipulate the ranking. 
 
 Usage Examples: 
 
-![](views/stratomex/i/mapping/linear.png "linear mapping")
-![](views/stratomex/i/mapping/filter.png "filter out small raw values")
-![](views/stratomex/i/mapping/complex.png "complex linear mapping with 3 mapping points")
-![](views/stratomex/i/mapping/invert.png "inverted mapping, the less the better")
-![](views/stratomex/i/mapping/pqvalue.png "standard -log p-q-value mapping")
-![](views/stratomex/i/mapping/abs2.png "standard abs mapping - Orthongoal Editor")
+![](i/mapping/linear.png "linear mapping")
+![](i/mapping/filter.png "filter out small raw values")
+![](i/mapping/complex.png "complex linear mapping with 3 mapping points")
+![](i/mapping/invert.png "inverted mapping, the less the better")
+![](i/mapping/pqvalue.png "standard -log p-q-value mapping")
+![](i/mapping/abs2.png "standard abs mapping - Orthongoal Editor")
 
 The simplest form is the linear mapping (1), in which the minimal raw value is mapped to 0 and the maximal value is mapped to 1. In the same way the mapping can be used to filter raw or normalized values, since everything outside of the mapped range, will be removed from the ranking (2). In addition, by clicking in the mapping canvas, additional mapping lines can be created (3), which can be used to create a piecewise linear mapping function. Last but not least, multiple standard mappings are available including invert (4) (the less the better), a standard p-value/q-value mapping (<code>-log(value)</code>) (5) as well as an absolute mapping (<code>abs(value)</code>) (6). The last figure shows the alternative orthogonal mapping editor, which has the normalized values orthogonal to the raw ones. 
 
@@ -200,25 +200,25 @@ To create complex mapping functions the integrated JavaScript editor can be used
 
 Following actions are available: 
 
-![](views/stratomex/i/icons/mapping_buttons.png)
+![](i/icons/mapping_buttons.png)
 *Mapping Point States*
 
 shows different states of the mapping editor mapping points. white means inactive, red active, blue filter only mode and dashed that the position is inferred from the data.
 
-![](views/stratomex/i/icons/mode.png)
+![](i/icons/mode.png)
 *Mapping Editor Mode*
 
 switches between the Parallel Editor (left) and the Orthogonal Editor (right).
 
-![](views/stratomex/i/icons/reset.png)
+![](i/icons/reset.png)
 *Reset*
 
 resets the mapping to a linear one.
 
 ### Loading External Scores
 
-![](views/stratomex/i/load_external_start.png "Triggering loading external GENE score")
-![](views/stratomex/i/loading_external.png "Import External Score dialog")
+![](i/load_external_start.png "Triggering loading external GENE score")
+![](i/loading_external.png "Import External Score dialog")
 
 External scores can be loaded via the context menu of a dataset. Afterwards an import dialog - similar to the data import dialog - is shown in which the data file as well the the external score properties can be defined. After importing the score, a new column will appear in LineUp. 
 

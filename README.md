@@ -1,18 +1,28 @@
 caleydo-doc
 ===========
 
-User documentation for Caleydo
+User documentation for (Caleydo)[http://caleydo.org], accessible via: http://help.caleydo.org. 
 
-Currently accessible via: http://help.caleydo.org
+Syntax: http://dynalon.github.io/mdwiki/#!quickstart.md
 
-Syntax: http://wiki.markdown.io/syntax.txt
+Layout: http://dynalon.github.io/mdwiki/#!layout.md
 
-Layout: http://wiki.markdown.io/layout.txt
+Major versions are hosted in directories corresponding to the version, such as 3.0 and 3.1. 
 
-To do those alert boxes simply write 
+In case of a version update of mdwiki, download the release and replace the index.html with mdwiki.html. To keep google analytics working, paste the following code right before </head> into the html file:
 
 ```
-Alert: Whatever you need to tell people
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45998043-1', 'caleydo.org');
+  ga('send', 'pageview');
+
+</script>
 ```
 
-To edit the menu edit navigation.md
+
+To edit the menu edit navigation.md.

@@ -6,7 +6,7 @@ StratomeX is a visualization technique for the analysis of multiple stratified d
 
 ## StratomeX Elements
 
-![](views/i/stratomex_explained.png "StratomeX elements")
+![](i/stratomex_explained.png "StratomeX elements")
 
 ### Columns
 Each column in StratomeX consists of multiple data blocks from one of the datasets. The blocks that make up the column are groups or rows, or *stratifications* of the dataset. 

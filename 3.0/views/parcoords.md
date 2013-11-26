@@ -7,7 +7,7 @@ Parallel coordinates visualize multidimensional data by drawing lines between a 
 
 ### Rearranging axis
 To make an accurate comparison between two different experiments it is often necessary to place them side by side. Therefore it is important to be able to re-arrange and duplicate, possibly also remove unneeded experiments.
-![](views/i/parcoords_drop.png "")
+![](views/i/parcoords_drop.png "Test")
 
 ![](views/i/parcoords_reset_axis_spacing.png "") 
 The parallel coordinates use a drop below the axis, shown in the picture on the right to achieve this task. By default the drop is shown in a small, simplified version. Once the mouse is placed over it, it changes to the version containing three buttons. By clicking the left button, the associated axis is **duplicated**. By clicking the right button, the axis is **removed**. By dragging the central button to the sides, the axis is dragged along and consequently **rearranged**. When dragging around axes, the spacing between the axes can become uneven. To balance the spacing between the axes again, click the icon shown on the left in the tool bar.
