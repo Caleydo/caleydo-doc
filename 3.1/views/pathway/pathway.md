@@ -36,12 +36,12 @@ Here, the Melanoma pathway is the *Focus Pathway*, The node E2F is the focus nod
 
 Note: You can set a focus nodes using **Ctrl & Clicking** the node or by right-clicking on the node and choosing **Show Context** from the context menu. 
 
-![](i/con/show_portals.png "Show node occurences across pathways (P)")
+![](i/icon/show_portals.png "Show node occurences across pathways (P)")
 The **stubs** indicate **portal nodes**, i.e., nodes that connect the pathways. Stubs can be triggered by clicking the icon shown on the left. Stubs point to the portal node in the other pathways, we show one stub for every occurrence. If nodes are not visible the stubs point to and from the pathway title. Hovering over a node replaces the stubs with solid edges, as can be seen labeled **Portal Links** in the previous figure. 
 
 ![](i/pathway_menu.png) If necessary, pathways are automatically switched between multiple levels of detail. The above figure shows an example where a context pathway is shown with and one without a thumbnail of the pathway. To manually promote, demote or remove pathways you can use the buttons shown on the left, which appear as soon as you hover over a pathway title bar. The increasingly large rectangles represent the different levels of detail. The **Pin** button prevents the pathway from being automatically switched to a different level of detail. 
 
-![](i/con/clear_pathways.png "Remove all pathways") You can clear all pathways from Entourage by clicking the icon shown on the left. 
+![](i/icon/clear_pathways.png "Remove all pathways") You can clear all pathways from Entourage by clicking the icon shown on the left. 
 
 ### Finding related pathways
 
