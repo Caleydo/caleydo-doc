@@ -15,7 +15,10 @@
    inkscape:version="0.48.4 r9939"
    width="1614.1777"
    height="1028.5856"
-   sodipodi:docname="entourage_explained.svg">
+   sodipodi:docname="entourage_explained.svg"
+   inkscape:export-filename="/home/alexsb/uni/caleydo-doc/3.1/views/pathway/i/entourage_explained.png"
+   inkscape:export-xdpi="66.936577"
+   inkscape:export-ydpi="66.936577">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -24,7 +27,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1239,8 +1242,8 @@
      fit-margin-right="5"
      fit-margin-bottom="5"
      inkscape:zoom="0.67845995"
-     inkscape:cx="962.56379"
-     inkscape:cy="466.8556"
+     inkscape:cx="336.5089"
+     inkscape:cy="538.3049"
      inkscape:window-x="-2"
      inkscape:window-y="-3"
      inkscape:window-maximized="1"

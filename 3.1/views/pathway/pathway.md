@@ -60,6 +60,8 @@ Note: You can also use the [Data-View Integrator (DVI)](../../basics.md#Data-Vie
 
 ![](i/data_assignment.png "Data Assignment")
 
+Alert: Labels for the figures
+
 The Stratifications LineUp has three components, Mapping Datasets, Stratifications and Groups. 
 
 **Mapping Datasets** determined which datasets are actually mapped onto the pathway or in enRoute. You can only map one dataset at a time directly onto the pathway, Copy-Number in the example shown, but you can analyze multiple datasets at the same time in enRoute, here Copy-Number and mRNA. The datasets are identified by size. 
@@ -85,7 +87,7 @@ To indicate especially variable values we use an exclamation mark inside the nod
 
 Note: you can select elements or groups in enRoute, in StratomeX or in most other Caleydo views. 
 
-In some cases your dataset might not have a mapping for a gene in the pathway. We indicate the absence of a mapping with a small rectangle in the lower right of the pathway node, as shown in the Figure above. Also, pathways often aggregate gene families into nodes, thus these nodes have multiple genes mapped to them. We indicate such a multi-mapping with a triangle in the upper right. 
+In some cases your dataset might not have a mapping for a gene in the pathway. We indicate the absence of a mapping with a small rectangle in the lower right of the pathway node, as shown in the Figure above. Also, pathways often aggregate gene families into nodes, thus these nodes have multiple genes mapped to them. We indicate such a multi-mapping with a triangle in the upper right and display the underlying mapping genes on mouse-over and in enRoute.
 
 
 ## enRoute - Experimental Data Analysis
