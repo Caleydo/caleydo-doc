@@ -4,19 +4,19 @@ Furby is a visualization technique for the analysis of soft biclustering results
 
 ## Concept
 
-![](views/furby/i/bicluster_concept.png "Furby concept")
+![](i/bicluster_concept.png "Furby concept")
 
 Furby interprets and visualizes a biclustering result as a graph in which nodes are the bicluster and edges represents shared rows and/or columns between the bicluster. 
 
-![](views/furby/i/overview.png "Screenshot of Furby")
+![](i/overview.png "Screenshot of Furby")
 
 
 ## Interaction
 
 ### Toolbar
-![](views/furby/i/parameter_toolbar.png "Explained Parameter Toolbar")
+The image shown on the right, presents an annotated version of the main toolbar of Furby. 
+![](i/parameter_toolbar.png "Explained Parameter Toolbar")
 
-The image shown on top, presents an annotated version of the main toolbar of Furby. 
 It contains of following sections: 
 
  * **Data Order**
@@ -32,5 +32,5 @@ It contains of following sections:
    
 
 ## Detailed View
-![](views/furby/i/single.png "Annotated detail view of a focussed bicluster")
+![](i/single.png "Annotated detail view of a focussed bicluster")
 
