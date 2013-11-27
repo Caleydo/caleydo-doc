@@ -123,30 +123,45 @@ Note: To learn how to assign these datasets refer to the [Data Assignment sectio
 ![](i/enroute.png "enRoute view")
 
 
-**Path.** On the left side of the enRoute view, the path that has been selected is displayed. Incoming and outgoing branches are indicated as collapsed nodes that connect to the path nodes on the left side. The number in these collapsed nodes encodes how many nodes are contained within. Clicking on the "+" icon of such a node reveals  the concrete branches. Selecting such a node **replaces the following or preceding nodes** of the branch points with the alternative branch, adding the path as long as it is not ambiguous. Nodes can also be **removed** by clicking the "x" icon that appears when hovering over a node.
+#### Path Representation
+On the left side of the enRoute view, the path that has been selected is displayed. Incoming and outgoing branches are indicated as collapsed nodes that connect to the path nodes on the left side. The number in these collapsed nodes encodes how many nodes are contained within. Clicking on the "+" icon of such a node reveals  the concrete branches. Selecting such a node **replaces the following or preceding nodes** of the branch points with the alternative branch, adding the path as long as it is not ambiguous. Nodes can also be **removed** by clicking the "x" icon that appears when hovering over a node.
+
+#### Resolving Gene Families
+Nodes in pathways often represent gene families instead of individual genes; for mapping experimental data, however, this aggregation is not suitable. Consequently enRoute resolves such multi-mappings, as shown in the above Figure. The node containing the gene family (marked by a triangle in the upper left corner) is shown in the path and is connected with multiple rows, where each row represents a gene of the family. All rows in a family also have the same shade of gray.
+
+#### Visualizing Experimental Data
+Within the rows the experimental data is visualized in groups. The header of the group contains the group name and is colored in the datasets' color. Elements within groups are always of the same datasets, but enRoute can show multiple groups from various datasets. Groups can show their **data as a summary**, which is space-efficient, or can show each **dimension individually**.
 
 
+To **represent individual dimensions**, enRoute uses various visual encodings, adapted to the underlying data type:
 
 
+![](i/ex_center-bar.png "Centered Bar Chart") Bar chart with a neutral (zero) line represent numerical data that is centered (see [numerical data properties](index.html#!data.md#Numerical_Data_Properties)).
 
-The experimental data is organized in rows and columns. Each row shows data associated with the node it is connected to. Columns represent groups of experiments, which have been specified by the dataset perspective.
+![](i/ex_bar.png "Bar Chart") Bar charts without a center line represent non-centered numerical data. 
 
-Numerical data, such as gene expression data, is represented as simple bar charts, where each bar refers to one experiment. 
+![](i/ex_color.png "Heat Map") Color encodes categorical data. 
 
-![](i/ex_bar.png "Bar Chart") Zero-based bar chart represent numerical data that is not "centered".
+Note: Every bar or color field can be selected and shows the exact underlying value in a tool-tip. 
 
-![](i/ex_center-bar.png "Centered Bar Chart") Bar charts with a center line for numerical data that is centered.
-
-![](i/ex_color.png "Heat Map") Categorical data
+Hint: You can see the color mapping for all genes in a pathway for the selected experiments if you choose to [Map Selected Data](index.html#!pathway/pathway.md#On-Node_Mapping). 
 
 ![](i/icon/enroute_fit_to_width.png "Fit to width") 
-In the enRoute view, every displayed element is granted enough space to be perceived well. If lots of data needs to be displayed, it can happen that horizontal scrolling is required. By selecting the corresponding button in the toolbar, the displayed content is resized to fit the width of the view.
+enRoute tries to show all elements in the available space, i.e., to **fit to width**, however, if there are too many experiments this will result in bars disappearing since their width would be less than one pixel. You can choose to switch of fit to width using the button shown on the left. As a result you will have to scroll enRoute to see all the data. 
+
+The more compact alternative to represent experimental is to display the **data as a summary**.
+
+![](i/ex_box.png "Box Plot") We use a box plot to summarize numerical data (either with or without a center line). The white line in the center shows the median, the left and right edges of the box are the 1st and 3rd quartile of the distribution respectively, and the whiskers end at the highest/lowest value within 1.5 times the inter-quartile range. The precise values are shown in a tool-tip on mouse-over. 
+
+![](i/ex_histo.png "Histogram") Categorical values are summarized in histograms that show the distribution of the categories. 
 
 
-![](i/ex_box.png "Box Plot") Aggregation for numerical data. 
+Hint: You can sort based on the values of each row by double clicking, or by using the context menu on the row's label. The dimensions are sorted within their groups. The above figure, for example, is sorted by the values associated with *EGFR*. 
 
-![](i/ex_histo.png "Histogram") Aggregation for other data types
+#### Integrating Contextual Datasets
 
+In addition to gene nodes that are part of a pathway, enRoute integrates contextual, non-genetic datasets. See the [Data Assignment section](index.html#!views/pathway/pathway.md#Data_Assignment) to learn how to add contextual data. Contextual data is shown above the genetic data, as can be seen in the figure above. Rows of contextual data are treated much like rows of genetic data, the only exception is that the dataset within a row is always the same for all groups. In the above figure, for example, two different genetic datasets are shown next to each other. The contextual data, such as "Gender", however, shows the same attributes for both datasets. To indicate this, the labels of the contextual data's rows are shown in the dataset color.
 
-By clicking the button below the caption of each column, the representation of the experimental data can be switched to a more abstract form for that column. For numerical values, a single bar showing the average value of a group is used together with an error bar indicating the standard deviation. For copy number data a histogram is shown as abstract representation.
+Hint: All operations that work on regular rows, such as sorting or highlighting, equally work for contextual data.
+
 
