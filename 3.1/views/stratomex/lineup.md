@@ -1,5 +1,5 @@
 ## LineUp
-LineUp is visualization technique for analyzing multi-attribute rankings. If you want to find out more about this general visualization technique, take a look at the [LineUp project page](http://lineup.caledydo.org). 
+LineUp is visualization technique for analyzing multi-attribute rankings. If you want to find out more about this general visualization technique, take a look at the [LineUp project page](http://lineup.caleydo.org). 
 
 ![](i/lineup_explained.png "explanation of the LineUp interface used in Caleydo")
 
@@ -12,7 +12,7 @@ In StratomeX, LineUp is used as a selection interface for block columns. LineUp 
    The central part of the LineUp visualization technique can be used to rank, filter, browse, and select the contained dataset items in a flexible way.
 
  * **Memo pad** 
-   The area on the right of the LineUp interface can be used to persist scores over multiple wizards instances. Please take a look at the [LineUp project page](http://lineup.caledydo.org) for details about the memo pad.
+   The area on the right of the LineUp interface can be used to persist scores over multiple wizards instances. Please take a look at the [LineUp project page](http://lineup.caleydo.org) for details about the memo pad.
    
 ### Ranking table
 The ranking table is the central part of LineUp. It consists of multiple columns that can be freely re-ordered using drag-and-drop. Each column provides its own menu, e.g. for filtering and searching data. The following column types are available:
@@ -35,7 +35,7 @@ The ranking table is the central part of LineUp. It consists of multiple columns
 ### Interaction
 Rows can be selected by clicking on them. LineUp also supports navigation via keyboard using up/down keys and page up/down keys and scrolling by mouse wheel. Sorting by a column can be done by double-clicking its header. The current sort criterion is indicated by a small triangle glyph above the column header. 
 
-*Power feature*: Adding an item to StratomeX without having an open Tour Guide wizard can be done by double-clicking the item.
+Hint: Adding an item to StratomeX without having an open Tour Guide wizard can be done by double-clicking the item.
 
 Attention: If a Tour Guide wizard instance is open, previews will only be shown when the wizard is in the correct state, otherwise the selection will be ignored. 
 
