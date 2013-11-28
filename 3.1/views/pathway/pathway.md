@@ -160,7 +160,11 @@ The more compact alternative to represent experimental is to display the **data 
 ![](i/ex_histo.png "Histogram") Categorical values are summarized in histograms that show the distribution of the categories. 
 
 
-Hint: You can sort based on the values of each row by double-clicking, or by using the context menu on the row's label. The dimensions are sorted within their groups. The above figure, for example, is sorted by the values associated with *EGFR*. 
+Hint: You can sort based on the values of each row by double-clicking, or by using the context menu on the row's label. The dimensions are sorted within their groups. The above figure, for example, is sorted by the values associated with *EGFR*.
+
+![](i/icon/toggle_color.png "Toggle Color Mapping")
+**Color Mapping.** For numerical data you have the option to show the bars in a uniform color corresponding to their dataset, as shown on the left (the default), or to redundantly encode the values with the color mapping defined for the datasets as shown on the right. You can switch color mapping on by pressing the icon shown on the left, which is part of the enRoute tool-bar.  Note that for categorical datasets, color mapping is always on. 
+![](i/mapped_color.png "Color Mapping On or Off")
 
 #### Integrating Contextual Datasets
 

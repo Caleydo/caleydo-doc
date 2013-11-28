@@ -23,21 +23,34 @@ A block is a small rectangular view that visualized a certain subset of the data
  The topmost block in each block column is called a header block. Header blocks summarize the data contained inside the block column in a histogram.
  
  * **Cluster blocks** 
- Cluster blocks are groups of rows inside the block column. The data inside a block can be shown using different visualization techniques. By default, data inside a block is visualized as a heatmap. 
+Cluster blocks are groups of rows inside the block column. The data inside a block can be shown using different visualization techniques. The default visualizations for the blocks depend on their data type. For numerical and homogeneous data, for example, the default is a heat map, while for survival data the default is a Kaplan-Meier Plot. The reordering of cluster blocks works similar to the column reordering. By using drag-and-drop the order of cluster blocks inside a block column can be changed.
  
 The following interactive features are supported by blocks:
  
- * **Switching visualization** 
- StratomeX represents the data in the blocks using various representations. For numerical data, for example, the default for header blocks is a histogram showing the distribution of the dataset, while cluster blocks use a heat map. You can switch to other visualization techniques by hovering over the block and clicking on one of the icons that appear above the block.
+**Switching visualization.** 
+StratomeX represents the data in the blocks using various representations. For numerical data, for example, the default for header blocks is a histogram showing the distribution of the dataset, while cluster blocks use a heat map. You can switch to other visualization techniques by hovering over the block and clicking on one of the icons that appear above the block. The following table gives an overview of all the visualizations used for blocks. The **Scaled** column tells you whether a block is scaled with the number of rows it contains, i.e., a block with 10 patients would be 10 times shorter than a block with 100 patients. The **Header** and **Cluster** columns explains whether a view can be used for the header or cluster blocks, respectively, and the **Data Type** Column tells you for which data types these views are available.
+
+| Example 			| Name 			| Scaled 	| Header 	| Cluster 	| Data Type 		|
+|--|--|--|--|--|--|
+| ![](i/a-heatmap.png) 		| Heat Maps 		| Y 		| Y 		| Y 		| Numerical homogeneous | 
+| ![](i/b-category.png) 	| Individual 		| Y 		| N 		| Y 		| Categorical 		|
+| ![](i/c-histo.png) 		| Numerical Histogram 	| N 		| Y 		| Y 		| Numerical clinical |
+| ![](i/e-categorical.png) 	| Categorical Histogram | N 		| Y 		| N 		| Categorical |
+| ![](i/d-box.png) 		| Box Plot 		| N 		| Y 		| Y 		| Numerical and clinical |
+| ![](i/g-clinical.png) 	| Kaplan-Meier 		| N 		| Y 		| Y 		| Clinical |
+| ![](i/h-pathway.png) 		| Pathway 		| N 		| Y 		| Y 		| Pathway |
+
  
- * **Resorting cluster blocks** 
- The reordering of cluster blocks works similar to the column reordering. By using drag-and-drop the order of cluster blocks inside a block column can be changed.
+**Opening a detail view.** In order to present as much information at once, blocks are usually rather small. The detail view allows you to explore an enlarged and enhanced version of a block. The enlarged version of a block can be activated by clicking on the small left or right pointing arrow that is shown when hovering over a block. You can open one or two detail bricks (of neighboring columns) at the same time. The figure on the right shows an example with two open detail bricks.
+ ![](i/stratomex_detail.png "Detail Views in StratomeX")
  
- * **Opening a detail view** 
- In order to present as much information at once, blocks are usually rather small. The detail view allows you to explore an enlarged and enhanced version of a block. The enlarged version of a block can be activated by clicking on the small left or right pointing arrow that is shown when hovering over a block.
+ 
+ 
+
 
 ### Connection Bands
-Connection bands show the rows that are shared between connected cluster blocks. Therefore, connection bands help users to see which portion of each group is contained in other groups as well. You can select any connection band to interactively investigate to which group the selected rows belong to in any of the shown block columns.
+Connection bands show the rows that are shared between connected cluster blocks. Therefore, connection bands help users to see which portion of each group is contained in other groups as well. You can select either whole bricks or individual connection bands to interactively investigate to which group the selected rows belong to in any of the shown block columns. In the figure on the right, the cluster block "1" on the upper left was selected. Hovering over the connection band reveals the exact properties of the relationship. Notice that the highlighting propagates to the third column: ribbons are only partially highlighted. This shows you how the selected rows are distributed in columns once removed. 
+![](i/connection_bands.png)
 
 ### Dependent Columns
 Dependent columns are special block columns that belong to an existing block column because they derive their grouping. For instance, pathways or clinical data are represented as dependent columns. Note that dependent columns can currently only be added when the rows in StratomeX correspond to samples and the columns to genes. Following data types can be chosen as being shown as dependent columns:
