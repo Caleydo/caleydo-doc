@@ -9,7 +9,7 @@ A perspective contains rules on how to access a dataset. Specifically a perspect
  * The **containment** of elements (e.g., a perspective can represent a filter and thus only contain a subset of the data)
  * A **grouping** of elements, i.e., it's *stratification* (e.g., a clustering algorithm assigns elements to a shared group)
 
-Attention: For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To show your data in a heat map, you need both, the perspectives of genes and patients.
+Note: For example, if you'd like to filter and cluster your genes, this would create a new perspective of genes. If you would like to stratify your patients into four groups, this would create a new perspective for patients. To show your data in a heat map, you need both, the perspectives of genes and patients.
 
 If you just load a dataset Caleydo automatically creates default perspectives containing all rows or columns for you. 
 
@@ -34,9 +34,9 @@ Use this option if at least some of your data is molecular biology and contains 
 
 When you load genetic data you need to specify the source organism of your data. Currently Caleydo supports human and mouse data. When you choose to load genetic data, pathway maps are also loaded.
 
-Attention: You can load data from other organisms through the *Load Other Data* tab, but you won't have quite the same functionality as for these two organisms.
+Hint: You can load data from other organisms through the *Load Other Data* tab, but you won't have quite the same functionality as for these two organisms.
 
-Attention: Note that you can't change the organism at runtime and that you can't load data from multiple organisms at a time. You can however combine *other data* with data from one organism.
+Note: You can't change the organism at runtime and you can't load data from multiple organisms at a time. You can however combine *other data* with data from one organism.
 
 To get an idea of how the import of individual datasets works, you can also choose to load a sample gene expression dataset.
 
@@ -114,7 +114,7 @@ Sometimes, however, things are a little more complicated. As we often have more 
 
 That's why you have to define both, ID Types and identifiers for rows and columns. If you have an ID Type, or and an identifier, which is not yet available in the drop-down menu, you can easily create a new one. If you later load another dataset with the same ID Type or identifier, Caleydo will be able to resolve relationships between them.
 
-Attention: For inhomogeneous datasets you can't specify column ID types.
+Note: For inhomogeneous datasets you can't specify column ID types.
 
 In some cases you might want to **map identifiers from two datasets, which are stored in a slightly different format**. For example, in one dataset the IDs could look like this: *TCGA_001-03*, whereas in another dataset the equivalent IDs use a format like that *tcga.001.03*. To make Caleydo match these different IDs, you can define how to parse row or column identifiers by pressing the *Define Parsing* button, showing the dialog on the right. First, you can choose, whether the case of the IDs should be modified, i.e., whether to keep the case unchanged, to make it upper case, or to make it lower case. Second, you can use a regular expression (see [reference](http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)) to replace all occurrences of a certain string with a different string. Third, you can specify a regular expression to split an ID around matches into several substrings and use the first substring as resulting ID. This dialog also shows a preview of all applied changes to an ID taken from the dataset.
 ![](i/id_parsing.png "Parsing options for IDs")
@@ -142,7 +142,7 @@ Depending on whether the dataset is homogeneous or inhomogeneous, numerical data
 
 **Data Center** A data center can be set to define a neutral center point of the data. If set, the value range of the dataset is assumed to be equal in positive and negative direction from the center point. So, for a dataset whose values range from -0.3 to 0.5 with a data center of 0, the value range will be set to -0.5 to 0.5.
 
-Attention: Note that Caleydo will not transform the data itself. You will always be able to retrieve the original values, but the visualizations will use the scales or transforms.
+Attention: Caleydo will not transform the data itself. You will always be able to retrieve the original values, but the visualizations will use the scales or transforms.
  
 **Data Transposition** By default, Caleydo treats the column in the files as the *columns* in the visualizations. For example, in a parallel coordinates view, each column would correspond to an axis. If you choose to *Swap Rows and Columns* then the columns of the input file would correspond to a polyline in the parallel coordinates view.
 

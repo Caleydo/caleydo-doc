@@ -28,6 +28,3 @@ To search for an ID, simply type a string into the query box and press search. Y
 
 An important feature of the search view is its ability to **create categorizations based on genes**. This means that a new grouping (and perspective) can be created based on an individual gene. By right-clicking on a row in the search results that corresponds to a gene, you get the options to create categorizations for the various datasets. Currently, that makes most sense for copy-number and mutation status data. Clicking, for example, on the *Create categorization within Mutations* will result in a perspective being created with two groups: one containing all mutated samples, and another one containing all normal samples.
 
-[include](views/table.md)
-[include](views/parcoords.md)
-

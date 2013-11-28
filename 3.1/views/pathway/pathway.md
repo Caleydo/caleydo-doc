@@ -2,7 +2,6 @@
 
 Caleydo's pathway analysis capabilities enable you to analyze relationships between multiple pathways and to view experimental data in the context of the pathways. The main pathway exploration view in Caleydo is **Entourage**, which you can open through the view menu. For a general introduction to Entourage (including a video) please refer to the [Entourage project page](http://entourage.caleydo.org).
 
-<<<<<<< HEAD
 Embedded within Entourage is **enRoute**, our visualization technique for experimental data. The [enRoute project page](http://enroute.calyedo.org/) again gives you a good introduction into the view. 
 
 Here is an example of Entourage and enRoute in a typical analysis session:
@@ -77,14 +76,14 @@ The **non-genetic data assignment** shown on the right, lets you assign data tha
 ![](i/non-genetic_data_assignment.png "Non-genetic data assignment")
 
 
-
-
 ## On-Node Mapping
 
-The nodes of pathway maps can be overlayed with a color showing the values of related experimental data. By default, no overlay is shown, but you can choose to show an overlay as explained above. You can either map all samples from the chosen source by clicking the *Map all Samples* radio button, or only samples that are currently selected (shown in the "[Selection Info View](../../basics.md#Selection_Info)") by choosing *Map selected Samples*. The color scale is shown and can be modified in the [Dataset Info View](../../basics.md#Dataset_Info). 
+The nodes of pathway maps can be overlayed with a color showing the values of related experimental data. By default, no overlay is shown, but you can choose to show an overlay as explained above. You can either map all samples from the chosen source by clicking the *Map All Samples* radio button, or only samples that are currently selected (shown in the "[Selection Info View](../../basics.md#Selection_Info)") by choosing *Map Selected Samples*. The color scale is shown and can be modified in the [Dataset Info View](../../basics.md#Dataset_Info). 
 ![](i/on-node_mapping.png)
 
 If more than one sample is mapped at the same time, the average value is calculated and a bar (colored with the dataset's color) below the node shows how variable the values for this node are. A long bar indicates high variance, a short bar indicates low variance.
+
+Note: If you use a z-standardized dataset, all genes are normalized to an average of 0 and a standard deviation of 1. As a result, the mapping of all nodes looks identical when you "Map All Samples". Use "Map Selected Samples" and select groups our dimensions to see the differences in the dataset. 
 
 To indicate especially variable values we use an exclamation mark inside the node. This exclamation mark is not only shown for the mapped dataset, but for all datasets mapped to enRoute.
 
