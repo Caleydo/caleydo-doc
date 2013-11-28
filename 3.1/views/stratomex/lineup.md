@@ -30,14 +30,14 @@ The ranking table is the central part of LineUp. It consists of multiple columns
   For each included categorical datasets additional metric columns are displayed showing the distribution of the contained categories. In addition, dimension stratifications are automatically added as categorical grouping columns.
 
  * **Externally loaded score columns** 
-  In addition to automatically created and computed query scores during the Tour Guide process, external scores can be imported to the LineUp interface. The import process can be triggered by using the context menu of a dataset.
+  In addition to automatically created and computed query scores during the Query process, external scores can be imported to the LineUp interface. The import process can be triggered by using the context menu of a dataset.
 
 ### Interaction
 Rows can be selected by clicking on them. LineUp also supports navigation via keyboard using up/down keys and page up/down keys and scrolling by mouse wheel. Sorting by a column can be done by double-clicking its header. The current sort criterion is indicated by a small triangle glyph above the column header. 
 
-Hint: Adding an item to StratomeX without having an open Tour Guide wizard can be done by double-clicking the item.
+Hint: Adding an item to StratomeX without having an open Query wizard can be done by double-clicking the item.
 
-Attention: If a Tour Guide wizard instance is open, previews will only be shown when the wizard is in the correct state, otherwise the selection will be ignored. 
+Attention: If a Query wizard instance is open, previews will only be shown when the wizard is in the correct state, otherwise the selection will be ignored. 
 
 The current selected row will be highlighted in orange. Grey rows indicate items that are already visible in StratomeX. An orange dashed border will be used within StratomeX and LineUp to indicate the currently previewed item. 
 

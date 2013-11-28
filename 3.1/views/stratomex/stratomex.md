@@ -12,7 +12,7 @@ StratomeX is a visualization technique for the analysis of multiple stratified d
 Each column in StratomeX consists of multiple data blocks from one of the datasets. The blocks that make up the column are groups or rows, or *stratifications* of the dataset. 
 
  * **Adding columns** 
- Columns can be either added using the [Query wizard](stratomex.md#Tour_Guide_Wizard_-_Adding_Data), [LineUp](stratomex.md#LineUp), or the [Data-View Integrator](../dvi.md).
+ Columns can be either added using the [Query wizard](stratomex.md##Query_Wizard_-_Adding_Data), [LineUp](stratomex.md#LineUp), or the [Data-View Integrator](../dvi.md).
  * **Removing columns** 
  Columns can be removed by either using the close icon that is appears when hovering over the header block or by selecting the corresponding option in the right-click context menu of the header block.
  * **Reordering columns** 
