@@ -10,12 +10,12 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1230.2345"
-   height="676"
+   width="1278.1747"
+   height="686"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="loading_external.svg.2013_09_28_20_08_49.0.svg"
+   sodipodi:docname="loading_external.svg"
    inkscape:export-filename="loading_external.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -43,21 +43,28 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.54313927"
-     inkscape:cx="1105.1539"
-     inkscape:cy="224.32739"
+     inkscape:zoom="0.70585561"
+     inkscape:cx="836.71244"
+     inkscape:cy="577.55538"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="654"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0.4"
-     fit-margin-bottom="0" />
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="922.99331,587.93894"
+       id="guide7748" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -66,7 +73,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -74,181 +81,147 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-190.71428,-402.93362)">
+     transform="translate(-185.71428,-397.93362)">
     <image
-       y="402.93362"
-       x="190.71428"
-       id="image2993"
-       xlink:href="file:///D:/Dropbox/Public/views/stratomex/i/loading_external_raw.png"
+       sodipodi:absref="D:\w\caleydo\caleydo-doc\3.1\views\stratomex\i\loading_external_raw.png"
+       xlink:href="loading_external_raw.png"
+       width="910"
        height="676"
-       width="910" />
-    <rect
-       style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.78754056;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect3289-1-4-9-5-3"
-       width="311.33273"
-       height="103.88549"
-       x="1108.3223"
-       y="667.63049" />
-    <rect
-       style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.61442471;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect3917"
-       width="129.65536"
-       height="29.472343"
-       x="1108.8914"
-       y="417.3902" />
+       id="image2993"
+       x="190.71428"
+       y="402.93362" />
     <text
        xml:space="preserve"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Arial Italic"
-       x="1172.188"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       x="1180.1986"
        y="438.21823"
        id="text3006-69-7-7-0-9-8-8-4-2-2-3-4-8"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         x="1172.188"
+         x="1180.1986"
          y="438.21823"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan3882">score name</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
-       d="m 1107.3335,671.34808 -47.5346,-0.17402 0.1052,-28.25153"
+       d="m 1108.7076,749.97606 -48.9087,-0.17402 0.1052,-106.87951"
        id="path4189-6-2-6-0-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
-    <rect
-       y="456.24231"
-       x="1108.7255"
-       height="69.941467"
-       width="295.69699"
-       id="rect3915"
-       style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.42941022;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     <text
        sodipodi:linespacing="100%"
        id="text3060"
        y="475.58072"
-       x="1114.4917"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Arial Italic"
+       x="1116.4917"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
        xml:space="preserve"><tspan
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
          y="475.58072"
-         x="1114.4917"
+         x="1116.4917"
          sodipodi:role="line"
          id="tspan3074">combination method used in </tspan><tspan
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
-         y="497.58072"
-         x="1114.4917"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
+         y="501.58072"
+         x="1116.4917"
          sodipodi:role="line"
          id="tspan3078">case when a dataset item </tspan><tspan
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
-         y="519.58069"
-         x="1114.4917"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
+         y="527.58069"
+         x="1116.4917"
          sodipodi:role="line"
          id="tspan3070">resolves to multiple scores</tspan></text>
-    <rect
-       y="535.46954"
-       x="1108.5216"
-       height="67.830734"
-       width="296.49686"
-       id="rect3919"
-       style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.4095788;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     <text
        xml:space="preserve"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Arial Italic"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
        x="1115.2866"
-       y="554.00934"
+       y="562.00934"
        id="text3080"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          x="1115.2866"
-         y="554.00934"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         y="562.00934"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan3093">whether the loaded scores </tspan><tspan
          sodipodi:role="line"
          x="1115.2866"
-         y="576.00934"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         y="588.00934"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan3097">should be normalized using </tspan><tspan
          sodipodi:role="line"
          x="1115.2866"
-         y="598.00934"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         y="614.00934"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan3121">its min/max values</tspan></text>
-    <rect
-       y="611.10742"
-       x="1108.4225"
-       height="50.189346"
-       width="295.88428"
-       id="rect3921"
-       style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.21124721;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     <text
        sodipodi:linespacing="100%"
        id="text3099"
-       y="631.66626"
-       x="1115.147"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Arial Italic"
+       y="657.66626"
+       x="1117.147"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
        xml:space="preserve"><tspan
          id="tspan3103"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
-         y="631.66626"
-         x="1115.147"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
+         y="657.66626"
+         x="1117.147"
          sodipodi:role="line">foreground color of the score</tspan><tspan
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
-         y="653.66626"
-         x="1115.147"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
+         y="683.66626"
+         x="1117.147"
          sodipodi:role="line"
          id="tspan3123">column</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Arial Italic"
-       x="1114.6206"
-       y="690.10614"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       x="1116.6206"
+       y="728.10614"
        id="text3105"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
-         x="1114.6206"
-         y="690.10614"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         x="1116.6206"
+         y="728.10614"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan3109">minimum / maximum range </tspan><tspan
          sodipodi:role="line"
-         x="1114.6206"
-         y="712.10614"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         x="1116.6206"
+         y="754.10614"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan3125">of the scores used for mapping</tspan><tspan
          sodipodi:role="line"
-         x="1114.6206"
-         y="734.10614"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         x="1116.6206"
+         y="780.10614"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan3115">leave them empty to use the </tspan><tspan
          sodipodi:role="line"
-         x="1114.6206"
-         y="756.10614"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+         x="1116.6206"
+         y="806.10614"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan3127">actual data min/max values</tspan></text>
     <rect
-       y="641.98816"
-       x="615.61823"
-       height="76.832436"
-       width="265.3176"
+       y="635.7121"
+       x="600.13348"
+       height="89.384514"
+       width="296.28705"
        id="rect3913"
-       style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.41912746;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+       style="opacity:0.65182184;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.6175344;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     <text
        sodipodi:linespacing="100%"
        id="text3129"
        y="665.17133"
        x="750.15076"
-       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:Arial Italic"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
        xml:space="preserve"><tspan
          id="tspan3137"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
          y="665.17133"
-         x="753.20154"
+         x="752.66443"
          sodipodi:role="line">select the score columns </tspan><tspan
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         y="687.17133"
-         x="753.20154"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="691.17133"
+         x="752.66443"
          sodipodi:role="line"
          id="tspan3148">in the same way as in </tspan><tspan
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
-         y="709.17133"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="717.17133"
          x="750.15076"
          sodipodi:role="line"
          id="tspan3150">the data import dialog</tspan></text>
@@ -266,7 +239,7 @@
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
     <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
-       d="m 1107.9232,550.65646 -156.36336,0.34891"
+       d="m 1107.9232,554.65646 -156.36336,0.34891"
        id="path3927"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -274,7 +247,7 @@
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path3929"
-       d="m 1107.9232,614.87618 -19.9991,0.006 -0.2354,-28.55718 -0.2353,-9.51706"
+       d="m 1108.7076,663.86846 -20.991,0.006 -0.028,-77.54946 -0.2353,-9.51706"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
   </g>
 </svg>
