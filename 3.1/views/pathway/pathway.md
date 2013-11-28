@@ -66,12 +66,16 @@ The Stratifications LineUp has three components, Mapping Datasets, Stratificatio
 
 **Stratification** defines the grouping used for the mapping. Stratifications are often defined for datasets, e.g., using a clustering of mRNA, but we can use other parameters to stratify, such as the gender, as shown in the figure above, the copy number status of a single gene, etc.  If a stratification has additional information, such as the stratifications based on copy-number status, you can use LineUp's ranking techniques to find the best stratifications. 
 
-Note: Since the choice of datasets is independent of the choice of groupings, it is easy to apply any grouping to any dataset! This allows you to look, e.g., at your gene expression data grouped by tumor type, etc. 
+Note: Since the choice of datasets is independent of the choice of groupings, it is easy to apply any grouping to any dataset! This allows you to look, e.g., at your gene expression data grouped by tumor type, etc.
+
+Hint: Some stratifications, like stratifications based on mutation status, are based on genes. For these genes you can directly search for pathways that contain the genes out of lineup by using the context menu. 
 
 **Groups** shows you which groups are available for a stratification. In the Gender example in the figure above there are two groups: Male and Female. Using the groups menu you can choose which of them to map. 
 
 The **non-genetic data assignment** shown on the right, lets you assign data that does not have a genetic identifier to enRoute. The example here shows numerical and categorical clinical data about patients, but you could equally use other meta-data about patients or cell lines, such as IC 50 values for drug sensitivity measurements. 
 ![](i/non-genetic_data_assignment.png "Non-genetic data assignment")
+
+
 
 
 ## On-Node Mapping
