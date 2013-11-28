@@ -16,7 +16,7 @@
    width="927"
    height="541"
    sodipodi:docname="table.svg"
-   inkscape:export-filename="D:\Documents\workspaces\caleydo_workspace\caleydo-doc\views\i\table.png"
+   inkscape:export-filename="table.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <metadata
@@ -131,9 +131,9 @@
      inkscape:window-height="1138"
      id="namedview2987"
      showgrid="false"
-     inkscape:zoom="0.77712952"
-     inkscape:cx="287.14599"
-     inkscape:cy="414.79842"
+     inkscape:zoom="0.71413953"
+     inkscape:cx="661.7083"
+     inkscape:cy="559.39307"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -143,22 +143,22 @@
      fit-margin-right="0"
      fit-margin-bottom="0" />
   <image
-     sodipodi:absref="D:\Documents\workspaces\caleydo_workspace\caleydo-doc\views\i\table_raw.png"
+     sodipodi:absref="D:\w\caleydo\caleydo-doc\3.1\views\i\table_raw.png"
      xlink:href="table_raw.png"
-     width="857"
-     height="501"
-     id="image2993"
+     y="40"
      x="70"
-     y="40" />
+     id="image2993"
+     height="501"
+     width="857" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:3.03895807;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send)"
-     d="M 704.45434,25.202742 814.45641,48.043438"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+     d="m 704.45434,25.202742 -0.31029,23.322784 110.31236,-0.482088"
      id="path3005"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
+     sodipodi:nodetypes="ccc" />
   <text
      xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato;font-stretch:normal;font-variant:normal"
      x="560.43372"
      y="18.264938"
      id="text4593"
@@ -166,22 +166,22 @@
        sodipodi:role="line"
        x="560.43372"
        y="18.264938"
-       style="font-size:18px;line-height:100%"
+       style="font-size:18px;line-height:100%;-inkscape-font-specification:Lato;font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
        id="tspan4599">show just the selected </tspan><tspan
        sodipodi:role="line"
        x="560.43372"
        y="36.264935"
-       style="font-size:18px;line-height:100%"
+       style="font-size:18px;line-height:100%;-inkscape-font-specification:Lato;font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
        id="tspan4605">rows/columns</tspan></text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:3.03895807;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send)"
-     d="M 868.78384,25.520298 853.22031,42.901621"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+     d="m 852.68054,24.120011 0.53977,18.78161"
      id="path3005-4"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <text
      xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato;font-stretch:normal;font-variant:normal"
      x="817.06677"
      y="20.73649"
      id="text4593-0"
@@ -189,11 +189,11 @@
        sodipodi:role="line"
        x="817.06677"
        y="20.73649"
-       style="font-size:18px"
+       style="font-size:18px;-inkscape-font-specification:Lato;font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
        id="tspan4657">view settings</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato;font-stretch:normal;font-variant:normal"
      x="6.5526137"
      y="279.26617"
      id="text4593-0-8"
@@ -201,23 +201,23 @@
        sodipodi:role="line"
        x="6.5526137"
        y="279.26617"
-       style="font-size:18px"
+       style="font-size:18px;-inkscape-font-specification:Lato;font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
        id="tspan4657-8">grouping</tspan><tspan
        sodipodi:role="line"
        x="6.5526137"
        y="301.76617"
-       style="font-size:18px"
+       style="font-size:18px;-inkscape-font-specification:Lato;font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
        id="tspan3059">marker</tspan></text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:3.03895807;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send)"
-     d="m 67.254035,295.4569 11.143507,10.99865"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+     d="m 62.703104,304.2087 -0.02939,7.59975 12.573186,0.24825"
      id="path3005-5"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
+     sodipodi:nodetypes="ccc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:3.03895807;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send)"
-     d="m 67.987177,265.62362 14.78309,-143.6836"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+     d="m 63.086174,264.57341 1.090255,-154.80878 11.592405,-0.42719"
      id="path3005-5-9"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
+     sodipodi:nodetypes="ccc" />
 </svg>
