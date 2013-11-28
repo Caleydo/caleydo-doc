@@ -1340,20 +1340,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1138"
+     inkscape:window-width="944"
+     inkscape:window-height="1122"
      id="namedview4"
      showgrid="false"
      fit-margin-top="5"
      fit-margin-left="5"
      fit-margin-right="5"
      fit-margin-bottom="10"
-     inkscape:zoom="0.70595487"
-     inkscape:cx="410.20264"
-     inkscape:cy="345.83145"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:zoom="0.40656317"
+     inkscape:cx="708.90926"
+     inkscape:cy="422.9096"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -1378,12 +1378,13 @@
      inkscape:export-xdpi="90"
      inkscape:export-ydpi="90" />
   <image
-     y="116.55126"
-     x="93.308624"
-     id="image3322"
+     sodipodi:absref="D:\w\caleydo\caleydo-doc\3.1\views\stratomex\i\stratomex_explained_raw.png"
      xlink:href="stratomex_explained_raw.png"
+     width="1412"
      height="710"
-     width="1412" />
+     id="image3322"
+     x="93.308624"
+     y="116.55126" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
      d="m 120.44853,82.600582 0,24.983318"
@@ -1392,43 +1393,43 @@
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS-8)"
-     d="m 207.97579,623.36409 0.13731,48.6293"
+     d="m 185.97579,623.36409 0.13731,48.6293"
      id="path4189-6-1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <text
      xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-     x="433.94257"
+     style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+     x="359.94257"
      y="877.82581"
      id="text3006-69-7-7"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
-       x="438.38007"
+       x="363.03632"
        y="877.82581"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan4403-0">Patients stratified </tspan><tspan
        sodipodi:role="line"
-       x="433.94257"
+       x="359.94257"
        y="917.82581"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan5989">by clustering</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-     x="126.79688"
+     style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+     x="124.79688"
      y="876.05884"
      id="text3006-69-7-7-0"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
-       x="131.23438"
+       x="127.89063"
        y="876.05884"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan4403-0-2">Patients stratified </tspan><tspan
        sodipodi:role="line"
-       x="126.79688"
+       x="124.79688"
        y="916.05884"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan5989-7">by copy number</tspan></text>
   <text
      xml:space="preserve"
@@ -1443,41 +1444,41 @@
        y="69.081856" /></text>
   <text
      xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-     x="762.05914"
+     style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+     x="628.05914"
      y="877.95459"
      id="text3006-69-7-7-8"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
-       x="762.05914"
+       x="628.05914"
        y="877.95459"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan5989-8">Dependent column</tspan><tspan
        sodipodi:role="line"
-       x="762.05914"
+       x="628.05914"
        y="917.95459"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6047">showing pathway</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-     x="1096.1934"
+     style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+     x="880.19342"
      y="881.67426"
      id="text3006-69-7-7-8-7"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
-       x="1096.1934"
+       x="880.19342"
        y="881.67426"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan5989-8-6">Dependent column</tspan><tspan
        sodipodi:role="line"
-       x="1096.1934"
+       x="880.19342"
        y="921.67426"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6047-3">showing survival</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+     style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
      x="1408.0354"
      y="886.20032"
      id="text3006-69-7-7-8-7-5"
@@ -1485,12 +1486,12 @@
        sodipodi:role="line"
        x="1408.0354"
        y="886.20032"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6099">Query</tspan><tspan
        sodipodi:role="line"
        x="1408.0354"
        y="918.20032"
-       style="font-size:32px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6103">wizard</tspan></text>
   <rect
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.19124079;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -1540,63 +1541,63 @@
          y="-132.30624" /></flowRegion><flowPara
        id="flowPara6199" /></flowRoot>  <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
-     d="m 419.23995,84.228352 0,24.983318"
+     d="m 361.23995,84.228352 0,24.983318"
      id="path4189-6-8"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
-     d="m 759.23995,83.676562 0,25.535108"
+     d="m 897.23995,83.676562 0,25.535108"
      id="path4189-6-2"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
-     d="m 1083.2399,82.228352 0,24.983318"
+     d="m 1147.2399,82.228352 0,24.983318"
      id="path4189-6-28"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-     d="m 119.72638,82.938232 963.01432,0 0,2.08445 0,0"
+     style="fill:none;stroke:#000000;stroke-width:4.0657115;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 119.75924,82.971088 1027.30006,0 0,2.018738 0,0"
      id="path6641"
      inkscape:connector-curvature="0" />
   <rect
-     style="fill:none;stroke:#000000;stroke-width:3.8401196;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     style="fill:none;stroke:#000000;stroke-width:3.71783924;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
      id="rect6643"
-     width="135.54335"
-     height="196.19208"
-     x="351.27808"
-     y="222.29025"
-     rx="7.995151"
-     ry="2.1905289" />
+     width="126.96948"
+     height="196.31436"
+     x="295.21695"
+     y="214.22911"
+     rx="7.4894133"
+     ry="2.1918941" />
   <rect
      style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.19124079;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
      id="rect3289-1-7"
      width="184.39845"
      height="65.315262"
-     x="495.50079"
+     x="431.50079"
      y="276.93976" />
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-     x="586.75201"
+     x="522.75201"
      y="305.87338"
      id="text3006-69-7-7-8-3-6"
      sodipodi:linespacing="100%"><tspan
        sodipodi:role="line"
-       x="590.08014"
+       x="525.07233"
        y="305.87338"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6677">Block = Set </tspan><tspan
        sodipodi:role="line"
-       x="586.75201"
+       x="522.75201"
        y="329.87338"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6679">of patients</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
-     d="m 488.2551,621.10386 -50.62957,0"
+     d="m 422.2551,621.10386 -50.62957,0"
      id="path4189-6-8-0"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
@@ -1605,34 +1606,34 @@
      id="rect3289-1"
      width="192.85687"
      height="61.086002"
-     x="487.79767"
+     x="421.79767"
      y="588.20569" />
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-     x="583.93024"
+     x="517.93024"
      y="615.36469"
      id="text3006-69-7"
      sodipodi:linespacing="100%"
      inkscape:transform-center-y="-53.061349"><tspan
        sodipodi:role="line"
-       x="583.43024"
+       x="517.43024"
        y="615.36469"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:-1px;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6709"
        dx="0 0 0 0">   Row = Gene</tspan><tspan
        sodipodi:role="line"
-       x="583.43024"
+       x="517.43024"
        y="639.36469"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:-1px;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6715">Column = Patient</tspan><tspan
        sodipodi:role="line"
-       x="583.93024"
+       x="517.93024"
        y="663.36469"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:-1px;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6705" /><tspan
        sodipodi:role="line"
-       x="583.93024"
+       x="517.93024"
        y="687.36469"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;letter-spacing:-1px;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan4403" /></text>
@@ -1652,39 +1653,39 @@
      id="rect3289"
      width="297.77182"
      height="136.84665"
-     x="5.5956202"
+     x="-16.404381"
      y="401.03082" />
   <text
      xml:space="preserve"
      style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-     x="17.158228"
+     x="-4.8417721"
      y="428.90652"
      id="text6847"
      sodipodi:linespacing="100%"><tspan
        sodipodi:role="line"
-       x="17.158228"
+       x="-4.8417721"
        y="428.90652"
-       style="font-size:24px;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6889">Bands do not reach 100%</tspan><tspan
        sodipodi:role="line"
-       x="17.158228"
+       x="-4.8417721"
        y="452.90652"
-       style="font-size:24px;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6891">of the block height be-</tspan><tspan
        sodipodi:role="line"
-       x="17.158228"
+       x="-4.8417721"
        y="476.90652"
-       style="font-size:24px;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6859">cause some patients with </tspan><tspan
        sodipodi:role="line"
-       x="17.158228"
+       x="-4.8417721"
        y="500.90652"
-       style="font-size:24px;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan6861">normal CNV are not pre-</tspan><tspan
        sodipodi:role="line"
-       x="17.158228"
-       y="524.90656"
-       style="font-size:24px;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+       x="-4.8417721"
+       y="524.90649"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;text-anchor:start;font-family:Lato;-inkscape-font-specification:Lato"
        id="tspan4357">sent in the mRNA data</tspan></text>
   <flowRoot
      xml:space="preserve"
@@ -1711,25 +1712,25 @@
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:none"
-     d="m 152.89206,331.84502 0,59.07145"
+     d="m 150.89206,319.84502 0,59.07145"
      id="path4189-6-2-9-5-5"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:none"
-     d="m 147.65301,331.36174 10.39781,0.0316"
+     d="m 145.65301,319.36174 10.39781,0.0316"
      id="path4189-6-2-9-5-2-8"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:none"
-     d="m 147.50117,390.41818 10.39781,0.0316"
+     d="m 145.50117,378.41818 10.39781,0.0316"
      id="path4189-6-2-9-5-2-8-1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:none"
-     d="m 487.10667,306.0873 8.15055,0.0316"
+     d="m 423.10667,306.0873 8.15055,0.0316"
      id="path4189-6-2-9-5-2-8-1-3"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
@@ -1738,7 +1739,7 @@
      id="rect3289-1-4"
      width="256.29477"
      height="68.698662"
-     x="6.4976206"
+     x="-15.502379"
      y="553.85449" />
   <text
      xml:space="preserve"
@@ -1784,4 +1785,27 @@
          height="200.46265"
          x="-249.92744"
          y="810.74774" /></flowRegion><flowPara
-       id="flowPara6783" /></flowRoot></svg>
+       id="flowPara6783" /></flowRoot>  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path3303"
+     d="m 636.90787,85.097967 0,24.983313"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
+  <text
+     sodipodi:linespacing="125%"
+     id="text3305"
+     y="881.67426"
+     x="1142.1934"
+     style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+     xml:space="preserve"><tspan
+       id="tspan3307"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       y="881.67426"
+       x="1142.1934"
+       sodipodi:role="line">Dependent column</tspan><tspan
+       id="tspan3309"
+       style="font-size:30px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+       y="921.67426"
+       x="1142.1934"
+       sodipodi:role="line">showing variable</tspan></text>
+</svg>

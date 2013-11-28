@@ -12,7 +12,7 @@ StratomeX is a visualization technique for the analysis of multiple stratified d
 Each column in StratomeX consists of multiple data blocks from one of the datasets. The blocks that make up the column are groups or rows, or *stratifications* of the dataset. 
 
  * **Adding columns** 
- Columns can be either added using the [Tour Guide wizard](stratomex/tourguide.md), [LineUp](stratomex/lineup.md), or the [Data-View Integrator](dvi.md).
+ Columns can be either added using the [Query wizard](stratomex.md#Tour_Guide_Wizard_-_Adding_Data), [LineUp](stratomex.md#LineUp), or the [Data-View Integrator](../dvi.md).
  * **Removing columns** 
  Columns can be removed by either using the close icon that is appears when hovering over the header block or by selecting the corresponding option in the right-click context menu of the header block.
  * **Reordering columns** 
@@ -43,10 +43,10 @@ Connection bands show the rows that are shared between connected cluster blocks.
 Dependent columns are special block columns that belong to an existing block column because they derive their grouping. For instance, pathways or clinical data are represented as dependent columns. Note that dependent columns can currently only be added when the rows in StratomeX correspond to samples and the columns to genes. Dependent columns can be added by right-clicking on the header block and selecting one of the following data types:
 
  * **Pathways** 
- When choosing pathways as the type of the dependent column, Caleydo opens a list of pathways with a count how many genes from the block column are contained in each of the pathways. After a particular pathway has been selected, a new column will be added, where a small pathway is shown for each group of the original block column. The nodes inside the pathways are color coded according to the average gene expression value of each group. In addition, by using the context menu on a pathway block, the corresponding pathway can be viewed in [Entourage](/views/pathway/pathway.md).
+ When choosing pathways as the type of the dependent column, Caleydo opens a list of pathways with a count how many genes from the block column are contained in each of the pathways. After a particular pathway has been selected, a new column will be added, where a small pathway is shown for each group of the original block column. The nodes inside the pathways are color coded according to the average gene expression value of each group. In addition, by using the context menu on a pathway block, the corresponding pathway can be viewed in [Entourage](../pathway/pathway.md).
  
  * **Clinical data** 
- After choosing clinical data as the type of the dependent column, Caleydo opens a list of clinical parameters that can be added as a new dependent column. Note that clinical data needs to be loaded in order to use this feature. After selecting a particular clinical parameter, a Kaplan-Meier plot will be opened for each group of the original block column.
+ After choosing clinical data as the type of the dependent column, Caleydo opens a list of clinical parameters that can be added as a new dependent column. Note that clinical data needs to be loaded in order to use this feature. After selecting a particular clinical parameter, a block will be opened for each group of the original block column. By default a Kaplan-Meier plot is shown in each plot, in case of survival data, but the visualization can be switched to BoxPlots and histograms, too. 
 
 [include](views/stratomex/tourguide.md)
 
