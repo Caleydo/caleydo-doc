@@ -3,7 +3,6 @@
 [Data Loading and Processing](data.md)
 [Basics](basics.md)
 [StratomeX](views/stratomex/stratomex.md)
-[Furby](views/furby/furby.md)
 [Pathway Analysis](views/pathway/pathway.md)
 [FAQ](faq.md)
 [Caleydo Homepage](http://www.caleydo.org)

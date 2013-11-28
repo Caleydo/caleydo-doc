@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1146.0334"
-   height="816.66132"
+   width="1062.3945"
+   height="790.60962"
    id="svg7142"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -24,15 +24,16 @@
     <marker
        inkscape:stockid="DotS"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="DotS"
        style="overflow:visible">
       <path
          id="path3858"
-         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
-         transform="scale(0.2) translate(7.4, 1)" />
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.2,0,0,0.2,1.48,0.2)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow2Mend"
@@ -70,9 +71,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.83597324"
-     inkscape:cx="509.18476"
-     inkscape:cy="386.18668"
+     inkscape:zoom="0.54320911"
+     inkscape:cx="-206.54446"
+     inkscape:cy="533.11662"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -101,31 +102,31 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(200.57225,-192.58807)">
+     transform="translate(116.9334,-218.6398)">
     <image
        sodipodi:absref="D:\w\caleydo\caleydo-doc\3.1\views\furby\i\single_raw.png"
        xlink:href="single_raw.png"
-       width="891"
-       height="754"
-       id="image7169"
+       y="253.24939"
        x="52.461193"
-       y="253.24939" />
+       id="image7169"
+       height="754"
+       width="891" />
     <text
        xml:space="preserve"
        style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-       x="114.32221"
-       y="231.22089"
+       x="113.40176"
+       y="247.78909"
        id="text7172"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan7174"
-         x="114.32221"
-         y="231.22089"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">Membership gray-</tspan><tspan
+         x="113.40176"
+         y="247.78909"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">Membership gray-</tspan><tspan
          sodipodi:role="line"
-         x="114.32221"
-         y="281.22089"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
+         x="113.40176"
+         y="280.28909"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan8090">scale HeatMap</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
@@ -142,52 +143,52 @@
     <text
        sodipodi:linespacing="125%"
        id="text8058"
-       y="235.61787"
-       x="486.96869"
+       y="252.18608"
+       x="486.04825"
        style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
        xml:space="preserve"><tspan
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
-         y="235.61787"
-         x="486.96869"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
+         y="252.18608"
+         x="486.04825"
          id="tspan8060"
          sodipodi:role="line">Categorical Column </tspan><tspan
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
-         y="285.61786"
-         x="486.96869"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
+         y="284.6861"
+         x="486.04825"
          sodipodi:role="line"
          id="tspan8092">Annotation</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-       x="-192.36913"
-       y="451.07132"
+       x="-107.68718"
+       y="447.3895"
        id="text8062"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan8064"
-         x="-192.36913"
-         y="451.07132"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">Representation</tspan><tspan
+         x="-107.68718"
+         y="447.3895"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">Representation</tspan><tspan
          sodipodi:role="line"
-         x="-192.36913"
-         y="501.07132"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
+         x="-107.68718"
+         y="479.8895"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
          id="tspan8066">Switcher</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text8068"
-       y="349.94012"
-       x="-191.50975"
+       y="346.2583"
+       x="-106.8278"
        style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
        xml:space="preserve"><tspan
          id="tspan8072"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
-         y="349.94012"
-         x="-191.50975"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
+         y="346.2583"
+         x="-106.8278"
          sodipodi:role="line">Change local</tspan><tspan
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
-         y="399.94012"
-         x="-191.50975"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato"
+         y="378.7583"
+         x="-106.8278"
          sodipodi:role="line"
          id="tspan8076">Thresholds</tspan></text>
     <path
@@ -205,15 +206,15 @@
     <text
        xml:space="preserve"
        style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
-       x="-193.77538"
-       y="297.17599"
+       x="-109.09343"
+       y="293.49417"
        id="text8082"
        sodipodi:linespacing="125%"><tspan
          id="tspan8086"
          sodipodi:role="line"
-         x="-193.77538"
-         y="297.17599"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">Hide Cluster</tspan></text>
+         x="-109.09343"
+         y="293.49417"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">Hide Cluster</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
