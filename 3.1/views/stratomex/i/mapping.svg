@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="682.74188"
+   height="389.21585"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="mapping.svg"
+   inkscape:export-filename="mapping.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="DotS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotS"
+       style="overflow:visible">
+      <path
+         id="path4168"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.2,0,0,0.2,1.48,0.2)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1332462"
+     inkscape:cx="387.88407"
+     inkscape:cy="220.04898"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="1,0"
+       position="508.32292,173.57677"
+       id="guide3186" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="186.7592,155.01584"
+       id="guide3091" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-161.15797,-349.3606)">
+    <image
+       sodipodi:absref="D:\w\caleydo\caleydo-doc\3.1\views\stratomex\i\mapping_raw.png"
+       xlink:href="mapping_raw.png"
+       y="422.57645"
+       x="382.78571"
+       id="image2993"
+       height="311"
+       width="263" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       x="521.09857"
+       y="367.6178"
+       id="text3006-69-7-7-0-9-8-8-4-2-2-3-4-8"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="521.09857"
+         y="367.6178"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         id="tspan3886">choose a standard mapping:</tspan><tspan
+         sodipodi:role="line"
+         x="521.09857"
+         y="385.6178"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         id="tspan3882">linear, invert, abs, log, p/q-value</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+       d="m 516.7177,392.14825 -0.25,36.79852"
+       id="path4189-6-2-6-0-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3082"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans"><flowRegion
+         id="flowRegion3084"><rect
+           id="rect3086"
+           width="429.86121"
+           height="126.91141"
+           x="-45.033081"
+           y="-112.03802" /></flowRegion><flowPara
+         id="flowPara3088" /></flowRoot>    <text
+       sodipodi:linespacing="100%"
+       id="text3092"
+       y="424.60031"
+       x="249.69362"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       xml:space="preserve"><tspan
+         id="tspan3096"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="424.60031"
+         x="249.69362"
+         sodipodi:role="line">switch editor layout:</tspan><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="442.60031"
+         x="249.69362"
+         sodipodi:role="line"
+         id="tspan3102">parallel vs orthogonal</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3098"
+       d="m 347.91716,440.80606 33.19976,0.0826"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       x="736.99866"
+       y="446.33762"
+       id="text3106"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan3110"
+         sodipodi:role="line"
+         x="736.99866"
+         y="446.33762"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato">reset mapping</tspan></text>
+    <text
+       sodipodi:linespacing="100%"
+       id="text3118"
+       y="491.47522"
+       x="277.52979"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       xml:space="preserve"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="491.47522"
+         x="279.27002"
+         sodipodi:role="line"
+         id="tspan3124">mapping result </tspan><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="509.47522"
+         x="277.52979"
+         sodipodi:role="line"
+         id="tspan3144">histogram</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3122"
+       d="m 347.91716,494.13016 51.08991,0.67493"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       x="300.90274"
+       y="638.98682"
+       id="text3130"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan3134"
+         sodipodi:role="line"
+         x="300.90274"
+         y="638.98682"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato">raw</tspan><tspan
+         sodipodi:role="line"
+         x="300.90274"
+         y="656.98682"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         id="tspan3140">histogram</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+       d="m 347.91716,643.24372 48.01377,0.0826"
+       id="path3136"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3148"
+       y="680.66034"
+       x="760.185"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       xml:space="preserve"><tspan
+         id="tspan3152"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="680.66034"
+         x="761.92523"
+         sodipodi:role="line">mapping function as </tspan><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="698.66034"
+         x="760.185"
+         sodipodi:role="line"
+         id="tspan3182">JavaScript code</tspan><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="716.66034"
+         x="760.185"
+         sodipodi:role="line"
+         id="tspan3158">double-click to edit</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3154"
+       d="m 669.28032,697.89968 -27.00958,-0.0187"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
+    <text
+       sodipodi:linespacing="100%"
+       id="text3162"
+       y="564.20935"
+       x="756.15619"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       xml:space="preserve"><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="564.20935"
+         x="756.15619"
+         sodipodi:role="line"
+         id="tspan3164">mapping handle</tspan><tspan
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato"
+         y="582.20935"
+         x="756.15619"
+         sodipodi:role="line"
+         id="tspan3168">drag to manipulate</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+       x="267.13116"
+       y="569.17822"
+       id="text3172"
+       sodipodi:linespacing="100%"><tspan
+         id="tspan3176"
+         sodipodi:role="line"
+         x="267.13116"
+         y="569.17822"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;text-anchor:middle;font-family:Lato;-inkscape-font-specification:Lato">mapped indicator</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+       d="M 347.91716,566.49055 473.73639,565.81"
+       id="path3178"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+       d="m 669.48089,564.99968 -34.8338,0.16507"
+       id="path3184"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3188"
+       d="M 670.29179,440.55432 641.8438,440.31394"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
+  </g>
+</svg>

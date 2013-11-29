@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="988.32684"
+   height="710"
+   sodipodi:docname="wizard_1.svg"
+   inkscape:export-filename="wizard_1.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata2991">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2989">
+    <marker
+       inkscape:stockid="DotS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="DotS"
+       style="overflow:visible">
+      <path
+         id="path3882"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.2) translate(7.4, 1)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible">
+      <path
+         id="path3794"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="446"
+     inkscape:window-height="453"
+     id="namedview2987"
+     showgrid="false"
+     fit-margin-right="10"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.25"
+     inkscape:cx="924.27488"
+     inkscape:cy="313.7322"
+     inkscape:window-x="225"
+     inkscape:window-y="225"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2985" />
+  <image
+     sodipodi:absref="D:\w\caleydo\caleydo-doc\3.1\views\stratomex\i\wizard_1_raw.png"
+     xlink:href="wizard_1_raw.png"
+     width="893"
+     height="710"
+     id="image2993"
+     x="0"
+     y="0" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+     d="m 592.30104,479.28769 0.002,56.17837 51.20914,0.0943"
+     id="path2995"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc" />
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato;text-anchor:middle;text-align:center"
+     x="485.50418"
+     y="411.69873"
+     id="text2997"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       x="375.31741"
+       y="411.69873"
+       id="tspan3001"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-anchor:middle;text-align:center">Not applicable, as the </tspan><tspan
+       sodipodi:role="line"
+       x="375.31741"
+       y="436.69873"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-anchor:middle;text-align:center"
+       id="tspan4407">displayed dataset doesn't </tspan><tspan
+       sodipodi:role="line"
+       x="375.31741"
+       y="461.69873"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;text-anchor:middle;text-align:center"
+       id="tspan4415">represent genes</tspan></text>
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path3005"
+     d="m 604.56052,399.40806 41.07891,0.004"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato;font-stretch:normal;font-variant:normal"
+     x="818.96198"
+     y="56.839386"
+     id="text4417"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4419"
+       x="818.96198"
+       y="56.839386"
+       style="-inkscape-font-specification:Lato;font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px">Abort</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato;font-stretch:normal;font-variant:normal"
+     x="817.46881"
+     y="93.933975"
+     id="text4421"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4423"
+       x="817.46881"
+       y="93.933975"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">Accept</tspan><tspan
+       sodipodi:role="line"
+       x="817.46881"
+       y="118.93398"
+       id="tspan4431"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">will become green, </tspan><tspan
+       sodipodi:role="line"
+       x="817.46881"
+       y="143.93398"
+       id="tspan4435"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">when the workflow </tspan><tspan
+       sodipodi:role="line"
+       x="817.46881"
+       y="168.93398"
+       id="tspan4447"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato">can be completed</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato;font-stretch:normal;font-variant:normal"
+     x="769.97845"
+     y="228.52866"
+     id="text4427"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4429"
+       x="769.97845"
+       y="228.52866"
+       style="-inkscape-font-specification:Lato;font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px">return to the </tspan><tspan
+       sodipodi:role="line"
+       x="769.97845"
+       y="253.52866"
+       id="tspan4437"
+       style="-inkscape-font-specification:Lato;font-family:Lato;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px">previous selection</tspan></text>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+     d="m 810.03659,54.61318 -12.46332,-0.0612 -0.0569,12.04478"
+     id="path4439"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc" />
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path4441"
+     d="m 810.12767,113.07402 -10.88921,-0.0193"
+     style="fill:none;stroke:#000000;stroke-width:3.01687098000000020;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:2.89313721999999980;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotS)"
+     d="m 782.55951,205.7379 0.14042,-36.50147"
+     id="path4449"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+</svg>
