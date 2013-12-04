@@ -124,9 +124,14 @@ After you have adjusted all necessary settings, you can now or continue to the n
 ### Specifying the Data Type for Homogeneous Datasets
 If your dataset is homogeneous, you must specify whether the data is numerical or categorical on the second page, which will lead you to different subsequent pages.
 
+**Data Transposition** By default, Caleydo treats the column in the files as the *columns* in the visualizations. For example, in a parallel coordinates view, each column would correspond to an axis. If you choose to *Swap Rows and Columns* then the columns of the input file would correspond to a polyline in the parallel coordinates view.
+
+This makes a lot of sense when you want to analyze very many columns. Also, it is common that in genetic data files, the patients or samples are stored as columns while the genes or other entities are stored in the rows. This would always leave the patients/samples in the table as the columns in the visualizations. 
+
+Attention: As a rule of thumb, the rows in the visualizations should contain what you are primarily interested in. If you want to focus your analysis on relationships between genes and your file has the genes in the rows, don't check this. If you want to compare patients or samples across multiple datasets and your file has the samples in the columns, check this.
 ### Specifying Properties for Inhomogeneous Datasets
 If your dataset is inhomogeneous, you can set data properties for each column on the second page, in the dialog shown to the right. Caleydo automatically tries to determine the data type (numerical/categorical) and properties for each column. The currently set data type of a column is displayed in its header. To check or change the data type and properties of a column you can click on the *Properties* button in its header. This will open up a dialog, where you can choose whether the column contains numerical or categorical data and then set numerical and categorical data properties respectively.
-![](i/inhomogenous_dataset_properties.png "Specifying properties of inhomogeneous datasets")
+![](i/inhomogeneous_dataset_properties.png "Specifying properties of inhomogeneous datasets")
 
 After the properties of all individual columns have been specified, you can either press *Finish* to load the datasets, or optionally load additional groupings for the dataset on the next page.
 
@@ -138,17 +143,15 @@ Depending on whether the dataset is homogeneous or inhomogeneous, numerical data
 
 **Data Scale** In some cases, it can be beneficial to use a logarithmic scale instead of a linear scale. You can choose to use a logarithmic scale for the visualizations in Caleydo by specifying one of the provides logarithms (log2 is the most common choice for gene expression data).
 
-**Data Clipping** You can choose to clip the data at a specified maximum or minimum. This can make sense to counter-balance for outliers, which would otherwise use up much of your scale.
+**Data Clipping** You can choose to clip the data to a specified maximum or minimum. This can make sense to counter-balance for outliers, which would otherwise use up much of your scale. To do this you can use the *Standard Deviation Clipping* where you have to provide a clipping factor. In this case the clipping range is given by mean - std-dev \* clipping factor and mean + std-dev \* clipping factor. Alternatively, you can also manually set minimum and maximum values for clipping.
+
+**Handling Missing Data** Use this option to infer missing values using imputation based on a k-nearest neighbour algorithm.
+
+**Normalize to standard scores** You can choose to use z-score normalization for rows or columns. The raw values in rows or columns are then transformed to have a mean of 0 and a standard deviation of 1.
 
 **Data Center** A data center can be set to define a neutral center point of the data. If set, the value range of the dataset is assumed to be equal in positive and negative direction from the center point. So, for a dataset whose values range from -0.3 to 0.5 with a data center of 0, the value range will be set to -0.5 to 0.5.
 
 Attention: Caleydo will not transform the data itself. You will always be able to retrieve the original values, but the visualizations will use the scales or transforms.
- 
-**Data Transposition** By default, Caleydo treats the column in the files as the *columns* in the visualizations. For example, in a parallel coordinates view, each column would correspond to an axis. If you choose to *Swap Rows and Columns* then the columns of the input file would correspond to a polyline in the parallel coordinates view.
-
-This makes a lot of sense when you want to analyze very many columns. Also, it is common that in genetic data files, the patients or samples are stored as columns while the genes or other entities are stored in the rows. This would always leave the patients/samples in the table as the columns in the visualizations. 
-
-Attention: As a rule of thumb, the rows in the visualizations should contain what you are primarily interested in. If you want to focus your analysis on relationships between genes and your file has the genes in the rows, don't check this. If you want to compare patients or samples across multiple datasets and your file has the samples in the columns, check this.
  
 ### Categorical Data Properties
 Categorical data properties are also either set for the whole dataset or for individual columns.
