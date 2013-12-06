@@ -14,7 +14,7 @@
 
 **Q: Caleydo fails to start after updating to a new version.**
 
-- Try deleting the caches of the old version by removing *.eclipse* and *.caleydo\_3.0* folders from your home directory (e.g. *C:\users\USERNAME\\.eclipse* and *C:\users\USERNAME\\.caleydo\_3.0*)
+- Try deleting the caches of the old version by removing *.eclipse* and *.caleydo\_3.0* folders from your home directory (e.g. *C:\Users\USERNAME\\.eclipse* and *C:\users\USERNAME\\.caleydo\_3.0*)
 
 **Q: Caleydo fails to start with the message: Failed to create Java Virtual Machine.**
 
