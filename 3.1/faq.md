@@ -41,7 +41,7 @@
 
 **Q: A view in Caleydo crashes and shows the message "Failed to create the part's controls".**
 
-- This can be caused by an outdated Java version. Make sure to run at least Java 1.7.0_40 on Windows or 1.7.0_25 on Linux & Mac. To check your Java version run the following command in the console (you should see a similar output):
+- This can be caused by an outdated Java version. Make sure to run at least Oracle Java 1.7.0_40 on Windows, the [Oracle JDK (not the JRE!) 1.7.0_40](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html) on Mac or OpenJDK 1.7.0_25 on Linux. To check your Java version run the following command in the console (you should see a similar output):
 
 ```
 $java -version
