@@ -38,9 +38,22 @@
 
 - This error occurs when running Caleydo with the wrong system architecture, meaning that you are, for example, trying to run a 32 bit version on a 64 bit computer.
 
-**Q:** **Caleydo still doesn't start, doesn't load my data, or fails somehow else. What can I do?**
+
+**Q: A view in Caleydo crashes and shows the message "Failed to create the part's controls".**
+
+- This can be caused by an outdated Java version. Make sure to run at least Java 1.7.0_40 on Windows or 1.7.0_25 on Linux & Mac. To check your Java version run the following command in the console (you should see a similar output):
+
+```
+$java -version
+java version "1.7.0_40"
+Java(TM) SE Runtime Environment (build 1.7.0_40-b43)
+Java HotSpot(TM) 64-Bit Server VM (build 24.0-b56, mixed mode)
+```
+
+**Q: Caleydo still doesn't start, doesn't load my data, or fails somehow else. What can I do?**
 
 - Please [file a bug](https://github.com/Caleydo/caleydo/issues) or send us an e-mail (caleydo at icg dot tugraz dot at) with the latest log file and, if possible, the dataset you tried to use. 
+
 
 
 ## Data 
