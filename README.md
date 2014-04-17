@@ -24,5 +24,12 @@ In case of a version update of mdwiki, download the release and replace the inde
 </script>
 ```
 
+To get favicons add this to the html header:
+
+```
+ <link rel="shortcut icon" type="image/x-icon" href="i/favicon.ico"/>
+ <link rel="apple-touch-icon" href="i/favicon.png"/>
+```
+
 
 To edit the menu edit navigation.md.
