@@ -32,4 +32,4 @@ To get favicons add this to the html header:
 ```
 
 
-To edit the menu edit navigation.md.
+To edit the menu edit navigation.md. 
