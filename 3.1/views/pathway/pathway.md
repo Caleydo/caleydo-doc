@@ -16,9 +16,23 @@ The view has several major components, the **Pathway List** on the left lets you
 
 ### Adding Pathways
 
-![](i/pathway_list.png)
+In its simplest form Entourage is a pathway browser. You can select pathways from the pathway list on the left. The pathway list lets you also search for pathways by name or filter them using wildcards. You can also filter based on the pathway databases, to include only WikiPathways or KEGG. To do so click the small button (Toggle collapse / expand of this column) above the column showing Ws (WikiPathway) and Ks (KEGG). Then click the filter symbol as shown in the image on the left. 
 ![](i/pathway_list_filter.png)
-In its simplest form Entourage is a pathway browser. You can select pathways from the pathway list on the left. The pathway list lets you also search for pathways by name or filter them using wildcards. You can also filter based on the pathway databases, to include only WikiPathways or KEGG. To do so click the small button (Toggle collapse / expand of this column) above the column showing Ws (WikiPathway) and Ks (KEGG). Then click the filter symbol as shown in the image on the right. 
+![](i/pathway_list.png)
+
+
+
+To find interesting pathways you can also specify a set of genes that the pathways should contain. To do so click on the button highlighted in the image on the left. This will open up a dialog which contains two lists. The left list contains all available genes, which can be searched using the input field above. To specify the set of genes that the pathways should contain, simply add genes from the left list to the right one.
+![](i/gene_selection.png)
+![](i/pathway_list_gene_rank.png)
+
+
+When clicking OK in the dialog, the pathway list will be ranked according to the number of selected genes they contain. This number is indicated by bars shown in a separate column in the pathway list.
+![](i/gene_ranked_pathways.png)
+
+
+To *remove any filters or rankings*, simply click the button highlighted in the Figure above. 
+
 
 Note: Pathways can also be added by clicking on an embedded pathway node. An example is Cell Cycle, embedded in the focus pathway shown above.
 
@@ -45,12 +59,10 @@ The **stubs** indicate **portal nodes**, i.e., nodes that connect the pathways. 
 
 ### Finding related pathways
 
-![](i/ranked_pathways.png "Ranked Pathways")
+![](i/ranked_pathways_new.png "Ranked Pathways")
 Instead of manually searching for pathways, you can ask Entourage to list and rank all pathways that are related to another pathway, or to list and rank all pathways that contain a node. To *find a generally related pathway* right-click in the pathway or on the title bar and select "Show Related Pathways with Common Nodes". This updates the pathway list to look similar to what is shown on the left. The pathways are ranked by their similarity to the original pathway, which is defined by their node overlap, normalized by size. 
 
 To *find pathways that contain a node* simply define a focus node, the pathway list is automatically updated. 
-
-To *remove a filter and ranking*, simply remove the columns with the bar charts showing the similarity, using the button highlighted in the Figure above. 
 
 ## Data Assignment
 
