@@ -16,7 +16,7 @@ The view has several major components, the **Pathway List** on the left lets you
 
 ### Adding Pathways
 
-In its simplest form Entourage is a pathway browser. You can select pathways from the pathway list on the left. The pathway list lets you also search for pathways by name or filter them using wildcards. You can also filter based on the pathway databases, to include only WikiPathways or KEGG. To do so click the small button (Toggle collapse / expand of this column) above the column showing Ws (WikiPathway) and Ks (KEGG). Then click the filter symbol as shown in the image on the left. 
+In its simplest form Entourage is a pathway browser. You can select pathways from the pathway list on the left. The pathway list lets you also search for pathways by name or filter them using wildcards. You can also filter based on the pathway databases, to include only WikiPathways or KEGG. To do so click the small button (Toggle collapse / expand of this column) above the column showing Ws (WikiPathway) and Ks (KEGG). Then click the filter symbol as shown in the image on the right. 
 ![](i/pathway_list_filter.png)
 ![](i/pathway_list.png)
 
@@ -183,3 +183,27 @@ Hint: You can sort based on the values of each row by double-clicking, or by usi
 In addition to gene nodes that are part of a pathway, enRoute integrates contextual, non-genetic datasets. See the [Data Assignment section](index.html#!views/pathway/pathway.md#Data_Assignment) to learn how to add contextual data. Contextual data is shown above the genetic data, as can be seen in the figure above. Rows of contextual data are treated much like rows of genetic data, the only exception is that the dataset within a row is always the same for all groups. In the above figure, for example, two different genetic datasets are shown next to each other. The contextual data, such as "Gender", however, shows the same attributes for both datasets. To indicate this, the labels of the contextual data's rows are shown in the dataset color.
 
 Hint: All operations that work on regular rows, such as sorting or highlighting, equally work for contextual data.
+
+### Statistical Tests
+In order to asses whether a correlation of experimental data spotted in the enRoute view is statistically significant, two statistical tests are provided. For both tests a wizard guides through a step-by-step process for assessing the significance of correlation between two selected blocks of data.
+
+Note: The statistical tests can only be performed for two blocks of data that have at least one sample in common.
+
+#### Fisher's Exact Test
+![](i/icon/fishers_test.png "Apply Fisher's exact test") [Fisher's exact test](http://en.wikipedia.org/wiki/Fisher%27s_exact_test) can be used to asses the significance of association between two blocks of data, which can either be numerical or categorical. When clicking the icon shown on the left, a wizard dialog pops up. At first the two data blocks have to be selected in the enRoute view and classified individually into two groups.
+
+![](i/fishers_first_block_full.png "Select Numerical Data Block")
+
+In the image above a numerical data block was selected as first data block. In the dialog the samples are classified into two groups according to a threshold value that can be set using a slider or directly entered in the corresponding input field. In the enRoute view the values in the selected block are overlaid with the color of the associated group. The group of samples with values smaller than or equal to the threshold is light orange, the group with values greater than the threshold is dark orange. To change the default labelling of the groups, select the checkbox "Use custom class names" and enter the names into the groups' input fields.
+
+The dialog on the right is shown when a categorical data block is selected. Again, the samples are classified into two groups, but this time each group represents a set of categories. The category sets are shown in two lists and each category can be moved from one set to the other using the buttons between the lists. The groups for this second data block are colored light blue and dark blue. Like in the numerical classification, the default labels can be changed by selecting the checkbox "Use custom class names" and entering the names into the groups' input fields.
+![](i/fishers_second_block_dialog.png "Select Categorical Data Block")
+
+![](i/fishers_summary.png "Contingency Table and P Values")
+
+After the data blocks were selected and classified, the resulting contingency table is shown in the wizard. The cells of the table display the number of samples that belong to a certain combination of groups. For example, in the image above, there are 20 samples that have an increased mRNA expression in EGF and an amplified copy number in PRKCG. To judge the significance of obtaining such a contingency table, we display the p values for the two-sided, left-, and right-tail tests below.
+
+Hint: The results and the sample classifications can be exported as .csv file by clicking on the corresponding button.
+
+#### Wilcoxon Rank-Sum Test
+![](i/icon/wilcoxon_test.png "Apply the Wilcoxon rank-sum test") The [Wilcoxon rank-sum test](http://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test) can be used to asses the significance of association between numerical blocks of data. 
