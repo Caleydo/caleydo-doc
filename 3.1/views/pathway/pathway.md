@@ -190,7 +190,7 @@ In order to asses whether a correlation of experimental data spotted in the enRo
 Note: The statistical tests can only be performed for two blocks of data that have at least one sample in common.
 
 #### Fisher's Exact Test
-![](i/icon/fishers_test.png "Apply Fisher's exact test") [Fisher's exact test](http://en.wikipedia.org/wiki/Fisher%27s_exact_test) can be used to asses the significance of association between two blocks of data, which can either be numerical or categorical. When clicking the icon shown on the left, a wizard dialog pops up. At first the two data blocks have to be selected in the enRoute view and classified individually into two groups.
+![](i/icon/fishers_test.png "Apply Fisher's exact test") [Fisher's exact test](http://en.wikipedia.org/wiki/Fisher%27s_exact_test) can be used to asses the significance of association between two blocks of data, which can either be numerical or categorical. When clicking the icon shown on the left, which is part of the enRoute toolbar, a wizard dialog pops up. At first the two data blocks have to be selected in the enRoute view and classified individually into two groups. These data blocks must refer to the same samples.
 
 ![](i/fishers_first_block_full.png "Select Numerical Data Block")
 
@@ -203,7 +203,19 @@ The dialog on the right is shown when a categorical data block is selected. Agai
 
 After the data blocks were selected and classified, the resulting contingency table is shown in the wizard. The cells of the table display the number of samples that belong to a certain combination of groups. For example, in the image above, there are 20 samples that have an increased mRNA expression in EGF and an amplified copy number in PRKCG. To judge the significance of obtaining such a contingency table, we display the p values for the two-sided, left-, and right-tail tests below.
 
-Hint: The results and the sample classifications can be exported as .csv file by clicking on the corresponding button.
+Hint: The results and the sample classifications can be exported as .csv file by clicking on the "Export" button.
 
 #### Wilcoxon Rank-Sum Test
-![](i/icon/wilcoxon_test.png "Apply the Wilcoxon rank-sum test") The [Wilcoxon rank-sum test](http://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test) can be used to asses the significance of association between numerical blocks of data. 
+![](i/icon/wilcoxon_test.png "Apply the Wilcoxon rank-sum test") The [Wilcoxon rank-sum test](http://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test) can be used to asses the significance of association between two **numerical** blocks of data that belong to the same samples. This test basically compares two different distributions of values. Our approach for applying this test is to classify samples according to the values in one data block into two groups. Then we use this classification in a second data block to obtain two distributions of values to compare. To apply this test, click on the icon shown on the left that is part of the enRoute toolbar.
+
+In the first step the wizard dialog lets you choose between two different methods of applying this test. In the first one you need to define the data classification yourself, in the second one all possible classifications are computed.
+![](i/wilcoxon_methods.png "Two methods of applying the Wilcoxon rank-sum test")
+
+**Manual definition of classification:** Like in Fisher's exact test, you first need to select one data block and classify the data into two groups. Then you need to select a second data block, but this time you do not need to classify the data yourself, as the classification of samples from the first block is used. Finally, the result is presented as shown in the image on the right. For the two groups of data in the second block the dialog displays the number of elements and the median values. Additionally the statistical value U from the Wilcoxon rank-sum test and the P-value is shown.
+![](i/wilcoxon_manual_summary.png "Two methods of applying the Wilcoxon rank-sum test")
+
+
+**Computation of all possible classifications:** Like in the manual approach, you first need to select two different blocks of data. But this time you do not need to specify a classification for the first block, because all possible classifications are calculated by the system. After selecting the data blocks, these classifications are listed in a table as shown in the image on the right. Each classification is shown as one row, which contains the two different group names, the statistical value U, and the P-Value. In order to account for the number of classifications (i.e., hypotheses) tested, the table also shows adjusted P-values that are computed using the [false discovery rate](http://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test). The table can be sorted by any column by clicking on their header and filtered by entering a minimum P-value in the corresponding input field. To obtain the detailed results for a specific classification like in the manual approach, just select the corresponding row in the table. This also updates the color-overlays of the data blocks in the enRoute view accordingly.
+![](i/wilcoxon_auto_summary_dialog.png "Two methods of applying the Wilcoxon rank-sum test")
+
+Hint: For both approaches, the results and classifications can be exported as .csv file by clicking on the "Export" button.
